@@ -19,3 +19,7 @@
 | Mass Effect | `mass-effect/` | Аксиомы 1–3 | Ограничение 1 (Вопросы 1, 2) |
 | Ready Player One | `ready-player-one/` | Аксиомы 2, 3 | — |
 | «Я, робот» | `i-robot/` | Аксиома 1 | Ограничение 1 (Вопрос 1) |
+| «Вавилон-5» | `babylon-5/` | Аксиомы 1–3 | Ограничение 1 (Вопрос 3) |
+| World of Warcraft | `world-of-warcraft/` | Аксиомы 1–3 | Ограничение 1 |
+| Morrowind | `morrowind/` | Аксиомы 2, 3 | Ограничение 1 (Вопрос 3) |
+| No Man's Sky | `no-mans-sky/` | Аксиомы 1–3 | — (Вопросы 1, 4) |
