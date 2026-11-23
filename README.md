@@ -6,19 +6,11 @@
 
 ## Содержание
 
-- `docs/manifest.md` — рабочий источник истины по онтологии UWI (вся правка — здесь)
-- `docs/worlds.md` — миры: примеры и стресс-тесты онтологии
-- `docs/system-prompt.md` — системный промпт, обязательный для сессий с AI-агентами
-- `scripts/export_pdf.py` — экспорт markdown → PDF
+- `ontology/manifest.md` — рабочий источник истины по онтологии UWI (вся правка — здесь)
+- `worlds/worlds.md` — миры: примеры и стресс-тесты онтологии
+- `ontology/system-prompt.md` — системный промпт, обязательный для сессий с AI-агентами
+- `scripts/export_pdf.py` — экспорт markdown → PDF (техтребования: `docs/export-requirements.md`)
 - `AGENTS.md` — контракт для AI-агентов, работающих с проектом
-
-## Экспорт в PDF
-
-```bash
-python3 scripts/export_pdf.py docs/manifest.md dist/UWI_v1.8_Manifest.pdf
-```
-
-Требуется только Python 3 + PyMuPDF (`pip install pymupdf`). Результат складывается в `dist/`.
 
 ## Суть в трёх строках
 
