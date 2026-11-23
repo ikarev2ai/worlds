@@ -37,6 +37,6 @@ python3 scripts/export_pdf.py ontology/manifest.md dist/UWI_v1.9_Manifest.pdf
 
 1. номер версии в заголовке `ontology/manifest.md`;
 2. `ontology/system-prompt.md` (заголовок и блок SYSTEM_PROTOCOL);
-3. проверить все миры в `worlds/worlds.md` на соответствие новой версии онтологии.
+3. проверить все миры в `worlds/` на соответствие новой версии онтологии.
 
 Смена версии — только по явному указанию автора (`USER_ROLE: H_author`, см. `ontology/manifest.md`, раздел 4).
