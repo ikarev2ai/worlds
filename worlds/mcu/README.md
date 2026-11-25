@@ -4,6 +4,21 @@
 
 Единая сеть связанных между собой фильмов: Земля, иные планеты, космические цивилизации, божественные описания и альтернативные реальности влияют друг на друга через субъектов, артефакты и путешествия во времени.
 
+## Произведения
+
+| Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
+|--------------|-------|------|-----------------|---------------------|
+| «Мстители» | Marvel Studios | [`the-avengers.md`](works/the-avengers.md) | UWI v1.11 | Тессеракт и межмировой портал |
+| «Эра Альтрона» | Marvel Studios | [`avengers-age-of-ultron.md`](works/avengers-age-of-ultron.md) | UWI v1.11 | Ультрон и Вижн |
+| «Доктор Стрэндж» | Marvel Studios | [`doctor-strange.md`](works/doctor-strange.md) | UWI v1.11 | Камень времени и Дормамму |
+| «Стражи Галактики. Часть 2» | Marvel Studios | [`guardians-of-the-galaxy-vol-2.md`](works/guardians-of-the-galaxy-vol-2.md) | UWI v1.11 | Эго и планетарная `C` |
+| «Война бесконечности» | Marvel Studios | [`avengers-infinity-war.md`](works/avengers-infinity-war.md) | UWI v1.11 | Уничтожение половины Жизни |
+| «Финал» | Marvel Studios | [`avengers-endgame.md`](works/avengers-endgame.md) | UWI v1.11 | Путешествия во времени и ветви |
+| «Вечные» | Marvel Studios | [`eternals.md`](works/eternals.md) | UWI v1.11 | Целестиалы и цена создания Жизни |
+| «ВандаВижн» | Marvel Studios | [`wandavision.md`](works/wandavision.md) | UWI v1.11 | Локальная реальность и утрата |
+| «В мультивселенной безумия» | Marvel Studios | [`doctor-strange-multiverse-of-madness.md`](works/doctor-strange-multiverse-of-madness.md) | UWI v1.11 | Альтернативные носители и миры |
+| «Тор: Любовь и гром» | Marvel Studios | [`thor-love-and-thunder.md`](works/thor-love-and-thunder.md) | UWI v1.11 | Пантеон и культурный статус `G` |
+
 ## Основная часть
 
 В MCU действуют люди, цифровые агенты и иные сущности: Джарвис, Ультрон и Вижн обладают собственными контурами `A.U`; асгардианцы, титаны, целестиалы и жители иных миров взаимодействуют с людьми как `E`. Земля, Асгард, другие планеты и Квантовый мир связаны космическими технологиями, порталами и артефактами. Альтернативные реальности образуют множество `M_1..M_n`, между которыми возможны контакт и перенос следов.
