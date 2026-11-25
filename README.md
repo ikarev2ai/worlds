@@ -7,7 +7,7 @@
 ## Содержание
 
 - `ontology/manifest.md` — рабочий источник истины по онтологии UWI (вся правка — здесь)
-- `worlds/` — миры: стресс-тесты онтологии (каждый мир — отдельная директория; индекс — `worlds/README.md`, шаблон — `worlds/template.md`)
+- `worlds/` — миры: стресс-тесты онтологии (каждый мир — отдельная директория; индекс — `worlds/README.md`, шаблоны — `worlds/template.md` и `worlds/template-work.md`; произведения-источники одного мира — `works/`)
 - `ontology/system-prompt.md` — системный промпт, обязательный для сессий с AI-агентами
 - `scripts/export_pdf.py` — экспорт markdown → PDF (техтребования: `docs/export-requirements.md`)
 - `AGENTS.md` — контракт для AI-агентов, работающих с проектом
