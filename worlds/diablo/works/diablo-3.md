@@ -14,7 +14,7 @@
 
 ## Контур
 
-`E_adria + M/O [Чёрный камень] -> захват H_leah + C(E_diablo)`; `H_nephalem -> !форма E_diablo без возвращения H_leah`; `C(E_malthael) -> план !H`; `H_nephalem -> прекращение контура E_malthael`
+`E_adria + M/O [Чёрный камень] -> захват H_leah + C(E_diablo)`; `H_nephalem -> !V [форма E_diablo] без возвращения H_leah`; `C(E_malthael) -> план !H`; `H_nephalem -> прекращение контура E_malthael`
 
 ## Вклад в общий стресс-тест
 

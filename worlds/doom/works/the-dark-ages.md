@@ -14,7 +14,7 @@
 
 ## Контур
 
-`E_maykr <> H_slayer [Тетер] -> подчинение без доступа к H.U`; `C(E_ahzrak) -> вторжение M_argent_dnur + !V`; `H_slayer -> !H_форма -> M_hell`; `E_valen -> возвращение H_slayer`; `H_slayer -> !E_kreed + !E_ahzrak + освобождение E_thira`
+`E_maykr <> H_slayer [Тетер] -> подчинение без доступа к H.U`; `C(E_ahzrak) -> вторжение M_argent_dnur + !V`; `H_slayer -> !V [форма H_slayer] -> M_hell`; `E_valen -> возвращение H_slayer`; `H_slayer -> !E_kreed + !E_ahzrak + освобождение E_thira`
 
 ## Вклад в общий стресс-тест
 

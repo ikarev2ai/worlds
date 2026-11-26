@@ -14,7 +14,7 @@
 
 ## Контур
 
-`E_quan_chi + E_shang_tsung -> !H_liu_kang + видимое !E_shao_kahn`; `E_shang_tsung <> V/O [души] -> +армия E_onaga`; `C(E_raiden) <> Смертельный Альянс -> поражение защитников`
+`E_quan_chi + E_shang_tsung -> !H_liu_kang + видимое !E_shao_kahn`; `E_shang_tsung <> V/O [души] -> +O [армия E_onaga]`; `C(E_raiden) <> Смертельный Альянс -> поражение защитников`
 
 ## Вклад в общий стресс-тест
 

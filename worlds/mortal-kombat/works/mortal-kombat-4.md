@@ -14,7 +14,7 @@
 
 ## Контур
 
-`C(E_shinnok) + E_quan_chi -> вторжение M_edenia + !E/V`; `E_quan_chi <> E_scorpion [ложные следы] -> ~E_scorpion.U`; `E_raiden + H_liu_kang -> !контур вторжения E_shinnok`
+`C(E_shinnok) + E_quan_chi -> вторжение M_edenia + !E/V`; `E_quan_chi <> E_scorpion [ложные следы] -> ~E_scorpion.U`; `E_raiden + H_liu_kang -> !<> [контур вторжения E_shinnok]`
 
 ## Вклад в общий стресс-тест
 

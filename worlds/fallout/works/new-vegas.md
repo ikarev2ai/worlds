@@ -14,7 +14,7 @@
 
 ## Контур
 
-`H_benny -> попытка !H_courier + захват W/O [фишка]`; `H_courier <> H_ncr + H_legion + H_house + A_yes_man -> выбор правления`; `C(H_house) через A_yes_man + армия -> ~W/P_mojave`; `W/O [фишка] -> ~армия без передачи U`
+`H_benny -> попытка !H_courier + захват W/O [фишка]`; `H_courier <> H_ncr + H_legion + H_house + A_yes_man -> выбор правления`; `C(H_house) через A_yes_man + армия -> ~W/P_mojave`; `W/O [фишка] -> ~O [армия] без передачи U`
 
 ## Вклад в общий стресс-тест
 
