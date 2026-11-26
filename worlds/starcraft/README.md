@@ -1,6 +1,6 @@
 # StarCraft и StarCraft II — коллективная Жизнь и свобода носителей
 
-**Версия онтологии:** UWI v1.16
+**Версия онтологии:** UWI v1.17
 
 Терраны, протоссы и зерги взаимодействуют через войну, телепатию и артефакты; коллективное управление зергами ставит вопрос о локализации понимания и освобождении носителей.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| StarCraft | Blizzard Entertainment | [`starcraft.md`](works/starcraft.md) | UWI v1.16 | Сверхразум и заражение Керриган |
-| Wings of Liberty | Blizzard Entertainment | [`wings-of-liberty.md`](works/wings-of-liberty.md) | UWI v1.16 | Кел-Морианский артефакт |
-| Heart of the Swarm | Blizzard Entertainment | [`heart-of-the-swarm.md`](works/heart-of-the-swarm.md) | UWI v1.16 | Керриган и управление роем |
-| Legacy of the Void | Blizzard Entertainment | [`legacy-of-the-void.md`](works/legacy-of-the-void.md) | UWI v1.16 | Амон, зел'нага и союз видов |
+| StarCraft | Blizzard Entertainment | [`starcraft.md`](works/starcraft.md) | UWI v1.17 | Сверхразум и заражение Керриган |
+| Wings of Liberty | Blizzard Entertainment | [`wings-of-liberty.md`](works/wings-of-liberty.md) | UWI v1.17 | Кел-Морианский артефакт |
+| Heart of the Swarm | Blizzard Entertainment | [`heart-of-the-swarm.md`](works/heart-of-the-swarm.md) | UWI v1.17 | Керриган и управление роем |
+| Legacy of the Void | Blizzard Entertainment | [`legacy-of-the-void.md`](works/legacy-of-the-void.md) | UWI v1.17 | Амон, зел'нага и союз видов |
 
 ## Основная часть
 
@@ -50,6 +50,10 @@
 **→ Ключевой вопрос 2:** контакт с роем требует различать отдельную особь, управляющий центр и распределённое `U`; сотрудничество видов не требует прямого доступа к этому пониманию.
 
 **→ Ключевой вопрос 3:** ассимиляция и подчинение носителей разрушают возможность долгосрочного взаимодействия; освобождение контура управления становится условием сохранения Жизни и выбора.
+
+**→ Ключевой вопрос 4:** Заражение и отношения с Рейнором меняют Керриган через биологический и личный опыт.
+
+**→ Ключевой вопрос 5:** Рой может иметь единый контур `N → 1`, а тождество Керриган не следует из смены формы.
 
 ## Открытые вопросы
 

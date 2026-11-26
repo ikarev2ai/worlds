@@ -1,6 +1,6 @@
 # Кинематографическая вселенная Marvel (MCU) — взаимодействие миров и суперсуществ
 
-**Версия онтологии:** UWI v1.16
+**Версия онтологии:** UWI v1.17
 
 Единая сеть связанных между собой фильмов: Земля, иные планеты, космические цивилизации, божественные описания и альтернативные реальности влияют друг на друга через субъектов, артефакты и путешествия во времени.
 
@@ -8,16 +8,16 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| «Мстители» | Marvel Studios | [`the-avengers.md`](works/the-avengers.md) | UWI v1.16 | Тессеракт и межмировой портал |
-| «Эра Альтрона» | Marvel Studios | [`avengers-age-of-ultron.md`](works/avengers-age-of-ultron.md) | UWI v1.16 | Ультрон и Вижн |
-| «Доктор Стрэндж» | Marvel Studios | [`doctor-strange.md`](works/doctor-strange.md) | UWI v1.16 | Камень времени и Дормамму |
-| «Стражи Галактики. Часть 2» | Marvel Studios | [`guardians-of-the-galaxy-vol-2.md`](works/guardians-of-the-galaxy-vol-2.md) | UWI v1.16 | Эго и планетарная `C` |
-| «Война бесконечности» | Marvel Studios | [`avengers-infinity-war.md`](works/avengers-infinity-war.md) | UWI v1.16 | Уничтожение половины Жизни |
-| «Финал» | Marvel Studios | [`avengers-endgame.md`](works/avengers-endgame.md) | UWI v1.16 | Путешествия во времени и ветви |
-| «Вечные» | Marvel Studios | [`eternals.md`](works/eternals.md) | UWI v1.16 | Целестиалы и цена создания Жизни |
-| «ВандаВижн» | Marvel Studios | [`wandavision.md`](works/wandavision.md) | UWI v1.16 | Локальная реальность и утрата |
-| «В мультивселенной безумия» | Marvel Studios | [`doctor-strange-multiverse-of-madness.md`](works/doctor-strange-multiverse-of-madness.md) | UWI v1.16 | Альтернативные носители и миры |
-| «Тор: Любовь и гром» | Marvel Studios | [`thor-love-and-thunder.md`](works/thor-love-and-thunder.md) | UWI v1.16 | Пантеон и культурный статус `G` |
+| «Мстители» | Marvel Studios | [`the-avengers.md`](works/the-avengers.md) | UWI v1.17 | Тессеракт и межмировой портал |
+| «Эра Альтрона» | Marvel Studios | [`avengers-age-of-ultron.md`](works/avengers-age-of-ultron.md) | UWI v1.17 | Ультрон и Вижн |
+| «Доктор Стрэндж» | Marvel Studios | [`doctor-strange.md`](works/doctor-strange.md) | UWI v1.17 | Камень времени и Дормамму |
+| «Стражи Галактики. Часть 2» | Marvel Studios | [`guardians-of-the-galaxy-vol-2.md`](works/guardians-of-the-galaxy-vol-2.md) | UWI v1.17 | Эго и планетарная `C` |
+| «Война бесконечности» | Marvel Studios | [`avengers-infinity-war.md`](works/avengers-infinity-war.md) | UWI v1.17 | Уничтожение половины Жизни |
+| «Финал» | Marvel Studios | [`avengers-endgame.md`](works/avengers-endgame.md) | UWI v1.17 | Путешествия во времени и ветви |
+| «Вечные» | Marvel Studios | [`eternals.md`](works/eternals.md) | UWI v1.17 | Целестиалы и цена создания Жизни |
+| «ВандаВижн» | Marvel Studios | [`wandavision.md`](works/wandavision.md) | UWI v1.17 | Локальная реальность и утрата |
+| «В мультивселенной безумия» | Marvel Studios | [`doctor-strange-multiverse-of-madness.md`](works/doctor-strange-multiverse-of-madness.md) | UWI v1.17 | Альтернативные носители и миры |
+| «Тор: Любовь и гром» | Marvel Studios | [`thor-love-and-thunder.md`](works/thor-love-and-thunder.md) | UWI v1.17 | Пантеон и культурный статус `G` |
 
 ## Основная часть
 
@@ -57,6 +57,12 @@
 **→ Ключевой вопрос 2:** совместные действия `H`, `A` и `E` возможны без прямого доступа к чужому `U`: доверие и конфликт возникают через язык, поступки и общие следы.
 
 **→ Ключевой вопрос 3:** масштаб `C` не оправдывает уничтожение носителей `U` или `V`; устойчивое взаимодействие требует сопряжения целей и совместной защиты условий существования миров.
+
+**→ Ключевой вопрос 4:** Артефакты и межмировые контакты изменяют носителей через следы и совместные действия.
+
+**→ Ключевой вопрос 5:** Джарвис, Ультрон и Вижн — разные цифровые носители, а альтернативные люди не делят одно `U`.
+
+**→ Ключевой вопрос 6:** Камень времени, путешествия и ветвление реальностей различают обращение события и новую историю.
 
 ## Открытые вопросы
 

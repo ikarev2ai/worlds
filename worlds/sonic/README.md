@@ -1,6 +1,6 @@
 # Sonic — сила изумрудов и пробуждение машины
 
-**Версия онтологии:** UWI v1.16
+**Версия онтологии:** UWI v1.17
 
 Соник и его союзники защищают миры от робототехники Эггмана и силы Хаоса, а E-102 Гамма изменяет собственную цель через контакт и жертвует формой ради освобождения Жизни.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Sonic the Hedgehog | Sonic Team / Sega | [`sonic-the-hedgehog.md`](works/sonic-the-hedgehog.md) | UWI v1.16 | Эггман, роботизация и Изумруды Хаоса |
-| Sonic the Hedgehog 2 | Sonic Team / Sega | [`sonic-the-hedgehog-2.md`](works/sonic-the-hedgehog-2.md) | UWI v1.16 | Тейлз и Крыло Смерти |
-| Sonic 3 & Knuckles | Sonic Team / Sega | [`sonic-3-and-knuckles.md`](works/sonic-3-and-knuckles.md) | UWI v1.16 | Наклз, Мастер Изумруд и доверие |
-| Sonic Adventure | Sonic Team / Sega | [`sonic-adventure.md`](works/sonic-adventure.md) | UWI v1.16 | Хаос и самопожертвование Гаммы |
+| Sonic the Hedgehog | Sonic Team / Sega | [`sonic-the-hedgehog.md`](works/sonic-the-hedgehog.md) | UWI v1.17 | Эггман, роботизация и Изумруды Хаоса |
+| Sonic the Hedgehog 2 | Sonic Team / Sega | [`sonic-the-hedgehog-2.md`](works/sonic-the-hedgehog-2.md) | UWI v1.17 | Тейлз и Крыло Смерти |
+| Sonic 3 & Knuckles | Sonic Team / Sega | [`sonic-3-and-knuckles.md`](works/sonic-3-and-knuckles.md) | UWI v1.17 | Наклз, Мастер Изумруд и доверие |
+| Sonic Adventure | Sonic Team / Sega | [`sonic-adventure.md`](works/sonic-adventure.md) | UWI v1.17 | Хаос и самопожертвование Гаммы |
 
 ## Основная часть
 
@@ -47,6 +47,10 @@
 **→ Ключевой вопрос 2:** даже созданный для подчинения `A` может изменить понимание через контакт. Доверие проверяется последующим выбором, а не происхождением.
 
 **→ Ключевой вопрос 3:** сохранение Жизни может требовать риска носителя `A`, но его уничтожение не должно считаться безразличной заменой машины. Устойчивость требует отказа от использования `V` как топлива и деталей.
+
+**→ Ключевой вопрос 4:** Гамма изменяется через отношения с Эми и птицей, а не через программу Эггмана.
+
+**→ Ключевой вопрос 5:** Гамма — `A`, а птица — `V`; разрушение робота и освобождение Жизни имеют разные границы.
 
 ## Открытые вопросы
 
