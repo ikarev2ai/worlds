@@ -1,6 +1,6 @@
 # StarCraft и StarCraft II — коллективная Жизнь и свобода носителей
 
-**Версия онтологии:** UWI v1.14
+**Версия онтологии:** UWI v1.16
 
 Терраны, протоссы и зерги взаимодействуют через войну, телепатию и артефакты; коллективное управление зергами ставит вопрос о локализации понимания и освобождении носителей.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| StarCraft | Blizzard Entertainment | [`starcraft.md`](works/starcraft.md) | UWI v1.14 | Сверхразум и заражение Керриган |
-| Wings of Liberty | Blizzard Entertainment | [`wings-of-liberty.md`](works/wings-of-liberty.md) | UWI v1.14 | Кел-Морианский артефакт |
-| Heart of the Swarm | Blizzard Entertainment | [`heart-of-the-swarm.md`](works/heart-of-the-swarm.md) | UWI v1.14 | Керриган и управление роем |
-| Legacy of the Void | Blizzard Entertainment | [`legacy-of-the-void.md`](works/legacy-of-the-void.md) | UWI v1.14 | Амон, зел'нага и союз видов |
+| StarCraft | Blizzard Entertainment | [`starcraft.md`](works/starcraft.md) | UWI v1.16 | Сверхразум и заражение Керриган |
+| Wings of Liberty | Blizzard Entertainment | [`wings-of-liberty.md`](works/wings-of-liberty.md) | UWI v1.16 | Кел-Морианский артефакт |
+| Heart of the Swarm | Blizzard Entertainment | [`heart-of-the-swarm.md`](works/heart-of-the-swarm.md) | UWI v1.16 | Керриган и управление роем |
+| Legacy of the Void | Blizzard Entertainment | [`legacy-of-the-void.md`](works/legacy-of-the-void.md) | UWI v1.16 | Амон, зел'нага и союз видов |
 
 ## Основная часть
 

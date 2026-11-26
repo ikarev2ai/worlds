@@ -1,6 +1,6 @@
 # Borderlands — следы Эридиан и борьба за Хранилища
 
-**Версия онтологии:** UWI v1.14
+**Версия онтологии:** UWI v1.16
 
 Корпорации, сирены, искатели Хранилищ и машины сражаются за древние следы Пандоры; доступ к чужой силе не открывает её назначения и не оправдывает подчинение носителей.
 
@@ -8,9 +8,9 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Borderlands | Gearbox Software | [`borderlands.md`](works/borderlands.md) | UWI v1.14 | Первое Хранилище, Ангел и Разрушитель |
-| Borderlands 2 | Gearbox Software | [`borderlands-2.md`](works/borderlands-2.md) | UWI v1.14 | Красавчик Джек, Ангел и Воитель |
-| Borderlands 3 | Gearbox Software | [`borderlands-3.md`](works/borderlands-3.md) | UWI v1.14 | Близнецы Калипсо и Великое Хранилище |
+| Borderlands | Gearbox Software | [`borderlands.md`](works/borderlands.md) | UWI v1.16 | Первое Хранилище, Ангел и Разрушитель |
+| Borderlands 2 | Gearbox Software | [`borderlands-2.md`](works/borderlands-2.md) | UWI v1.16 | Красавчик Джек, Ангел и Воитель |
+| Borderlands 3 | Gearbox Software | [`borderlands-3.md`](works/borderlands-3.md) | UWI v1.16 | Близнецы Калипсо и Великое Хранилище |
 
 ## Основная часть
 

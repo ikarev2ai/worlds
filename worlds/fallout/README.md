@@ -1,6 +1,6 @@
 # Fallout — выживание после массового уничтожения и созданные носители
 
-**Версия онтологии:** UWI v1.14
+**Версия онтологии:** UWI v1.16
 
 После Великой войны люди, изменённые существа и синтетические носители восстанавливают общество среди экспериментальных убежищ и воюющих фракций; сохранение цивилизации не совпадает с управлением жителями как ресурсом.
 
@@ -8,11 +8,11 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Fallout | Interplay Productions | [`fallout.md`](works/fallout.md) | UWI v1.14 | Выходец, Создатель и водный чип |
-| Fallout 2 | Black Isle Studios | [`fallout-2.md`](works/fallout-2.md) | UWI v1.14 | Избранный, Анклав и G.E.C.K. |
-| Fallout 3 | Bethesda Game Studios | [`fallout-3.md`](works/fallout-3.md) | UWI v1.14 | Одинокий Путник и очиститель воды |
-| Fallout: New Vegas | Obsidian Entertainment | [`new-vegas.md`](works/new-vegas.md) | UWI v1.14 | Курьер, фракции и независимый Нью-Вегас |
-| Fallout 4 | Bethesda Game Studios | [`fallout-4.md`](works/fallout-4.md) | UWI v1.14 | Институт, синты и согласие носителей |
+| Fallout | Interplay Productions | [`fallout.md`](works/fallout.md) | UWI v1.16 | Выходец, Создатель и водный чип |
+| Fallout 2 | Black Isle Studios | [`fallout-2.md`](works/fallout-2.md) | UWI v1.16 | Избранный, Анклав и G.E.C.K. |
+| Fallout 3 | Bethesda Game Studios | [`fallout-3.md`](works/fallout-3.md) | UWI v1.16 | Одинокий Путник и очиститель воды |
+| Fallout: New Vegas | Obsidian Entertainment | [`new-vegas.md`](works/new-vegas.md) | UWI v1.16 | Курьер, фракции и независимый Нью-Вегас |
+| Fallout 4 | Bethesda Game Studios | [`fallout-4.md`](works/fallout-4.md) | UWI v1.16 | Институт, синты и согласие носителей |
 
 Описание ограничено пятью основными одиночными играми общей непрерывности. Fallout 76, телесериал и дополнения не используются как самостоятельные источники; варианты концовок рассматриваются как возможные решения, а не как обязательный единственный исход.
 
