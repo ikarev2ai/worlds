@@ -133,6 +133,35 @@ def md_to_html(md_text: str) -> str:
     return "\n".join(body)
 
 
+def read_export_markdown(md_path: Path) -> str:
+    text = md_path.read_text(encoding="utf-8")
+    manifest_path = Path(__file__).resolve().parents[1] / "ontology" / "manifest.md"
+    if md_path.resolve() != manifest_path:
+        return text
+
+    text, count = re.subn(
+        r"^## 4\. Ролевые пресеты.*?(?=^## 5\.)",
+        "",
+        text,
+        flags=re.MULTILINE | re.DOTALL,
+    )
+    if count != 1:
+        raise ValueError(f"Не найден раздел ролевых пресетов в {md_path}")
+
+    questions_path = md_path.with_name("questions.md")
+    questions_text = questions_path.read_text(encoding="utf-8")
+    match = re.search(
+        r"^## 5\. Открытые вопросы\s*$\n(.*?)(?=^## 6\.|\Z)",
+        questions_text,
+        flags=re.MULTILINE | re.DOTALL,
+    )
+    if not match:
+        raise ValueError(f"Не найден раздел открытых вопросов в {questions_path}")
+
+    questions = match.group(1).strip()
+    return f"{text.rstrip()}\n\n## Приложение. Открытые вопросы онтологии\n\n{questions}\n"
+
+
 def export(md_path: Path, pdf_path: Path) -> None:
     fonts = {kind: find_font(kind) for kind in FONT_CANDIDATES}
     archive = fitz.Archive()
@@ -158,7 +187,7 @@ def export(md_path: Path, pdf_path: Path) -> None:
     b, h1, h2, h3, h4 {{ font-family: uil; font-weight: bold; }}
     """
 
-    story = fitz.Story(html=md_to_html(md_path.read_text(encoding="utf-8")),
+    story = fitz.Story(html=md_to_html(read_export_markdown(md_path)),
                        user_css=user_css, archive=archive)
 
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
