@@ -1,6 +1,6 @@
 # World of Warcraft — симуляция мира и следы за её пределами
 
-**Версия онтологии:** UWI v1.11
+**Версия онтологии:** UWI v1.13
 
 Миллионы людей живут аватарами внутри симуляции Другого мира; события симуляции оставляют необратимые следы в естественном мире.
 
@@ -8,8 +8,8 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| World of Warcraft | Blizzard Entertainment | [`world-of-warcraft.md`](works/world-of-warcraft.md) | UWI v1.11 | Аватары, Corrupted Blood и социальные следы |
-| Legion | Blizzard Entertainment | [`legion.md`](works/legion.md) | UWI v1.11 | Саргерас и угроза уничтожения Жизни |
+| World of Warcraft | Blizzard Entertainment | [`world-of-warcraft.md`](works/world-of-warcraft.md) | UWI v1.13 | Аватары, Corrupted Blood и социальные следы |
+| Legion | Blizzard Entertainment | [`legion.md`](works/legion.md) | UWI v1.13 | Саргерас и угроза уничтожения Жизни |
 
 ## Основная часть
 

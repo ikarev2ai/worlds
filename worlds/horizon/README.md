@@ -1,6 +1,6 @@
 # Horizon — гибель и возрождение Жизни
 
-**Версия онтологии:** UWI v1.11
+**Версия онтологии:** UWI v1.13
 
 Машины поглотили биосферу как топливо; агент по поручению погибших людей выращивает Жизнь заново, а последующий конфликт определяет, кто будет управлять её восстановлением.
 
@@ -8,8 +8,8 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Horizon Zero Dawn | Guerrilla Games | [`zero-dawn.md`](works/zero-dawn.md) | UWI v1.11 | Чума Фаро, GAIA, HADES, APOLLO |
-| Horizon Forbidden West | Guerrilla Games | [`forbidden-west.md`](works/forbidden-west.md) | UWI v1.11 | Восстановление GAIA, Бета, Far Zenith и Nemesis |
+| Horizon Zero Dawn | Guerrilla Games | [`zero-dawn.md`](works/zero-dawn.md) | UWI v1.13 | Чума Фаро, GAIA, HADES, APOLLO |
+| Horizon Forbidden West | Guerrilla Games | [`forbidden-west.md`](works/forbidden-west.md) | UWI v1.13 | Восстановление GAIA, Бета, Far Zenith и Nemesis |
 
 ## Основная часть
 
