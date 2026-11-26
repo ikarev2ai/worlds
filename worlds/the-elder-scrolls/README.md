@@ -1,6 +1,6 @@
 # The Elder Scrolls — сон Спящего и обратимые ошибки
 
-**Версия онтологии:** UWI v1.13
+**Версия онтологии:** UWI v1.14
 
 Мир, который является сном (симуляцией): его обитатели могут осознать это изнутри, игрок снаружи совершает обратимые ошибки ради необратимого понимания, а Нумидиум ветвит само время.
 
@@ -8,8 +8,8 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| The Elder Scrolls II: Daggerfall | Bethesda Game Studios | [`daggerfall.md`](works/daggerfall.md) | UWI v1.13 | Нумидиум и Разрыв Дракона |
-| The Elder Scrolls III: Morrowind | Bethesda Game Studios | [`morrowind.md`](works/morrowind.md) | UWI v1.13 | CHIM, Сердце Лорхана и откаты игрока |
+| The Elder Scrolls II: Daggerfall | Bethesda Game Studios | [`daggerfall.md`](works/daggerfall.md) | UWI v1.14 | Нумидиум и Разрыв Дракона |
+| The Elder Scrolls III: Morrowind | Bethesda Game Studios | [`morrowind.md`](works/morrowind.md) | UWI v1.14 | CHIM, Сердце Лорхана и откаты игрока |
 
 ## Основная часть
 

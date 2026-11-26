@@ -1,6 +1,6 @@
 # Dragon Age — Завеса, духи и ложные описания богов
 
-**Версия онтологии:** UWI v1.13
+**Версия онтологии:** UWI v1.14
 
 Тедас связан с Тенью через сны, магию и Завесу; религиозные описания Создателя, Древних Богов и эльфийского пантеона сталкиваются с действиями конкретных носителей, а уничтожение Завесы ставит под угрозу оба мира.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Dragon Age: Origins | BioWare | [`origins.md`](works/origins.md) | UWI v1.13 | Мор, Серые Стражи и Архидемон |
-| Dragon Age II | BioWare | [`dragon-age-2.md`](works/dragon-age-2.md) | UWI v1.13 | Хоук, Киркволл и война магов с храмовниками |
-| Dragon Age: Inquisition | BioWare | [`inquisition.md`](works/inquisition.md) | UWI v1.13 | Корифей, Якорь и Солас |
-| Dragon Age: The Veilguard | BioWare | [`the-veilguard.md`](works/the-veilguard.md) | UWI v1.13 | Эванурис, Рук и разрушение Завесы |
+| Dragon Age: Origins | BioWare | [`origins.md`](works/origins.md) | UWI v1.14 | Мор, Серые Стражи и Архидемон |
+| Dragon Age II | BioWare | [`dragon-age-2.md`](works/dragon-age-2.md) | UWI v1.14 | Хоук, Киркволл и война магов с храмовниками |
+| Dragon Age: Inquisition | BioWare | [`inquisition.md`](works/inquisition.md) | UWI v1.14 | Корифей, Якорь и Солас |
+| Dragon Age: The Veilguard | BioWare | [`the-veilguard.md`](works/the-veilguard.md) | UWI v1.14 | Эванурис, Рук и разрушение Завесы |
 
 Описание ограничено четырьмя основными играми. Выборы игрока сохраняются как возможные исходы одного мира, а не как обязательная фиксированная история.
 
