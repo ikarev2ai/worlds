@@ -476,6 +476,7 @@ def render_site(
             ),
             root_prefix=route_url(document.route, ""),
             stylesheet=asset_url(document.route, "assets/site.css"),
+            favicon=asset_url(document.route, "assets/favicon.svg"),
             script=asset_url(document.route, "assets/search.js"),
             prompt_script=asset_url(document.route, "assets/prompt.js"),
         )
