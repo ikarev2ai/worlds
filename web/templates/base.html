@@ -23,8 +23,8 @@
       </a>
       <nav class="main-nav" aria-label="Основная навигация">
         <a href="{{ nav.ontology }}"{% if document.kind == 'ontology' %} aria-current="page"{% endif %}>Онтология</a>
-        <a href="{{ nav.questions }}"{% if document.kind == 'questions' %} aria-current="page"{% endif %}>Вопросы</a>
         <a href="{{ nav.worlds }}"{% if document.kind in ['worlds_index', 'world', 'work'] %} aria-current="page"{% endif %}>Миры</a>
+        <a href="{{ nav.questions }}"{% if document.kind == 'questions' %} aria-current="page"{% endif %}>Вопросы</a>
       </nav>
       <form class="search-form" id="search-form" role="search" hidden>
         <label class="sr-only" for="search-input">Поиск по онтологии и мирам</label>
@@ -45,6 +45,8 @@
       <a href="{{ nav.parent }}">{{ document.parent.title }}</a>
       {% elif document.kind == 'world' %}
       <a href="{{ nav.worlds }}">Миры</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ document.title }}</span>
       {% else %}
       <span aria-current="page">{{ document.title }}</span>
       {% endif %}
@@ -68,8 +70,8 @@
     {% if document.kind == 'home' %}
     <section class="card-grid" aria-label="Разделы сайта">
       <a class="card" href="{{ nav.ontology }}"><strong>Онтология</strong><span>Алфавит, ключевые вопросы и аксиомы UWI</span></a>
+      <a class="card" href="{{ nav.worlds }}"><strong>Миры</strong><span>Примеры и стресс-тесты из различных миров</span></a>
       <a class="card" href="{{ nav.questions }}"><strong>Вопросы</strong><span>Открытые и закрытые вопросы онтологии</span></a>
-      <a class="card" href="{{ nav.worlds }}"><strong>Все миры</strong><span>Примеры и стресс-тесты из различных миров</span></a>
     </section>
     {% endif %}
 
