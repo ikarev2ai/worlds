@@ -252,6 +252,21 @@ input:focus-visible,
   overflow-wrap: anywhere;
 }
 
+.key-question {
+  margin-top: 2rem;
+  padding: 14px 18px;
+  border: 1px solid #c6d5f5;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: var(--accent-soft);
+  color: #12274a;
+  font-size: 1.15rem;
+}
+
+.key-question strong {
+  font-weight: 700;
+}
+
 .document-content blockquote {
   margin-inline: 0;
   padding: 4px 18px;

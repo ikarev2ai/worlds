@@ -28,6 +28,7 @@ HOME_TITLE = "Понимание взаимодействия миров"
 QUESTION_LEAD = re.compile(r"Вопрос\s+\d+[.:]")
 QUESTION_START = re.compile(r"^(?:#{1,6}\s+|\*\*)?" + QUESTION_LEAD.pattern, re.MULTILINE)
 RENDERED_QUESTION = re.compile(r"<h[1-6][^>]*>" + QUESTION_LEAD.pattern + r"|<p><strong>" + QUESTION_LEAD.pattern)
+KEY_QUESTION_HEADING = re.compile(r"<p><strong>(Ключевой вопрос \d+\.[^<]+)</strong></p>")
 
 
 class BuildError(Exception):
@@ -399,6 +400,13 @@ def render_documents(
             '<div class="table-scroll" tabindex="0" role="region" aria-label="Таблица"><table>',
         ).replace("</table>", "</table></div>")
         document.content = document.content.replace("<pre>", '<pre tabindex="0">')
+        if document.kind == "ontology":
+            document.content, key_questions = KEY_QUESTION_HEADING.subn(
+                r'<p class="key-question"><strong>\1</strong></p>',
+                document.content,
+            )
+            if key_questions != 6:
+                raise BuildError(f"{document.rel_source}: ожидалось 6 ключевых вопросов, найдено {key_questions}")
 
         extractor = TextExtractor()
         extractor.feed(document.content)
