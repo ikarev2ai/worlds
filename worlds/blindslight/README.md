@@ -23,7 +23,15 @@
 
 **Контур UWI.**
 
-`H[crew] <> W/O[rorschach][L[nat]] -> ~H[crew].U`; `W/V[scrambler] + W/V[portia] -> ~W + !H + ~H.U`; `1 → 4: W/V[james] -> H[susan].U + H[michelle].U + H[sascha].U + H[cruncher].U`; `H[bicameral][1] <> H[bicameral][2] <> H[bicameral][n]`; `(N → 1) = UNKNOWN`; `H <> S(M)[heaven] -> ~H.U`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+```
+H[crew] <> W/O[rorschach][L[nat]] -> ~H[crew].U
+W/V[scrambler] + W/V[portia] -> ~W + !H + ~H.U
+1 → 4: W/V[james] -> H[susan].U + H[michelle].U + H[sascha].U + H[cruncher].U
+H[bicameral][1] <> H[bicameral][2] <> H[bicameral][n]
+(N → 1) = UNKNOWN
+H <> S(M)[heaven] -> ~H.U
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

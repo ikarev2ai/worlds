@@ -16,7 +16,10 @@
 
 **Контур UWI.**
 
-`E[mars] ∈ W/P[mars] -> E[mars] ∈ W/P[earth] -> !H + !W/P[earth]/V`; `E[mars] <> W/P[earth]/V[bacteria] -> !E[mars]`
+```
+E[mars] ∈ W/P[mars] -> E[mars] ∈ W/P[earth] -> !H + !W/P[earth]/V
+E[mars] <> W/P[earth]/V[bacteria] -> !E[mars]
+```
 
 ## Проверка применимости онтологии
 

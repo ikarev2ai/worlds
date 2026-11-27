@@ -24,7 +24,15 @@
 
 **Контур UWI.**
 
-`E[tri] ∈ W/P[trisolaris]`; `E[tri] <> E[tri][open,traces]`; `H <> E[tri][dT]`; `ACCESS?(E[tri],H.U) = FALSE`; `(H <> E[tri]) = FALSE -> MAY?(!V)`; `E[x] <> W/O[dimensional_strike] -> ~W/P[solar] + !V`; `H <> M[i][mini_universe] -> ((!H) = FALSE OR ~M[j])`
+```
+E[tri] ∈ W/P[trisolaris]
+E[tri] <> E[tri][open,traces]
+H <> E[tri][dT]
+ACCESS?(E[tri],H.U) = FALSE
+(H <> E[tri]) = FALSE -> MAY?(!V)
+E[x] <> W/O[dimensional_strike] -> ~W/P[solar] + !V
+H <> M[i][mini_universe] -> ((!H) = FALSE OR ~M[j])
+```
 
 ## Проверка применимости онтологии
 

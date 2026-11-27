@@ -20,7 +20,14 @@
 
 **Контур UWI.**
 
-`H[ido] -> +W/O[body] -> ~H[alita]`; `H[alita] <> H[ido] + H[hugo] -> ~H[alita].U + ~H[ido].U`; `H[alita] <> W/O[bodies,weapons,motorball] -> +D/O[memories] -> ~H[alita].U`; `C(H[nova]) -> (D/O + W/O[zalem]) <> H -> ~H`; `!H[hugo]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+```
+H[ido] -> +W/O[body] -> ~H[alita]
+H[alita] <> H[ido] + H[hugo] -> ~H[alita].U + ~H[ido].U
+H[alita] <> W/O[bodies,weapons,motorball] -> +D/O[memories] -> ~H[alita].U
+C(H[nova]) -> (D/O + W/O[zalem]) <> H -> ~H
+!H[hugo]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -16,7 +16,9 @@
 
 **Контур UWI.**
 
-`W/P[earth] <> [H,E[goblin][M],E[alien][W/P[x]]] <> O[artifact]`
+```
+W/P[earth] <> [H,E[goblin][M],E[alien][W/P[x]]] <> O[artifact]
+```
 
 ## Проверка применимости онтологии
 

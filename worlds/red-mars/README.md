@@ -22,7 +22,14 @@
 
 **Контур UWI.**
 
-`H[first_hundred] <> W/P[mars] -> +W/O[settlements] + ~W/P[mars]`; `H[terraformer] -> ~W/P[mars] + +V`; `H[red] <> H[green][L,research,politics] -> ~H.U`; `ACCESS?(H[red],H[green].U) = FALSE`; `C(H[earth_corporation]) -> W/O[infrastructure] <> H[mars] -> ~H[mars]`; `H[revolution] <> H[earth] -> !H + !W/O + ~W/P[mars]`
+```
+H[first_hundred] <> W/P[mars] -> +W/O[settlements] + ~W/P[mars]
+H[terraformer] -> ~W/P[mars] + +V
+H[red] <> H[green][L,research,politics] -> ~H.U
+ACCESS?(H[red],H[green].U) = FALSE
+C(H[earth_corporation]) -> W/O[infrastructure] <> H[mars] -> ~H[mars]
+H[revolution] <> H[earth] -> !H + !W/O + ~W/P[mars]
+```
 
 ## Проверка применимости онтологии
 

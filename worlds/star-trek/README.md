@@ -18,7 +18,14 @@
 
 **Контур UWI.**
 
-`E[nero]@W@t[future] -> E[nero]@W@t[past]`; `E[spock_prime]@W@t[future] -> E[spock_prime]@W@t[past]`; `O@W@t[future] -> O@M[i]@W@t[past]`; `E[nero] <> W/O[narada,red_matter] -> !W/P[vulcan] + !V`; `E[spock_prime] <> H[kirk] + E[spock] -> ~H.U + ~E.U`; `M[i] -> M[j][alternate_history]`
+```
+E[nero]@W@t[future] -> E[nero]@W@t[past]
+E[spock_prime]@W@t[future] -> E[spock_prime]@W@t[past]
+O@W@t[future] -> O@M[i]@W@t[past]
+E[nero] <> W/O[narada,red_matter] -> !W/P[vulcan] + !V
+E[spock_prime] <> H[kirk] + E[spock] -> ~H.U + ~E.U
+M[i] -> M[j][alternate_history]
+```
 
 ## Проверка применимости онтологии
 

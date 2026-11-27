@@ -22,7 +22,15 @@
 
 **Контур UWI.**
 
-`H[corporation] -> +V[seeds,organisms] + W/O[patents,market] -> ~V`; `H -> +H[emiko]`; `H[emiko].U`; `H[anderson] <> H[emiko] -> ~H[anderson].U + ~H[emiko].U`; `H[kanya] <> H[corporation] -> !H`; `(!W/O[seeds]) = FALSE`; `C(H[kanya]) -> W/O[dams] -> ~W + !V`
+```
+H[corporation] -> +V[seeds,organisms] + W/O[patents,market] -> ~V
+H -> +H[emiko]
+H[emiko].U
+H[anderson] <> H[emiko] -> ~H[anderson].U + ~H[emiko].U
+H[kanya] <> H[corporation] -> !H
+(!W/O[seeds]) = FALSE
+C(H[kanya]) -> W/O[dams] -> ~W + !V
+```
 
 ## Проверка применимости онтологии
 

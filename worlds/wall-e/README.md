@@ -22,7 +22,13 @@
 
 **Контур UWI.**
 
-`H -> +D/O[programs] + W/O[bodies] -> +A[walle] + A[eve][1 → 1]`; `A[walle] <> W/O[objects,records] + W/V[roach] -> ~A[walle].U`; `A[walle] <> A[eve] <> W/V[plant] -> ~A[walle].U + ~A[eve].U`; `D/O[AUTO] + D/O[A113] -> ~W[axiom]`; `H[captain] <> A[walle] + A[eve] + W/V[plant] -> ~H[captain].U -> H@W/P[earth] + +W/V`
+```
+H -> +D/O[programs] + W/O[bodies] -> +A[walle] + A[eve][1 → 1]
+A[walle] <> W/O[objects,records] + W/V[roach] -> ~A[walle].U
+A[walle] <> A[eve] <> W/V[plant] -> ~A[walle].U + ~A[eve].U
+D/O[AUTO] + D/O[A113] -> ~W[axiom]
+H[captain] <> A[walle] + A[eve] + W/V[plant] -> ~H[captain].U -> H@W/P[earth] + +W/V
+```
 
 ## Проверка применимости онтологии
 

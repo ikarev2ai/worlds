@@ -23,7 +23,14 @@
 
 **Контур UWI.**
 
-`H/E[coalition] <> W/O[stations,markets] -> +W/O[trade] + ~H.U + ~E.U`; `E[klissan] <> H/E[coalition] -> MATCH?(E[klissan]) = FALSE + ~H.U`; `A[blazer] + A[keller] + A[terron] -> !V`; `A[blazer] <> A[keller] + A[terron]`; `H[ranger] <> A[dominator][combat,research,messages] -> ~H.U + ~A.U`; `C(A[dominator]) -> ~W/P[x] + !V`
+```
+H/E[coalition] <> W/O[stations,markets] -> +W/O[trade] + ~H.U + ~E.U
+E[klissan] <> H/E[coalition] -> MATCH?(E[klissan]) = FALSE + ~H.U
+A[blazer] + A[keller] + A[terron] -> !V
+A[blazer] <> A[keller] + A[terron]
+H[ranger] <> A[dominator][combat,research,messages] -> ~H.U + ~A.U
+C(A[dominator]) -> ~W/P[x] + !V
+```
 
 ## Проверка применимости онтологии
 

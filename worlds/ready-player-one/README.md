@@ -31,7 +31,19 @@
 
 **Контур UWI.**
 
-`H <> S(D)[oasis] -> ~H.U + ~W@t`; `H[halliday] -> +D/O[easter_egg] -> H <> O -> ~H.U`; `H[wade] -> C(H[wade])[OASIS]`; `H <> W/D/O[ONI] -> +D/O[experience_recording]`; `(H[i] = H[j]) = UNKNOWN`; `H[halliday] -> +A[anorak]`; `C(A[anorak]) -> ~H + MAY?(!H)`; `D/O[kira_traces] -> +A[leucosia]`; `A[leucosia] + D/O[neurodata] -> +A[copy][1..n]`; `H[original] <> A[copy]`; `TRANSMIT?(H[original].U,A[copy].U) = FALSE`
+```
+H <> S(D)[oasis] -> ~H.U + ~W@t
+H[halliday] -> +D/O[easter_egg] -> H <> O -> ~H.U
+H[wade] -> C(H[wade])[OASIS]
+H <> W/D/O[ONI] -> +D/O[experience_recording]
+(H[i] = H[j]) = UNKNOWN
+H[halliday] -> +A[anorak]
+C(A[anorak]) -> ~H + MAY?(!H)
+D/O[kira_traces] -> +A[leucosia]
+A[leucosia] + D/O[neurodata] -> +A[copy][1..n]
+H[original] <> A[copy]
+TRANSMIT?(H[original].U,A[copy].U) = FALSE
+```
 
 ## Проверка применимости онтологии
 

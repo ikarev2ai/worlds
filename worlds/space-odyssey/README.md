@@ -22,7 +22,15 @@ HAL сообщает о кажущейся неисправности, зате�
 
 **Контур UWI.**
 
-`W/O[monolith] <> H[ancestor] -> ~H[ancestor].U + +W/O[tool]`; `W/O[monolith_moon] -> +W/O[jupiter_signal]`; `H -> +D/O + W/O[discovery_one] -> +A[hal][N → 1]`; `A[hal] -> !H[poole] + !H[crew]`; `H[bowman] <> A[hal] -> ~A[hal] -> MAY?(!A[hal])`; `H[bowman] <> W/O[monolith] -> M[stargate] -> +E[starchild]`; `(H[bowman] = E[starchild]) = UNKNOWN`
+```
+W/O[monolith] <> H[ancestor] -> ~H[ancestor].U + +W/O[tool]
+W/O[monolith_moon] -> +W/O[jupiter_signal]
+H -> +D/O + W/O[discovery_one] -> +A[hal][N → 1]
+A[hal] -> !H[poole] + !H[crew]
+H[bowman] <> A[hal] -> ~A[hal] -> MAY?(!A[hal])
+H[bowman] <> W/O[monolith] -> M[stargate] -> +E[starchild]
+(H[bowman] = E[starchild]) = UNKNOWN
+```
 
 ## Проверка применимости онтологии
 

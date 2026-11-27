@@ -23,7 +23,13 @@ NPC Азерота — программные фигуры без собстве
 
 **Контур UWI.**
 
-`H <> S(M/P[azeroth])`; `REVERSIBLE?(S(M/P[azeroth])@t[1],S(M/P[azeroth])@t[0])`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `S(M) -> !O[avatars] -> ~S(M)[patch] -> +D/O[event] -> H[epidemiologist] <> O -> ~H.U`; `E[sargeras] -> !V[M]`
+```
+H <> S(M/P[azeroth])
+REVERSIBLE?(S(M/P[azeroth])@t[1],S(M/P[azeroth])@t[0])
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+S(M) -> !O[avatars] -> ~S(M)[patch] -> +D/O[event] -> H[epidemiologist] <> O -> ~H.U
+E[sargeras] -> !V[M]
+```
 
 ## Проверка применимости онтологии
 

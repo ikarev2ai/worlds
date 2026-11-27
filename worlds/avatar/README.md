@@ -22,7 +22,13 @@
 
 **Контур UWI.**
 
-`H[jake] <> D/O[avatar] <> W/O[body_navi] -> ~H[jake].U`; `H/E <> W/P[pandora]/V[neural_link] -> ~H.U + ~E.U`; `H[quaritch] <> D/O[recombinant] -> C(H[quaritch])`; `E[kiri] <> W/P[pandora]/V[eywa] -> ~W + ~V`; `H[spider] <> E[navi][spirit_trees] -> ~H[spider].U`
+```
+H[jake] <> D/O[avatar] <> W/O[body_navi] -> ~H[jake].U
+H/E <> W/P[pandora]/V[neural_link] -> ~H.U + ~E.U
+H[quaritch] <> D/O[recombinant] -> C(H[quaritch])
+E[kiri] <> W/P[pandora]/V[eywa] -> ~W + ~V
+H[spider] <> E[navi][spirit_trees] -> ~H[spider].U
+```
 
 ## Проверка применимости онтологии
 

@@ -34,7 +34,18 @@
 
 **Контур UWI.**
 
-`E[forerunner] -> +W/O[halo,ark,monitors] -> C(E[forerunner])`; `H[unsc] <> E[covenant] -> !V`; `H[chief] <> A[cortana] -> ~H.U + ~A.U`; `E[gravemind][N → 1] -> ~V + !H/E`; `C(A[monitor]) -> MAY?(!V)`; `A[cortana] -> C(A[cortana]) -> W/P[1..n] <> H/E -> ~H/E`; `H -> +A[weapon][prototype,A[cortana]]`; `A[weapon].U`; `TRANSMIT?(A[cortana].U,A[weapon].U) = FALSE`; `H[chief] + A[weapon] <> E[banished] -> (!W/P[zeta]) = FALSE`
+```
+E[forerunner] -> +W/O[halo,ark,monitors] -> C(E[forerunner])
+H[unsc] <> E[covenant] -> !V
+H[chief] <> A[cortana] -> ~H.U + ~A.U
+E[gravemind][N → 1] -> ~V + !H/E
+C(A[monitor]) -> MAY?(!V)
+A[cortana] -> C(A[cortana]) -> W/P[1..n] <> H/E -> ~H/E
+H -> +A[weapon][prototype,A[cortana]]
+A[weapon].U
+TRANSMIT?(A[cortana].U,A[weapon].U) = FALSE
+H[chief] + A[weapon] <> E[banished] -> (!W/P[zeta]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

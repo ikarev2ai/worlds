@@ -32,7 +32,16 @@ Episode Two завершается гибелью Илая после запус
 
 **Контур UWI.**
 
-`H[black_mesa] <> W/O[crystal] -> ~W + W/P[earth] <> M[xen]`; `H[gordon] <> E[nihilanth] -> !E[nihilanth]`; `C(E[combine]) -> ~W/P[earth] + ~V + !H/E`; `H[resistance] <> E[vortigaunt] -> ~H.U + ~E.U`; `C(E[gman]) -> H@t[1] -> H@t[0]`; `C(E[gman]) -> !<>`; `H[alyx] <> E[gman][future] -> ~H[alyx].U`; `C(E[gman]) -> ~W@t[rescue,H[eli]] -> ~H[alyx]`
+```
+H[black_mesa] <> W/O[crystal] -> ~W + W/P[earth] <> M[xen]
+H[gordon] <> E[nihilanth] -> !E[nihilanth]
+C(E[combine]) -> ~W/P[earth] + ~V + !H/E
+H[resistance] <> E[vortigaunt] -> ~H.U + ~E.U
+C(E[gman]) -> H@t[1] -> H@t[0]
+C(E[gman]) -> !<>
+H[alyx] <> E[gman][future] -> ~H[alyx].U
+C(E[gman]) -> ~W@t[rescue,H[eli]] -> ~H[alyx]
+```
 
 ## Проверка применимости онтологии
 

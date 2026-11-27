@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="site-root" content="{{ root_prefix }}">
+  <meta name="description" content="Understanding of World's Interaction — онтология и примеры миров UWI">
+  <title>{{ document.title }} — UWI</title>
+  <link rel="stylesheet" href="{{ stylesheet }}">
+  <link rel="icon" href="data:,">
+  <script src="{{ script }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="shell header-layout">
+      <a class="brand" href="{{ nav.home }}" aria-label="UWI — на главную">
+        <span class="brand-name">UWI</span>
+        <span class="brand-caption">Understanding of World's Interaction</span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="{{ nav.ontology }}"{% if document.kind == 'ontology' %} aria-current="page"{% endif %}>Онтология</a>
+        <a href="{{ nav.questions }}"{% if document.kind == 'questions' %} aria-current="page"{% endif %}>Вопросы</a>
+        <a href="{{ nav.worlds }}"{% if document.kind in ['worlds_index', 'world', 'work'] %} aria-current="page"{% endif %}>Миры</a>
+      </nav>
+      <form class="search-form" id="search-form" role="search" hidden>
+        <label class="sr-only" for="search-input">Поиск по онтологии и мирам</label>
+        <input id="search-input" type="search" placeholder="Поиск по UWI…" autocomplete="off" minlength="2">
+      </form>
+    </div>
+    <div class="shell search-results" id="search-results" aria-live="polite" hidden></div>
+  </header>
+
+  <main class="shell main-layout" id="content" tabindex="-1">
+    {% if document.kind != 'home' %}
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href="{{ nav.home }}">UWI</a>
+      <span aria-hidden="true">/</span>
+      {% if document.kind == 'work' %}
+      <a href="{{ nav.worlds }}">Миры</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ nav.parent }}">{{ document.parent.title }}</a>
+      {% elif document.kind == 'world' %}
+      <a href="{{ nav.worlds }}">Миры</a>
+      {% else %}
+      <span aria-current="page">{{ document.title }}</span>
+      {% endif %}
+    </nav>
+    {% endif %}
+
+    {% if document.kind != 'worlds_index' %}
+    <article class="document-content">
+      {{ content | safe }}
+    </article>
+    {% endif %}
+
+    {% if document.kind == 'home' %}
+    <section class="card-grid" aria-label="Разделы сайта">
+      <a class="card" href="{{ nav.ontology }}"><strong>Онтология</strong><span>Алфавит, ключевые вопросы и аксиомы UWI</span></a>
+      <a class="card" href="{{ nav.questions }}"><strong>Вопросы</strong><span>Открытые и закрытые вопросы онтологии</span></a>
+      <a class="card" href="{{ nav.worlds }}"><strong>Все миры</strong><span>Примеры и стресс-тесты из художественных миров</span></a>
+    </section>
+    {% endif %}
+
+    {% if document.kind == 'worlds_index' %}
+    <section class="catalog" aria-labelledby="catalog-title">
+      <h1 id="catalog-title">Каталог всех миров</h1>
+      <p class="spoiler-warning" role="note"><strong>Внимание:</strong> описания миров и произведений содержат спойлеры.</p>
+      <div class="catalog-grid">
+        {% for world in nav.world_list %}
+        <a class="catalog-link" href="{{ world.url }}">{{ world.title }}</a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if document.kind == 'work' and nav.siblings|length > 1 %}
+    <nav class="related" aria-labelledby="siblings-title">
+      <h2 id="siblings-title">Другие произведения мира</h2>
+      <div class="related-links">
+        {% for sibling in nav.siblings %}
+        <a href="{{ sibling.url }}"{% if sibling.current %} aria-current="page"{% endif %}>{{ sibling.title }}</a>
+        {% endfor %}
+      </div>
+    </nav>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">Статическое представление Markdown-источников UWI</div>
+  </footer>
+</body>
+</html>

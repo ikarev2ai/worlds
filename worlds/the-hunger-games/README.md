@@ -28,7 +28,15 @@
 
 **Контур UWI.**
 
-`C(H[snow]) -> W/O[arena] + D/O[broadcast] -> !H + ~H.U[viewers]`; `H[katniss] <> H[peeta] -> ~H.U`; `H[katniss] + H[peeta] -> MAY?(!H) -> ~M/O[rules]`; `H[katniss] -> ~W/O[force_field] -> H[katniss]@arena -> H[katniss]@W`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `C(H[coin]) -> +D/O[propaganda] -> !V`; `H[katniss] -> !H[coin] -> MAY?(H -> +S(M)[new,games]) = FALSE`
+```
+C(H[snow]) -> W/O[arena] + D/O[broadcast] -> !H + ~H.U[viewers]
+H[katniss] <> H[peeta] -> ~H.U
+H[katniss] + H[peeta] -> MAY?(!H) -> ~M/O[rules]
+H[katniss] -> ~W/O[force_field] -> H[katniss]@arena -> H[katniss]@W
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+C(H[coin]) -> +D/O[propaganda] -> !V
+H[katniss] -> !H[coin] -> MAY?(H -> +S(M)[new,games]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

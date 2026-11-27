@@ -30,7 +30,15 @@
 
 **Контур UWI.**
 
-`H -> !V + ~W[great_war]`; `C(H[vault_tec]) -> +S(W)[social_experiments]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `H <> V[altered_forms] -> ~H.U + MAY?(!V)`; `H[courier] <> H[ncr] + H[legion] + H[house] -> ~W`; `H[institute] -> +A[synth][1..n]`; `H <> A[synth] -> ~H.U + ~A.U + MAY?(!A[synth])`
+```
+H -> !V + ~W[great_war]
+C(H[vault_tec]) -> +S(W)[social_experiments]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+H <> V[altered_forms] -> ~H.U + MAY?(!V)
+H[courier] <> H[ncr] + H[legion] + H[house] -> ~W
+H[institute] -> +A[synth][1..n]
+H <> A[synth] -> ~H.U + ~A.U + MAY?(!A[synth])
+```
 
 ## Проверка применимости онтологии
 

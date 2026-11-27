@@ -18,7 +18,12 @@
 
 **Контур UWI.**
 
-`H[v] <> D/O[Relic] <> A[johnny] -> ~H[v].U + ~W/O[body]`; `H[alt] -> +D/A[alt]`; `!W/O[body] -> A[alt] ∈ D`; `+D/O[data,implants] -> ~W + ~H.U`
+```
+H[v] <> D/O[Relic] <> A[johnny] -> ~H[v].U + ~W/O[body]
+H[alt] -> +D/A[alt]
+!W/O[body] -> A[alt] ∈ D
++D/O[data,implants] -> ~W + ~H.U
+```
 
 ## Проверка применимости онтологии
 

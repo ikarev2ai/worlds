@@ -24,7 +24,13 @@
 
 **Контур UWI.**
 
-`E[eridian] -> +W/O[vaults,records] -> H <> O -> ~H.U`; `C(H[jack]) -> W/O[Hyperion] <> H[angel] -> ~H[angel] + !V`; `C(H[calypso]) -> H/E[followers] <> V -> ~V + !V`; `H/E <> A[claptrap] -> ~H.U + ~A.U`; `C(H[lilith]) -> (!W/P[pandora]) = FALSE`
+```
+E[eridian] -> +W/O[vaults,records] -> H <> O -> ~H.U
+C(H[jack]) -> W/O[Hyperion] <> H[angel] -> ~H[angel] + !V
+C(H[calypso]) -> H/E[followers] <> V -> ~V + !V
+H/E <> A[claptrap] -> ~H.U + ~A.U
+C(H[lilith]) -> (!W/P[pandora]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

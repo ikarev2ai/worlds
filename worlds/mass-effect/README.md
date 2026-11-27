@@ -20,7 +20,12 @@
 
 **Контур UWI.**
 
-`A[catalyst] ∈ D -> @t[0] -> !V -> @t[1] -> !V`; `W/O[relays,citadel] -> ~H.U + ~E.U + ~D/A`; `A[geth][N → 1] <> H[quarian]`; `!A[reapers,geth,edi]`
+```
+A[catalyst] ∈ D -> @t[0] -> !V -> @t[1] -> !V
+W/O[relays,citadel] -> ~H.U + ~E.U + ~D/A
+A[geth][N → 1] <> H[quarian]
+!A[reapers,geth,edi]
+```
 
 ## Проверка применимости онтологии
 

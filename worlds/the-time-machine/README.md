@@ -22,7 +22,15 @@
 
 **Контур UWI.**
 
-`H[traveller] <> W/O[machine] -> W@t[0] -> W@t[future]`; `H[traveller] <> H[eloi] + H[morlock] -> ~H.U + MATCH?(H[traveller]) = FALSE`; `H[traveller] <> H[weena] -> ~H.U`; `!H[weena]`; `W/O[machine] -> H[traveller]@t[future] -> H[traveller]@t[0]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `H[traveller] -> +W/O/L[story] -> ~H[listener].U`
+```
+H[traveller] <> W/O[machine] -> W@t[0] -> W@t[future]
+H[traveller] <> H[eloi] + H[morlock] -> ~H.U + MATCH?(H[traveller]) = FALSE
+H[traveller] <> H[weena] -> ~H.U
+!H[weena]
+W/O[machine] -> H[traveller]@t[future] -> H[traveller]@t[0]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+H[traveller] -> +W/O/L[story] -> ~H[listener].U
+```
 
 ## Проверка применимости онтологии
 

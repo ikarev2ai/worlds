@@ -24,7 +24,14 @@
 
 **Контур UWI.**
 
-`H[hero] <> H[camps][L,quests,exchange] -> ~H.U`; `E[sleeper] <> H[brotherhood] -> G[sleeper]`; `H[hero] <> M/O[eye_of_innos,runes] -> C(H[hero])`; `ACCESS?(H[hero],G.U) = FALSE`; `G[innos] + G[beliar] + G[adanos] -> H/E <> H/E -> !V`; `H[hero] -> ~M + ~H`
+```
+H[hero] <> H[camps][L,quests,exchange] -> ~H.U
+E[sleeper] <> H[brotherhood] -> G[sleeper]
+H[hero] <> M/O[eye_of_innos,runes] -> C(H[hero])
+ACCESS?(H[hero],G.U) = FALSE
+G[innos] + G[beliar] + G[adanos] -> H/E <> H/E -> !V
+H[hero] -> ~M + ~H
+```
 
 ## Проверка применимости онтологии
 

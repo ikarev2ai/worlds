@@ -20,7 +20,13 @@
 
 **Контур UWI.**
 
-`E[heptapod] ∈ W/P[x] <> H[louise] ∈ W/P[earth][L[heptapod][A]/B,semagrams] -> ~H[louise].U[W@t[0..n]]`; `H[louise] <> H[gary] -> ~H[louise].U + ~H[gary].U`; `W@t[0] -> W@t[1][+H[daughter]] -> W@t[2][!H[daughter],!V]`; `~H[louise].U@t[0][W@t[1..n]]`; `REVERSIBLE?(W@t[n],W@t[0]) = FALSE`
+```
+E[heptapod] ∈ W/P[x] <> H[louise] ∈ W/P[earth][L[heptapod][A]/B,semagrams] -> ~H[louise].U[W@t[0..n]]
+H[louise] <> H[gary] -> ~H[louise].U + ~H[gary].U
+W@t[0] -> W@t[1][+H[daughter]] -> W@t[2][!H[daughter],!V]
+~H[louise].U@t[0][W@t[1..n]]
+REVERSIBLE?(W@t[n],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -18,7 +18,15 @@
 
 **Контур UWI.**
 
-`A[atlas] ∈ D -> +S(M)[universe]`; `REVERSIBLE?(S(M)@t[n],S(M)@t[0])`; `E[traveller] ∈ S(M); MATCH?(E[traveller]) = FALSE -> E[traveller] <> A[atlas]`; `H <> S(M)`; `H[1] -> +D/O[planet,name,base] -> H[2] <> O -> ~H[2].U`; `!S(M)/O[avatar]`; `MAY?(H[player] -> (S(M)@t[1] -> S(M)@t[0])) = FALSE`
+```
+A[atlas] ∈ D -> +S(M)[universe]
+REVERSIBLE?(S(M)@t[n],S(M)@t[0])
+E[traveller] ∈ S(M); MATCH?(E[traveller]) = FALSE -> E[traveller] <> A[atlas]
+H <> S(M)
+H[1] -> +D/O[planet,name,base] -> H[2] <> O -> ~H[2].U
+!S(M)/O[avatar]
+MAY?(H[player] -> (S(M)@t[1] -> S(M)@t[0])) = FALSE
+```
 
 ## Проверка применимости онтологии
 

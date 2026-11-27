@@ -23,7 +23,15 @@
 
 **Контур UWI.**
 
-`W/P[arrakis]/V -> +M/O[spice] -> ~H.U + C(H)`; `+W/O[myths] -> H/E <> O -> ~H.U + ~E.U`; `H[paul] -> C(H[paul]) + G[muad_dib] -> !V[jihad]`; `H[alia]; 1 → N[ancestors]`; `(H[alia] = H[ancestors]) = UNKNOWN`; `H[leto2] -> C(H[leto2])[golden_path]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+```
+W/P[arrakis]/V -> +M/O[spice] -> ~H.U + C(H)
++W/O[myths] -> H/E <> O -> ~H.U + ~E.U
+H[paul] -> C(H[paul]) + G[muad_dib] -> !V[jihad]
+H[alia]; 1 → N[ancestors]
+(H[alia] = H[ancestors]) = UNKNOWN
+H[leto2] -> C(H[leto2])[golden_path]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

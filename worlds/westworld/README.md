@@ -26,7 +26,19 @@
 
 **Контур UWI.**
 
-`H -> +D/O[code,plots,records] + W/O[bodies] -> +A[synth][1 → 1]`; `H[guest] <> A[host][dialogue,violence,joint_actions] -> ~H[guest].U + ~A[host].U`; `H[ford] -> ~D/O[plots,updates] -> ~A[dolores].U + ~A[maeve].U`; `H[delos] -> +D/O[records,model] + W/O -> +A[delos][n]`; `A[delos][n].U`; `TRANSMIT?(H[delos].U,A[delos][n].U) = FALSE`; `D/O[arnold] + W/O -> +A[bernard]`; `A[bernard].U`; `REVERSIBLE?(S(W)[test]@t[1],S(W)[test]@t[0])`; `W[park]@t -> !H + ~H.U + ~A.U`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+```
+H -> +D/O[code,plots,records] + W/O[bodies] -> +A[synth][1 → 1]
+H[guest] <> A[host][dialogue,violence,joint_actions] -> ~H[guest].U + ~A[host].U
+H[ford] -> ~D/O[plots,updates] -> ~A[dolores].U + ~A[maeve].U
+H[delos] -> +D/O[records,model] + W/O -> +A[delos][n]
+A[delos][n].U
+TRANSMIT?(H[delos].U,A[delos][n].U) = FALSE
+D/O[arnold] + W/O -> +A[bernard]
+A[bernard].U
+REVERSIBLE?(S(W)[test]@t[1],S(W)[test]@t[0])
+W[park]@t -> !H + ~H.U + ~A.U
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

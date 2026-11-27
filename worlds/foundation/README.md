@@ -22,7 +22,13 @@
 
 **Контур UWI.**
 
-`H[seldon] -> +W/O[plan,records] -> H[crisis] <> O -> ~H[crisis].U + ~W`; `S(W)[psychohistory] -> +D/O[forecast]`; `ACCESS?(H[seldon],H[crisis].U) = FALSE`; `C(H[mule]) -> ~H.U[mass_influence] -> ~W`; `H[second_foundation] <> H[hidden_traces] -> ~W`
+```
+H[seldon] -> +W/O[plan,records] -> H[crisis] <> O -> ~H[crisis].U + ~W
+S(W)[psychohistory] -> +D/O[forecast]
+ACCESS?(H[seldon],H[crisis].U) = FALSE
+C(H[mule]) -> ~H.U[mass_influence] -> ~W
+H[second_foundation] <> H[hidden_traces] -> ~W
+```
 
 ## Проверка применимости онтологии
 

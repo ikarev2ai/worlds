@@ -22,7 +22,15 @@
 
 **Контур UWI.**
 
-`H[future] <> D/O[channel] -> +W[stub][past,branch]`; `H[flynne] <> D <> W/O[peripheral] -> ~W/O`; `X ∈ {H,A,E}; X ≠ H[flynne]`; `TRANSMIT?(H[flynne].U,X.U) = FALSE`; `H[flynne] <> H[wilf] + H[lowbeer][L,actions] -> ~H.U`; `C(H[future_faction]) -> D/W/O -> ~W[stub] + MAY?(!V)`; `REVERSIBLE?(W[future]@t[1],W[future]@t[0]) = FALSE`
+```
+H[future] <> D/O[channel] -> +W[stub][past,branch]
+H[flynne] <> D <> W/O[peripheral] -> ~W/O
+X ∈ {H,A,E}; X ≠ H[flynne]
+TRANSMIT?(H[flynne].U,X.U) = FALSE
+H[flynne] <> H[wilf] + H[lowbeer][L,actions] -> ~H.U
+C(H[future_faction]) -> D/W/O -> ~W[stub] + MAY?(!V)
+REVERSIBLE?(W[future]@t[1],W[future]@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

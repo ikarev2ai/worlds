@@ -20,7 +20,15 @@
 
 **Контур UWI.**
 
-`W/V[astrophage] -> ~W/P[earth]/V + ~W/P[erid]/V + MAY?(!V)`; `H[grace] ∈ W/P[earth] <> E[rocky] ∈ W/P[erid][L[math],diagrams,samples] -> ~H[grace].U + ~E[rocky].U`; `H[grace] <> E[rocky] <> W/V[taumoeba] -> +W/O[stellar_cleaning]`; `(!W/P[earth]/V) = FALSE`; `(!W/P[erid]/V) = FALSE`; `H[grace] -> (!E[rocky]) = FALSE`; `MAY?(!H[grace])`
+```
+W/V[astrophage] -> ~W/P[earth]/V + ~W/P[erid]/V + MAY?(!V)
+H[grace] ∈ W/P[earth] <> E[rocky] ∈ W/P[erid][L[math],diagrams,samples] -> ~H[grace].U + ~E[rocky].U
+H[grace] <> E[rocky] <> W/V[taumoeba] -> +W/O[stellar_cleaning]
+(!W/P[earth]/V) = FALSE
+(!W/P[erid]/V) = FALSE
+H[grace] -> (!E[rocky]) = FALSE
+MAY?(!H[grace])
+```
 
 ## Проверка применимости онтологии
 

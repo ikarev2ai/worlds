@@ -26,7 +26,17 @@
 
 **Контур UWI.**
 
-`W/V[phantom] -> ~W/V + !H + !V`; `H[aki] + H[sid] <> W/V[1..8] -> +W/O[neutralizing_wave]`; `W/O[alien,particles] -> H[aki] <> O[dream] -> ~H[aki].U`; `TRANSMIT?(E[alien].U,H[aki].U) = FALSE`; `C(H[hein]) -> W/O[barrier,zeus] -> !V + ~W/P[earth]/V`; `H[gray] -> +W/O[completed_wave] -> ~W/V[phantom]`; `(!W/P[earth]/V) = FALSE`; `!H[gray]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+```
+W/V[phantom] -> ~W/V + !H + !V
+H[aki] + H[sid] <> W/V[1..8] -> +W/O[neutralizing_wave]
+W/O[alien,particles] -> H[aki] <> O[dream] -> ~H[aki].U
+TRANSMIT?(E[alien].U,H[aki].U) = FALSE
+C(H[hein]) -> W/O[barrier,zeus] -> !V + ~W/P[earth]/V
+H[gray] -> +W/O[completed_wave] -> ~W/V[phantom]
+(!W/P[earth]/V) = FALSE
+!H[gray]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -22,7 +22,14 @@
 
 **Контур UWI.**
 
-`W/P[earth]/H[joe]/An[joe]@t[0] -> M/E[joe]/An[joe]@t[1]`; `M/E[joe]/An[joe] <> M/E[22]/An[22] -> ~E[joe].U + ~E[22].U`; `W/P[earth]/V[joe]/An[22]@t[2]; E[22].U`; `W/P[earth]/V[cat]/An[joe]@t[2]; E[joe].U`; `M/E[22]/An[22] -> W/P[earth]/H[new]/An[22] (+H[new].U)`; `An[joe] <> W/P[earth]/V[joe] -> H[joe]/An[joe]@t[3] -> ~H[joe].U`
+```
+W/P[earth]/H[joe]/An[joe]@t[0] -> M/E[joe]/An[joe]@t[1]
+M/E[joe]/An[joe] <> M/E[22]/An[22] -> ~E[joe].U + ~E[22].U
+W/P[earth]/V[joe]/An[22]@t[2]; E[22].U
+W/P[earth]/V[cat]/An[joe]@t[2]; E[joe].U
+M/E[22]/An[22] -> W/P[earth]/H[new]/An[22] (+H[new].U)
+An[joe] <> W/P[earth]/V[joe] -> H[joe]/An[joe]@t[3] -> ~H[joe].U
+```
 
 ## Проверка применимости онтологии
 

@@ -20,7 +20,13 @@
 
 **Контур UWI.**
 
-`H + E[1..n] <> W/O[alpha] -> +L + +O + ~H.U + ~E.U`; `C(H[filitt]) <> W/O[weapon] -> !W/P[mul] + !V`; `E[pearl_survivor] <> W/O[records,technology] -> +W/P[mul]/V`; `H[valerian] + H[laureline] <> E[pearl] -> ~H.U + ~E.U`; `(!E[pearl]) = FALSE`
+```
+H + E[1..n] <> W/O[alpha] -> +L + +O + ~H.U + ~E.U
+C(H[filitt]) <> W/O[weapon] -> !W/P[mul] + !V
+E[pearl_survivor] <> W/O[records,technology] -> +W/P[mul]/V
+H[valerian] + H[laureline] <> E[pearl] -> ~H.U + ~E.U
+(!E[pearl]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -23,7 +23,14 @@
 
 **Контур UWI.**
 
-`E[vivec] <> S(M); E[vivec].U`; `H[player] <> S(M); !S(M)[error] -> S(M)@t[0]`; `REVERSIBLE?(S(M)@t[1],S(M)@t[0])`; `REVERSIBLE?(~H[player].U@t[1],H[player].U@t[0]) = FALSE`; `E <> M/O[heart] -> C(E) + ~E.U`; `M/O[numidium] -> W@t[0] -> W@t[1][a] AND W@t[0] -> W@t[1][b]`
+```
+E[vivec] <> S(M); E[vivec].U
+H[player] <> S(M); !S(M)[error] -> S(M)@t[0]
+REVERSIBLE?(S(M)@t[1],S(M)@t[0])
+REVERSIBLE?(~H[player].U@t[1],H[player].U@t[0]) = FALSE
+E <> M/O[heart] -> C(E) + ~E.U
+M/O[numidium] -> W@t[0] -> W@t[1][a] AND W@t[0] -> W@t[1][b]
+```
 
 ## Проверка применимости онтологии
 

@@ -31,7 +31,17 @@ VEGA — синтетический `A[vega]`, созданный людьми �
 
 **Контур UWI.**
 
-`H[uac] <> M[hell] -> +D/O[argent,energy] + !V`; `C(E[khan_maykr]) -> !M[1]..!M[n] + !V`; `H[slayer][altered_carrier] <> E[demon] -> !E/V`; `E[maykr] <> H[slayer][tether] -> ~H[slayer]`; `ACCESS?(E[maykr],H[slayer].U) = FALSE`; `H -> +A[vega]`; `A[vega] <> M[urdak] -> ~A[vega]`; `(A[vega] = E[father]) = UNKNOWN`; `C(E[davoth]) -> +M + ~M + !V`
+```
+H[uac] <> M[hell] -> +D/O[argent,energy] + !V
+C(E[khan_maykr]) -> !M[1]..!M[n] + !V
+H[slayer][altered_carrier] <> E[demon] -> !E/V
+E[maykr] <> H[slayer][tether] -> ~H[slayer]
+ACCESS?(E[maykr],H[slayer].U) = FALSE
+H -> +A[vega]
+A[vega] <> M[urdak] -> ~A[vega]
+(A[vega] = E[father]) = UNKNOWN
+C(E[davoth]) -> +M + ~M + !V
+```
 
 ## Проверка применимости онтологии
 

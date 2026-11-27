@@ -35,7 +35,19 @@
 
 **Контур UWI.**
 
-`H[other] <> M[twilight] -> C(H[other]) + ~W`; `H[light] <> H[dark][treaty,watches,inquisition] -> (!H) = FALSE`; `H[light] <> H[dark] -> +D/O[covert_operations]`; `H[other] <> H[human] -> ~H.U + ~W/V`; `W/O[fuaran] -> ~H[human] -> +H[other]`; `TRANSMIT?(H[human].U,H[other].U) = FALSE`; `H[kesha]@t[0] <> W@t[1] -> ~H[kesha].U@t[0]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `E[tiger] -> MAY?(!H)`; `G[dual] -> ~H[other] + MAY?(!H) + MAY?(!V)`; `H[light] + H[dark] + H[inquisition] <> G[dual]`
+```
+H[other] <> M[twilight] -> C(H[other]) + ~W
+H[light] <> H[dark][treaty,watches,inquisition] -> (!H) = FALSE
+H[light] <> H[dark] -> +D/O[covert_operations]
+H[other] <> H[human] -> ~H.U + ~W/V
+W/O[fuaran] -> ~H[human] -> +H[other]
+TRANSMIT?(H[human].U,H[other].U) = FALSE
+H[kesha]@t[0] <> W@t[1] -> ~H[kesha].U@t[0]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+E[tiger] -> MAY?(!H)
+G[dual] -> ~H[other] + MAY?(!H) + MAY?(!V)
+H[light] + H[dark] + H[inquisition] <> G[dual]
+```
 
 ## Проверка применимости онтологии
 

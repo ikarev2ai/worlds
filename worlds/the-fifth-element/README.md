@@ -22,7 +22,17 @@
 
 **Контур UWI.**
 
-`E[mondoshawan] -> +W/O[stones,sarcophagus,ritual] -> H <> O -> ~H.U`; `H -> +W/O[body] + D/O[data] -> +E[leeloo_synth]`; `E[leeloo_synth].U`; `E[leeloo] <> H[korben] + H[cornelius][L,actions] -> ~E[leeloo].U + ~H[korben].U`; `E[leeloo] <> D/O[war,records] -> ~E[leeloo].U`; `MATCH?(E[leeloo]) = FALSE`; `H[korben] <> E[leeloo] -> ~E[leeloo].U`; `C(E[leeloo]) + W/O[four,stones] -> !W/O[great_evil]`; `(!V) = FALSE`
+```
+E[mondoshawan] -> +W/O[stones,sarcophagus,ritual] -> H <> O -> ~H.U
+H -> +W/O[body] + D/O[data] -> +E[leeloo_synth]
+E[leeloo_synth].U
+E[leeloo] <> H[korben] + H[cornelius][L,actions] -> ~E[leeloo].U + ~H[korben].U
+E[leeloo] <> D/O[war,records] -> ~E[leeloo].U
+MATCH?(E[leeloo]) = FALSE
+H[korben] <> E[leeloo] -> ~E[leeloo].U
+C(E[leeloo]) + W/O[four,stones] -> !W/O[great_evil]
+(!V) = FALSE
+```
 
 ## Проверка применимости онтологии
 

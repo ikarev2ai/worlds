@@ -18,7 +18,12 @@
 
 **Контур UWI.**
 
-`+W/O[babylon,5] -> (H + E[minbari] + E[narn] + E[centauri] + E[vorlon]) <>`; `E[vorlon] <> E[shadows][younger,races] -> !V`; `!<>(E[vorlon] + E[shadows],H + E[minbari]) -> ~H.U + ~E.U`; `W@t[now] -> W@t[past] -> +O[babylon,4,valen] -> ~E[minbari].U@dT`
+```
++W/O[babylon,5] -> (H + E[minbari] + E[narn] + E[centauri] + E[vorlon]) <>
+E[vorlon] <> E[shadows][younger,races] -> !V
+!<>(E[vorlon] + E[shadows],H + E[minbari]) -> ~H.U + ~E.U
+W@t[now] -> W@t[past] -> +O[babylon,4,valen] -> ~E[minbari].U@dT
+```
 
 ## Проверка применимости онтологии
 

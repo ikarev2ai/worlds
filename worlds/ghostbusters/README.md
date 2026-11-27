@@ -24,7 +24,20 @@
 
 **Контур UWI.**
 
-`H[egon] + H[ray] + H[peter] + H[winston] <> W/O[sensors] -> ~H.U`; `M/E[ghost] <> W -> ~W`; `H[team] <> M/E[ghost][proton_packs] -> +W/O[containment]`; `(!E[ghost]) = UNKNOWN`; `E[zuul] <> H[dana] -> ~H[dana]`; `E[vinz] <> H[louis] -> ~H[louis]`; `(H[dana]@t[0] = H[dana]@t[1]) = UNKNOWN`; `(H[louis]@t[0] = H[louis]@t[1]) = UNKNOWN`; `W/O[shandor_building] -> M[gozer] <> W`; `G[gozer] <> H[team] -> ~G[gozer][stay_puft]`; `H[team] -> !W/O[gate]`; `(!G[gozer]) = UNKNOWN`
+```
+H[egon] + H[ray] + H[peter] + H[winston] <> W/O[sensors] -> ~H.U
+M/E[ghost] <> W -> ~W
+H[team] <> M/E[ghost][proton_packs] -> +W/O[containment]
+(!E[ghost]) = UNKNOWN
+E[zuul] <> H[dana] -> ~H[dana]
+E[vinz] <> H[louis] -> ~H[louis]
+(H[dana]@t[0] = H[dana]@t[1]) = UNKNOWN
+(H[louis]@t[0] = H[louis]@t[1]) = UNKNOWN
+W/O[shandor_building] -> M[gozer] <> W
+G[gozer] <> H[team] -> ~G[gozer][stay_puft]
+H[team] -> !W/O[gate]
+(!G[gozer]) = UNKNOWN
+```
 
 ## Проверка применимости онтологии
 

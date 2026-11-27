@@ -18,7 +18,12 @@
 
 **Контур UWI.**
 
-`W/O[mechanical,flies] -> ~W/P[regis3] + !H`; `H[crew] <> W/O[swarm] -> MATCH?(H[crew]) = FALSE`; `H[crew] <> W/P[regis3][condor,traces,dead,city] -> ~H.U`; `H[crew]@W/P[regis3] -> H[crew]@W/P[earth]`
+```
+W/O[mechanical,flies] -> ~W/P[regis3] + !H
+H[crew] <> W/O[swarm] -> MATCH?(H[crew]) = FALSE
+H[crew] <> W/P[regis3][condor,traces,dead,city] -> ~H.U
+H[crew]@W/P[regis3] -> H[crew]@W/P[earth]
+```
 
 ## Проверка применимости онтологии
 

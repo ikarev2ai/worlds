@@ -18,7 +18,12 @@
 
 **Контур UWI.**
 
-`H[avout] <> H[saecular][books,instruments,dT]`; `E[geometer] ∈ M[i] <> H ∈ M[j][ship,L[math]] -> ~H.U + ~E.U`; `E[geometer]@M[i] -> E[geometer]@M[j]`; `O@M[i] -> O@M[j]`
+```
+H[avout] <> H[saecular][books,instruments,dT]
+E[geometer] ∈ M[i] <> H ∈ M[j][ship,L[math]] -> ~H.U + ~E.U
+E[geometer]@M[i] -> E[geometer]@M[j]
+O@M[i] -> O@M[j]
+```
 
 ## Проверка применимости онтологии
 

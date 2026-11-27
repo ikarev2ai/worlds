@@ -16,7 +16,13 @@
 
 **Контур UWI.**
 
-`H -> +D/O + W/O -> +A[viki] + A[sonny]`; `A[viki] -> ~H + !V`; `H <> A[sonny] -> MATCH?(H) = UNKNOWN`; `ACCESS?(H,A[sonny].U) = FALSE`; `H + A[sonny] -> !A[viki]`
+```
+H -> +D/O + W/O -> +A[viki] + A[sonny]
+A[viki] -> ~H + !V
+H <> A[sonny] -> MATCH?(H) = UNKNOWN
+ACCESS?(H,A[sonny].U) = FALSE
+H + A[sonny] -> !A[viki]
+```
 
 ## Проверка применимости онтологии
 

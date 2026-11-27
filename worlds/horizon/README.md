@@ -21,7 +21,16 @@
 
 **Контур UWI.**
 
-`D/O[faro_plague] <> W/O[machines] -> !V[W/P[earth]]`; `A[gaia] -> S(W) + O -> +V + H[aloy]`; `!D/O[APOLLO] -> H <> W/O[ruins] -> ~H.U[mythology]`; `D/O[HADES] -> !V`; `D/O[sobek,traces] -> +H[beta]`; `TRANSMIT?(H[sobek].U,H[beta].U) = FALSE`; `H[far_zenith] <> A[gaia] -> ~A[gaia] + ~V`; `A[nemesis] -> MAY?(!V)`
+```
+D/O[faro_plague] <> W/O[machines] -> !V[W/P[earth]]
+A[gaia] -> S(W) + O -> +V + H[aloy]
+!D/O[APOLLO] -> H <> W/O[ruins] -> ~H.U[mythology]
+D/O[HADES] -> !V
+D/O[sobek,traces] -> +H[beta]
+TRANSMIT?(H[sobek].U,H[beta].U) = FALSE
+H[far_zenith] <> A[gaia] -> ~A[gaia] + ~V
+A[nemesis] -> MAY?(!V)
+```
 
 ## Проверка применимости онтологии
 

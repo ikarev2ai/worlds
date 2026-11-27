@@ -16,7 +16,12 @@
 
 **Контур UWI.**
 
-`H -> +D/O[three_laws] + W/O[robots]`; `A ∈ D; (!V) = FALSE`; `MATCH?(A) = FALSE`; `H <> A[dialogue,commands,joint_actions] -> ~H.U + ~A.U`
+```
+H -> +D/O[three_laws] + W/O[robots]
+A ∈ D; (!V) = FALSE
+MATCH?(A) = FALSE
+H <> A[dialogue,commands,joint_actions] -> ~H.U + ~A.U
+```
 
 ## Проверка применимости онтологии
 

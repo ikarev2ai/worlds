@@ -20,7 +20,14 @@
 
 **Контур UWI.**
 
-`E[visitors][hypothesis] -> +W/O[artifacts] + ~W[zone]`; `H[stalker] <> W/O + ~W -> ~H.U + ~V + MAY?(!H)`; `H[scientist] <> W/O -> +D/O[models]`; `ACCESS?(H[scientist],E[visitors].U) = FALSE`; `H[state] + H[market] <> W/O -> ~W/O + +W/O[traces]`; `H[redrick] <> W/O[golden_sphere] -> ~H[redrick].U`
+```
+E[visitors][hypothesis] -> +W/O[artifacts] + ~W[zone]
+H[stalker] <> W/O + ~W -> ~H.U + ~V + MAY?(!H)
+H[scientist] <> W/O -> +D/O[models]
+ACCESS?(H[scientist],E[visitors].U) = FALSE
+H[state] + H[market] <> W/O -> ~W/O + +W/O[traces]
+H[redrick] <> W/O[golden_sphere] -> ~H[redrick].U
+```
 
 ## Проверка применимости онтологии
 

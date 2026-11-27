@@ -31,7 +31,14 @@
 
 **Контур UWI.**
 
-`H[mage] <> M[fade] + E[spirit] -> C(H[mage]) + MAY?(~H[mage])`; `E[archdemon] -> E/V[darkspawn_swarm] -> !V + ~M`; `H[templar] <> H[mage] -> ~H[mage] + !H`; `C(E[corypheus]) -> M/O[sfera] -> M[fade] <> M[thedas]`; `C(E[solas]) -> !M/O[veil] -> MAY?(!V)`; `H[rook] + companions <> E[evanuris] -> (!M[thedas]) = FALSE`
+```
+H[mage] <> M[fade] + E[spirit] -> C(H[mage]) + MAY?(~H[mage])
+E[archdemon] -> E/V[darkspawn_swarm] -> !V + ~M
+H[templar] <> H[mage] -> ~H[mage] + !H
+C(E[corypheus]) -> M/O[sfera] -> M[fade] <> M[thedas]
+C(E[solas]) -> !M/O[veil] -> MAY?(!V)
+H[rook] + companions <> E[evanuris] -> (!M[thedas]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

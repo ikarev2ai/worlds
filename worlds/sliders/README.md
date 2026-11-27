@@ -22,7 +22,15 @@
 
 **Контур UWI.**
 
-`H[quinn] -> +W/O[timer] -> H <> W/P[earth][1..n]`; `H[traveler] <> H[double][i][L,joint,actions] -> ~H.U`; `TRANSMIT?(H[double][i].U,H[traveler].U) = FALSE`; `C(E[kromagg]) -> W/O[sliding] -> ~W/P[earth][i] + !V`; `H[traveler] <> E[kromagg] -> MATCH?(H[traveler]) = FALSE + ~H.U + ~E.U`; `~W/O[timer] -> ~H[traveler]`; `(!H[traveler]) = UNKNOWN`
+```
+H[quinn] -> +W/O[timer] -> H <> W/P[earth][1..n]
+H[traveler] <> H[double][i][L,joint,actions] -> ~H.U
+TRANSMIT?(H[double][i].U,H[traveler].U) = FALSE
+C(E[kromagg]) -> W/O[sliding] -> ~W/P[earth][i] + !V
+H[traveler] <> E[kromagg] -> MATCH?(H[traveler]) = FALSE + ~H.U + ~E.U
+~W/O[timer] -> ~H[traveler]
+(!H[traveler]) = UNKNOWN
+```
 
 ## Проверка применимости онтологии
 

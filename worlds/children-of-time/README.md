@@ -16,7 +16,11 @@
 
 **Контур UWI.**
 
-`A[kern] ∈ D; A[kern] <> E[portia][L[spider]]`; `E[portia] <> H[biological,trace] -> ~H.U`; `(!V) = FALSE`
+```
+A[kern] ∈ D; A[kern] <> E[portia][L[spider]]
+E[portia] <> H[biological,trace] -> ~H.U
+(!V) = FALSE
+```
 
 ## Проверка применимости онтологии
 

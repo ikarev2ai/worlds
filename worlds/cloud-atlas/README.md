@@ -27,7 +27,15 @@
 
 **Контур UWI.**
 
-`H[ewing] -> +W/O[diary] -> H[frobisher] <> O -> ~H[frobisher].U`; `H[frobisher] -> +W/O[letters,sextet] -> H[luisa] <> O -> ~H[luisa].U`; `H[luisa] + H[cavendish] -> +W/O[manuscripts,films] -> H[sonmi] <> O -> ~H[sonmi].U`; `H -> +H[sonmi][451]; H[sonmi][451].U`; `C(H[corporation]) -> !H[fabricant] + !V`; `H[sonmi] -> +W/O[interrogation] -> H[zachry] <> O -> ~H[zachry].U`; `H[zachry] <> O -> G[sonmi]`
+```
+H[ewing] -> +W/O[diary] -> H[frobisher] <> O -> ~H[frobisher].U
+H[frobisher] -> +W/O[letters,sextet] -> H[luisa] <> O -> ~H[luisa].U
+H[luisa] + H[cavendish] -> +W/O[manuscripts,films] -> H[sonmi] <> O -> ~H[sonmi].U
+H -> +H[sonmi][451]; H[sonmi][451].U
+C(H[corporation]) -> !H[fabricant] + !V
+H[sonmi] -> +W/O[interrogation] -> H[zachry] <> O -> ~H[zachry].U
+H[zachry] <> O -> G[sonmi]
+```
 
 ## Проверка применимости онтологии
 

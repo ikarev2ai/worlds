@@ -17,25 +17,46 @@
 **Контуры UWI.**
 
 [dialogue]
-`H[1]@t[1] <> H[2]@t[1][L[nat]] -> ~H[2].U@t[2]`; `H[2]@t[2] <> H[1]@t[2][L[nat]] -> ~H[1].U@t[3]`
+```
+H[1]@t[1] <> H[2]@t[1][L[nat]] -> ~H[2].U@t[2]
+H[2]@t[2] <> H[1]@t[2][L[nat]] -> ~H[1].U@t[3]
+```
 
 [book]
-`H[1] <> W@t[0] -> ~H[1].U@t[1]`; `H[1] -> +W/O[book]@t[1]`; `@t[1] -> @t[2][dT]`; `H[2]@t[2] <> W/O@t[1] -> ~H[2].U@t[2]`
+```
+H[1] <> W@t[0] -> ~H[1].U@t[1]
+H[1] -> +W/O[book]@t[1]
+@t[1] -> @t[2][dT]
+H[2]@t[2] <> W/O@t[1] -> ~H[2].U@t[2]
+```
 
 [portal]
-`H[1] <> M -> +W/O[jacket,cyberpunk,2077] -> H[2] <> W/O -> ~H[2].U`
+```
+H[1] <> M -> +W/O[jacket,cyberpunk,2077] -> H[2] <> W/O -> ~H[2].U
+```
 
 [life,contact]
-`H <> W/V -> ~H.U`; `H <> W/V -> ~W[garden] -> +O`
+```
+H <> W/V -> ~H.U
+H <> W/V -> ~W[garden] -> +O
+```
 
 [joint,work]
-`H[master] <> H[apprentice][practice,dT] -> ~H[apprentice].U`
+```
+H[master] <> H[apprentice][practice,dT] -> ~H[apprentice].U
+```
 
 [gesture,silence]
-`H[1].U -> +O[gesture] -> H[2] <> O -> ~H[2].U`
+```
+H[1].U -> +O[gesture] -> H[2] <> O -> ~H[2].U
+```
 
 [city,trace]
-`+W/O[architecture]@t[0]`; `@t[0] -> @t[k][dT]`; `H[n]@t[k] <> W/O -> ~H[n].U`
+```
++W/O[architecture]@t[0]
+@t[0] -> @t[k][dT]
+H[n]@t[k] <> W/O -> ~H[n].U
+```
 
 ## Проверка применимости онтологии
 

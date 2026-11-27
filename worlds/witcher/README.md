@@ -36,7 +36,15 @@
 
 **Контур UWI.**
 
-`M[1..n] <> W[conjunction_of_spheres] -> +V + +H/E`; `H <> E[L,trade,war] -> ~H.U + ~E.U + !V`; `H[witcher] <> V/E -> ((!V) = FALSE OR !V)`; `C(H[ciri]) -> W <> M[1..n]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `C(H[vilgefortz]) + H[lodge] <> H[ciri] -> ~H[ciri]`; `H[geralt] + H[yennefer] + H[companion] <> H[ciri] -> ~H.U + ~E.U`
+```
+M[1..n] <> W[conjunction_of_spheres] -> +V + +H/E
+H <> E[L,trade,war] -> ~H.U + ~E.U + !V
+H[witcher] <> V/E -> ((!V) = FALSE OR !V)
+C(H[ciri]) -> W <> M[1..n]
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+C(H[vilgefortz]) + H[lodge] <> H[ciri] -> ~H[ciri]
+H[geralt] + H[yennefer] + H[companion] <> H[ciri] -> ~H.U + ~E.U
+```
 
 ## Проверка применимости онтологии
 

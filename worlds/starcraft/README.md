@@ -25,7 +25,13 @@
 
 **Контур UWI.**
 
-`H[terran] <> E[protoss] + E[zerg][L,telepathic_traces,technical_traces]`; `E[overmind] -> E[zerg][N → 1]`; `H[kerrigan] -> E[kerrigan][infestation] + ~V -> C(E[kerrigan])`; `E[amon] -> !V[hybrids,swarms]`; `+M/O[kel_morian_artifact] -> ~E[kerrigan]`
+```
+H[terran] <> E[protoss] + E[zerg][L,telepathic_traces,technical_traces]
+E[overmind] -> E[zerg][N → 1]
+H[kerrigan] -> E[kerrigan][infestation] + ~V -> C(E[kerrigan])
+E[amon] -> !V[hybrids,swarms]
++M/O[kel_morian_artifact] -> ~E[kerrigan]
+```
 
 ## Проверка применимости онтологии
 

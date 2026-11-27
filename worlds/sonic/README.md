@@ -25,7 +25,13 @@
 
 **Контур UWI.**
 
-`H[eggman] -> +D/O + W/O[robots] -> ~V + ~M`; `E[sonic] + E[tails] + E[knuckles] <> M/O[emeralds] -> C(E) -> (!V) = FALSE`; `E[chaos] + M/O[emeralds] -> C(E[chaos]) + !V`; `A[gamma] <> E[amy] + V[bird] -> ~A[gamma].U`; `!A[gamma] -> (!V[bird]) = FALSE`
+```
+H[eggman] -> +D/O + W/O[robots] -> ~V + ~M
+E[sonic] + E[tails] + E[knuckles] <> M/O[emeralds] -> C(E) -> (!V) = FALSE
+E[chaos] + M/O[emeralds] -> C(E[chaos]) + !V
+A[gamma] <> E[amy] + V[bird] -> ~A[gamma].U
+!A[gamma] -> (!V[bird]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -22,7 +22,16 @@
 
 **Контур UWI.**
 
-`H -> +W/O[biological_weapon] -> !V + ~H`; `H[city] <> A[larisa] -> ~W/O + ~H.U`; `H[rada] <> H[gera][L,joint,actions] -> ~H[rada].U + ~H[gera].U`; `C(A[larisa]) -> ~H + MAY?(!H)`; `H[gera] + H[allies] -> !A[larisa] -> ~W/O[infrastructure]`; `H[baron] <> A[ludmila] -> ~H[baron].U + ~A[ludmila].U`; `H[gera] <> S(D)[mental_prison] -> ~H[gera].U`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+```
+H -> +W/O[biological_weapon] -> !V + ~H
+H[city] <> A[larisa] -> ~W/O + ~H.U
+H[rada] <> H[gera][L,joint,actions] -> ~H[rada].U + ~H[gera].U
+C(A[larisa]) -> ~H + MAY?(!H)
+H[gera] + H[allies] -> !A[larisa] -> ~W/O[infrastructure]
+H[baron] <> A[ludmila] -> ~H[baron].U + ~A[ludmila].U
+H[gera] <> S(D)[mental_prison] -> ~H[gera].U
+REVERSIBLE?(W@t[1],W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -23,7 +23,13 @@
 
 **Контур UWI.**
 
-`H[progressor] ∈ W/P[earth] <> E ∈ W/P[x] -> +O[intervention,trace] -> ~E.U + ~W/P[x]`; `E[wanderers] <> W/P[x][traces]`; `ACCESS?(H,E[wanderers].U) = FALSE`; `H <> E[luden]`; `ACCESS?(H,E[luden].U) = FALSE`
+```
+H[progressor] ∈ W/P[earth] <> E ∈ W/P[x] -> +O[intervention,trace] -> ~E.U + ~W/P[x]
+E[wanderers] <> W/P[x][traces]
+ACCESS?(H,E[wanderers].U) = FALSE
+H <> E[luden]
+ACCESS?(H,E[luden].U) = FALSE
+```
 
 ## Проверка применимости онтологии
 

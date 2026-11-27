@@ -25,7 +25,13 @@
 
 **Контур UWI.**
 
-`H[ender] <> S(W)[training] -> !W/P[formic] + !V`; `H[ender] <> E[formic] + E[pequenino][L,stories,philotic_traces] -> ~H.U + ~E.U`; `A[jane] ∈ D[ansible] -> C(A[jane])`; `V[descolada] -> ~V + !V`; `aiua -> X; X.U; (aiua = X.U) = FALSE`
+```
+H[ender] <> S(W)[training] -> !W/P[formic] + !V
+H[ender] <> E[formic] + E[pequenino][L,stories,philotic_traces] -> ~H.U + ~E.U
+A[jane] ∈ D[ansible] -> C(A[jane])
+V[descolada] -> ~V + !V
+aiua -> X; X.U; (aiua = X.U) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -22,7 +22,14 @@ P-3 взаимодействует с полимерной перчаткой Х
 
 **Контур UWI.**
 
-`H[sechenov] -> +D/O[collective] + W/O[robots]`; `D/O[combat_mode] <> W/O -> !H`; `H[p3] <> A[charles] + H[sechenov] + H[filatova] -> ~H[p3].U`; `A[charles] <> H[p3][messages] -> MATCH?(H[p3]) = UNKNOWN`; `ACCESS?(A[charles],H[p3].U) = FALSE`; `C(H[sechenov]) + C(A[charles]) -> D/O[collective] <> H -> ~H + ~W/O`
+```
+H[sechenov] -> +D/O[collective] + W/O[robots]
+D/O[combat_mode] <> W/O -> !H
+H[p3] <> A[charles] + H[sechenov] + H[filatova] -> ~H[p3].U
+A[charles] <> H[p3][messages] -> MATCH?(H[p3]) = UNKNOWN
+ACCESS?(A[charles],H[p3].U) = FALSE
+C(H[sechenov]) + C(A[charles]) -> D/O[collective] <> H -> ~H + ~W/O
+```
 
 ## Проверка применимости онтологии
 

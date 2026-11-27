@@ -18,7 +18,12 @@
 
 **Контур UWI.**
 
-`H[constellation] <> M/O[artifacts,temples] -> ~H.U + C(H)`; `H[player] <> M/O[unity] -> H[starborn]@M[i] -> H[starborn]@M[j]`; `H[hunter] <> H[emissary] -> MATCH?(H[hunter]) = FALSE`; `O@M[i] -> O@M[j]`
+```
+H[constellation] <> M/O[artifacts,temples] -> ~H.U + C(H)
+H[player] <> M/O[unity] -> H[starborn]@M[i] -> H[starborn]@M[j]
+H[hunter] <> H[emissary] -> MATCH?(H[hunter]) = FALSE
+O@M[i] -> O@M[j]
+```
 
 ## Проверка применимости онтологии
 

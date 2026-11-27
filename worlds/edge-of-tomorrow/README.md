@@ -22,7 +22,15 @@
 
 **Контур UWI.**
 
-`E[mimic] <> H[humanity] -> !V + ~W/P[earth]`; `C(E[omega]) -> W@t[1] -> W@t[0]`; `H[cage] <> E[alpha] -> C(H[cage])`; `H[cage] <> H[rita]@t[0][i] -> ~H[cage].U`; `!H[cage]@t[1][i] -> W@t[0][i+1]`; `REVERSIBLE?(~H[cage].U@t[1],H[cage].U@t[0]) = FALSE`; `H[cage] + H[rita] -> !E[omega] -> (W@t[1] -> W@t[0]) = FALSE`
+```
+E[mimic] <> H[humanity] -> !V + ~W/P[earth]
+C(E[omega]) -> W@t[1] -> W@t[0]
+H[cage] <> E[alpha] -> C(H[cage])
+H[cage] <> H[rita]@t[0][i] -> ~H[cage].U
+!H[cage]@t[1][i] -> W@t[0][i+1]
+REVERSIBLE?(~H[cage].U@t[1],H[cage].U@t[0]) = FALSE
+H[cage] + H[rita] -> !E[omega] -> (W@t[1] -> W@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

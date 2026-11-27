@@ -20,7 +20,20 @@
 
 **Контур UWI.**
 
-`A[core] ∈ D[farcasters]`; `H[1..7] <> L[stories] -> ~H.U`; `W/O[cruciform] -> !V -> +H -> ~H.U`; `H[rachel]@t[1] -> H[rachel]@t[0]`; `W/O[tombs]@t[1] -> W/O@t[0]`; `H[kassad] <> S(W); H[moneta] ∈ W; H[moneta] <> S(W)`; `+W/O[keats,poems] -> +D/A[johnny] <> W/O[body]`; `!W/O[body] -> A[johnny] ∈ D`; `(E[shrike].U) = UNKNOWN`; `E[shrike] -> !V`; `W/O[tree_of_pain] -> ~V`; `(!V) = FALSE`
+```
+A[core] ∈ D[farcasters]
+H[1..7] <> L[stories] -> ~H.U
+W/O[cruciform] -> !V -> +H -> ~H.U
+H[rachel]@t[1] -> H[rachel]@t[0]
+W/O[tombs]@t[1] -> W/O@t[0]
+H[kassad] <> S(W); H[moneta] ∈ W; H[moneta] <> S(W)
++W/O[keats,poems] -> +D/A[johnny] <> W/O[body]
+!W/O[body] -> A[johnny] ∈ D
+(E[shrike].U) = UNKNOWN
+E[shrike] -> !V
+W/O[tree_of_pain] -> ~V
+(!V) = FALSE
+```
 
 ## Проверка применимости онтологии
 

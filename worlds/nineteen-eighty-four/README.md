@@ -22,7 +22,13 @@
 
 **Контур UWI.**
 
-`H[party] -> ~W/O[archives] + !W/O[previous,records] -> ~H.U`; `H[party] -> ~L[newspeak] -> MAY?(H[1] <> H[2][mismatch_report]) = FALSE`; `H[winston] <> H[julia] -> ~H.U`; `C(H[party]) -> D/W/O[surveillance] <> H -> ~H.U + MAY?(!H)`; `H[party] -> +W/O[big_brother] -> G[big_brother]`
+```
+H[party] -> ~W/O[archives] + !W/O[previous,records] -> ~H.U
+H[party] -> ~L[newspeak] -> MAY?(H[1] <> H[2][mismatch_report]) = FALSE
+H[winston] <> H[julia] -> ~H.U
+C(H[party]) -> D/W/O[surveillance] <> H -> ~H.U + MAY?(!H)
+H[party] -> +W/O[big_brother] -> G[big_brother]
+```
 
 ## Проверка применимости онтологии
 

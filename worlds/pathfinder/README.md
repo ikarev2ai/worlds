@@ -23,7 +23,16 @@
 
 **Контур UWI.**
 
-`H/E[ruler] <> H/E[companion][L,laws,quests] -> ~H[ruler].U + ~E[ruler].U + ~M`; `G[lantern_king] <> E[nyrissa][curse] -> ~H/E + !V`; `H[commander] <> M/O[mythic,power] -> C(H[commander]) + ~H`; `G[1..n] <> H/E[visions,messengers,O]`; `ACCESS?(H/E,G.U) = FALSE`; `H[player] <> S(M)`; `REVERSIBLE?(S(M)@t[1],S(M)@t[0])`; `REVERSIBLE?(~H[player].U@t[1],H[player].U@t[0]) = FALSE`
+```
+H/E[ruler] <> H/E[companion][L,laws,quests] -> ~H[ruler].U + ~E[ruler].U + ~M
+G[lantern_king] <> E[nyrissa][curse] -> ~H/E + !V
+H[commander] <> M/O[mythic,power] -> C(H[commander]) + ~H
+G[1..n] <> H/E[visions,messengers,O]
+ACCESS?(H/E,G.U) = FALSE
+H[player] <> S(M)
+REVERSIBLE?(S(M)@t[1],S(M)@t[0])
+REVERSIBLE?(~H[player].U@t[1],H[player].U@t[0]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

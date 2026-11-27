@@ -31,7 +31,15 @@
 
 **Контур UWI.**
 
-`M[1..n]: [M/P[earth],M/P[asgard],M/P[x]]`; `H <> [A[jarvis],A[ultron],A[vision]]`; `H <> [E[asgardian],E[thanos],E[celestial]]`; `H/E <> M/O[infinity_stones,portals] -> [~W,~M,~V]`; `E[thanos] <> M/O[gauntlet] -> !0.5 V`; `M/O[time_stone] -> W@t[1] -> W@t[0]`; `H/E <> M[i] -> +O[trace_in_M[j]]`
+```
+M[1..n]: [M/P[earth],M/P[asgard],M/P[x]]
+H <> [A[jarvis],A[ultron],A[vision]]
+H <> [E[asgardian],E[thanos],E[celestial]]
+H/E <> M/O[infinity_stones,portals] -> [~W,~M,~V]
+E[thanos] <> M/O[gauntlet] -> !0.5 V
+M/O[time_stone] -> W@t[1] -> W@t[0]
+H/E <> M[i] -> +O[trace_in_M[j]]
+```
 
 ## Проверка применимости онтологии
 

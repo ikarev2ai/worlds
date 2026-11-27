@@ -19,7 +19,13 @@
 
 **Контур UWI.**
 
-`H <> S(W)`; `A[architect] ∈ D; A[architect] <> S(W)`; `E[smith] ∈ S(W)`; `!<>(H[neo],S(W)) -> ~H[neo].U`; `H[neo] ∈ W`
+```
+H <> S(W)
+A[architect] ∈ D; A[architect] <> S(W)
+E[smith] ∈ S(W)
+!<>(H[neo],S(W)) -> ~H[neo].U
+H[neo] ∈ W
+```
 
 ## Проверка применимости онтологии
 

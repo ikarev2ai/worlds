@@ -22,7 +22,20 @@
 
 **Контур UWI.**
 
-`E[unknown] -> +A[tet]`; `A[tet] + W/O[biological_traces,bodies] + D/O[prepared_data] -> +H[jack][49] + H[jack][52] + H[vika][i]`; `H[jack][49].U`; `H[jack][52].U`; `TRANSMIT?(H[jack].U,H[jack][49].U) = FALSE`; `TRANSMIT?(H[jack].U,H[jack][52].U) = FALSE`; `(H[jack][49] = H[jack][52]) = UNKNOWN`; `A[tet] <> H[jack][49][false_mission] -> ~H[jack][49].U`; `H[beech] + H[julia] <> H[jack][49] -> ~H[jack][49].U`; `C(A[tet]) -> W/O[drones,stations] -> ~W/P[earth] + !V`; `H[jack][49] + H[beech] -> !A[tet]`; `H[jack][52] <> W/O[human_traces] -> ~H[jack][52].U`
+```
+E[unknown] -> +A[tet]
+A[tet] + W/O[biological_traces,bodies] + D/O[prepared_data] -> +H[jack][49] + H[jack][52] + H[vika][i]
+H[jack][49].U
+H[jack][52].U
+TRANSMIT?(H[jack].U,H[jack][49].U) = FALSE
+TRANSMIT?(H[jack].U,H[jack][52].U) = FALSE
+(H[jack][49] = H[jack][52]) = UNKNOWN
+A[tet] <> H[jack][49][false_mission] -> ~H[jack][49].U
+H[beech] + H[julia] <> H[jack][49] -> ~H[jack][49].U
+C(A[tet]) -> W/O[drones,stations] -> ~W/P[earth] + !V
+H[jack][49] + H[beech] -> !A[tet]
+H[jack][52] <> W/O[human_traces] -> ~H[jack][52].U
+```
 
 ## Проверка применимости онтологии
 

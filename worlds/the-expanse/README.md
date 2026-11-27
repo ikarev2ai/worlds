@@ -22,7 +22,14 @@
 
 **Контур UWI.**
 
-`H[earth] <> H[mars] + H[belt][L,diplomacy,war] -> ~H.U + !V`; `W/O[protomolecule] -> ~V + !V[Eros] -> +W/O[ring]`; `W/O[protomolecule] + D/O[miller_traces] -> +A[investigator]`; `H[holden] <> A[investigator] -> ~H[holden].U`; `C(E[ring_builders]) -> W/O[gates] <> M/P[1]..M/P[n]`; `H[duarte] <> W/O[technologies] -> C(H[duarte])`
+```
+H[earth] <> H[mars] + H[belt][L,diplomacy,war] -> ~H.U + !V
+W/O[protomolecule] -> ~V + !V[Eros] -> +W/O[ring]
+W/O[protomolecule] + D/O[miller_traces] -> +A[investigator]
+H[holden] <> A[investigator] -> ~H[holden].U
+C(E[ring_builders]) -> W/O[gates] <> M/P[1]..M/P[n]
+H[duarte] <> W/O[technologies] -> C(H[duarte])
+```
 
 ## Проверка применимости онтологии
 

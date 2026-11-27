@@ -24,7 +24,16 @@
 
 **Контур UWI.**
 
-`H[imperium] <> E[xenos][L,trade,war] -> ~H.U + ~E.U + !V`; `H[psyker] <> M[warp] -> C(H[psyker]) + MAY?(~H[psyker] OR !H[psyker])`; `G[chaos] <> H/E[cults,demons,traces] -> ~H.U + ~E.U + !V`; `E[necrontyr] + E[ctan] -> +E[necron]`; `E[necron].U`; `H -> +A[men_of_iron]`; `N → 1[E[tyranid],E[hive_mind]]`; `C(H[emperor]) -> +W/O[astronomicon] -> W/P[1] <> W/P[n]`
+```
+H[imperium] <> E[xenos][L,trade,war] -> ~H.U + ~E.U + !V
+H[psyker] <> M[warp] -> C(H[psyker]) + MAY?(~H[psyker] OR !H[psyker])
+G[chaos] <> H/E[cults,demons,traces] -> ~H.U + ~E.U + !V
+E[necrontyr] + E[ctan] -> +E[necron]
+E[necron].U
+H -> +A[men_of_iron]
+N → 1[E[tyranid],E[hive_mind]]
+C(H[emperor]) -> +W/O[astronomicon] -> W/P[1] <> W/P[n]
+```
 
 ## Проверка применимости онтологии
 

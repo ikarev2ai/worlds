@@ -24,7 +24,15 @@
 
 **Контур UWI.**
 
-`H[mutant] <> H[human][L,laws,joint_actions] -> ~H.U`; `C(H[xavier]) -> D/O[cerebro] <> H[1..n]`; `ACCESS?(H[xavier],H.U) = FALSE`; `C(H[magneto]) + W/O[machine] -> ~H`; `C(H[stryker]) -> MAY?(!H)`; `C(H[phoenix]) -> !V + ~W`; `W/O[cure] -> ~H[mutant]`
+```
+H[mutant] <> H[human][L,laws,joint_actions] -> ~H.U
+C(H[xavier]) -> D/O[cerebro] <> H[1..n]
+ACCESS?(H[xavier],H.U) = FALSE
+C(H[magneto]) + W/O[machine] -> ~H
+C(H[stryker]) -> MAY?(!H)
+C(H[phoenix]) -> !V + ~W
+W/O[cure] -> ~H[mutant]
+```
 
 ## Проверка применимости онтологии
 

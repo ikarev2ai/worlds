@@ -22,7 +22,16 @@
 
 **Контур UWI.**
 
-`H[jean] -> +A[gogol][1..n][synthetic,carriers]`; `A[gogol][i] <> S(D)[dilemma,prison] -> ~A[gogol][i].U`; `A[jean][i]@S(D) -> A[jean][i]@W`; `H[mieli] -> +W/O[body]`; `H[oubliette] <> D/O[privacy,memory] -> ~H.U[permitted,traces]`; `A[sobornost][network,<>]`; `(N → 1) = UNKNOWN`; `C(A[sobornost])`
+```
+H[jean] -> +A[gogol][1..n][synthetic,carriers]
+A[gogol][i] <> S(D)[dilemma,prison] -> ~A[gogol][i].U
+A[jean][i]@S(D) -> A[jean][i]@W
+H[mieli] -> +W/O[body]
+H[oubliette] <> D/O[privacy,memory] -> ~H.U[permitted,traces]
+A[sobornost][network,<>]
+(N → 1) = UNKNOWN
+C(A[sobornost])
+```
 
 ## Проверка применимости онтологии
 

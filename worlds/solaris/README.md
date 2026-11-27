@@ -18,7 +18,13 @@
 
 **Контур UWI.**
 
-`H[kelvin] <> W/P[solaris]/V[ocean] -> +E[hari][memory_traces]`; `H[kelvin] <> E[hari] -> ~H[kelvin].U + ~E[hari].U`; `(E[hari].U) = UNKNOWN`; `H[scientist] <> W/P[solaris]/V[experiments]`; `MAY?(H[scientist] <> W/P[solaris]/V[dialogue]) = FALSE`
+```
+H[kelvin] <> W/P[solaris]/V[ocean] -> +E[hari][memory_traces]
+H[kelvin] <> E[hari] -> ~H[kelvin].U + ~E[hari].U
+(E[hari].U) = UNKNOWN
+H[scientist] <> W/P[solaris]/V[experiments]
+MAY?(H[scientist] <> W/P[solaris]/V[dialogue]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

@@ -36,7 +36,15 @@
 
 **Контур UWI.**
 
-`W/P[earth] <> M[outworld] + M[netherrealm] + M[edenia][portals,tournament]`; `C(E[shao_kahn]) -> ~M + !V`; `H[liu_kang] <> E[shang_tsung] + E[shao_kahn] + E[shinnok] -> (!W/P[earth]) = FALSE`; `E[shang_tsung] + E[quan_chi] -> !H[liu_kang] + ~V[army]`; `E[onaga][false_damashi] <> H[shujinko] -> ~H.U + +W/M/O[kamidogu]`; `C(E[blaze]) -> ~E + MAY?(!M/W)`; `E[raiden]@t[1] -> +O[message]@t[0]`
+```
+W/P[earth] <> M[outworld] + M[netherrealm] + M[edenia][portals,tournament]
+C(E[shao_kahn]) -> ~M + !V
+H[liu_kang] <> E[shang_tsung] + E[shao_kahn] + E[shinnok] -> (!W/P[earth]) = FALSE
+E[shang_tsung] + E[quan_chi] -> !H[liu_kang] + ~V[army]
+E[onaga][false_damashi] <> H[shujinko] -> ~H.U + +W/M/O[kamidogu]
+C(E[blaze]) -> ~E + MAY?(!M/W)
+E[raiden]@t[1] -> +O[message]@t[0]
+```
 
 ## Проверка применимости онтологии
 

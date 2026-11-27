@@ -27,7 +27,15 @@
 
 **Контур UWI.**
 
-`H[exile] <> M/O[stones,ancient,devices] -> C(H[exile])`; `E[god] <> H[cults,bodies,corruption] -> ~H.U + !V`; `H[exile] -> !E[kitava]`; `REVERSIBLE?(W/V@t[1],W/V@t[0]) = FALSE`; `H[exile] <> M/O[atlas] -> M[1..n]`; `C(E[elder]) + C(E[maven]) -> ~M + ~H/E`; `H[exile][2] <> M/O[traces]@t[1] -> ~H.U`
+```
+H[exile] <> M/O[stones,ancient,devices] -> C(H[exile])
+E[god] <> H[cults,bodies,corruption] -> ~H.U + !V
+H[exile] -> !E[kitava]
+REVERSIBLE?(W/V@t[1],W/V@t[0]) = FALSE
+H[exile] <> M/O[atlas] -> M[1..n]
+C(E[elder]) + C(E[maven]) -> ~M + ~H/E
+H[exile][2] <> M/O[traces]@t[1] -> ~H.U
+```
 
 ## Проверка применимости онтологии
 

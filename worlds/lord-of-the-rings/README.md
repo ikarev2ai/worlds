@@ -18,7 +18,11 @@
 
 **Контур UWI.**
 
-`E[sauron] -> +M/O[one_ring] -> H/E <> O -> ~H.U + ~E.U`; `H[fellowship] <> E[fellowship][L,joint_action] -> !M/O[ring] -> ~M`; `E[valar] <> M[carriers,traces]`
+```
+E[sauron] -> +M/O[one_ring] -> H/E <> O -> ~H.U + ~E.U
+H[fellowship] <> E[fellowship][L,joint_action] -> !M/O[ring] -> ~M
+E[valar] <> M[carriers,traces]
+```
 
 ## Проверка применимости онтологии
 

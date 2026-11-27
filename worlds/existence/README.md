@@ -20,7 +20,12 @@
 
 **Контур UWI.**
 
-`E[alien] -> +W/O[crystal] -> H[livingstone] <> O[join_us]`; `+W/O[pan_cache] -> H[bin] <> O[warning,demons]`; `H[povlov] <> H[posse][infosphere,L] -> ~H.U + ~W`; `E[alien] <> H[artifacts,messages]`
+```
+E[alien] -> +W/O[crystal] -> H[livingstone] <> O[join_us]
++W/O[pan_cache] -> H[bin] <> O[warning,demons]
+H[povlov] <> H[posse][infosphere,L] -> ~H.U + ~W
+E[alien] <> H[artifacts,messages]
+```
 
 ## Проверка применимости онтологии
 

@@ -29,7 +29,15 @@
 
 **Контур UWI.**
 
-`E[inarius] + E[lilith] + M/O[world_stone] -> +M[sanctuary]`; `E[angel] <> E[demon][eternal_conflict] -> !V + ~M`; `H[nephalem] -> C(H[nephalem]); TRANSMIT?(E.U,H[nephalem].U) = FALSE`; `M/O[soul_stone] <> E[evil] + H[host] -> ~E[evil] + ~H[host]`; `TRANSMIT?(E[evil].U,H[host].U) = FALSE`; `C(H[tyrael]) -> !M/O[world_stone]`; `H[hero] <> E[lilith] + E[inarius] -> (!M[sanctuary]) = FALSE`
+```
+E[inarius] + E[lilith] + M/O[world_stone] -> +M[sanctuary]
+E[angel] <> E[demon][eternal_conflict] -> !V + ~M
+H[nephalem] -> C(H[nephalem]); TRANSMIT?(E.U,H[nephalem].U) = FALSE
+M/O[soul_stone] <> E[evil] + H[host] -> ~E[evil] + ~H[host]
+TRANSMIT?(E[evil].U,H[host].U) = FALSE
+C(H[tyrael]) -> !M/O[world_stone]
+H[hero] <> E[lilith] + E[inarius] -> (!M[sanctuary]) = FALSE
+```
 
 ## Проверка применимости онтологии
 

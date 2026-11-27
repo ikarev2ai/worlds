@@ -22,7 +22,13 @@
 
 **Контур UWI.**
 
-`H/E <> A[droid][L,joint,actions]`; `H[jedi] <> W[force] -> ~W + ~H.U`; `H[tarkin] <> W/O[death_star] -> !W/P[alderaan] + !V`; `H[luke] <> H[anakin] -> ~H[anakin].U`; `ACCESS?(H[luke],H[anakin].U) = FALSE`
+```
+H/E <> A[droid][L,joint,actions]
+H[jedi] <> W[force] -> ~W + ~H.U
+H[tarkin] <> W/O[death_star] -> !W/P[alderaan] + !V
+H[luke] <> H[anakin] -> ~H[anakin].U
+ACCESS?(H[luke],H[anakin].U) = FALSE
+```
 
 ## Проверка применимости онтологии
 
