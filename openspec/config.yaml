@@ -1,0 +1,33 @@
+schema: spec-driven
+
+context: |
+  Language: Russian
+  All artifacts must be written in Russian.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+  OpenSpec describes development work; ontology and worlds remain in their existing Markdown files.
+  The HTML site is a derived read-only representation and must not duplicate content manually.
+  Generated site files belong in ignored dist/html/ and must not be committed.
+  Do not change ontology/manifest.md without an explicit author request and a new UWI version.
+  Do not export PDF without an explicit user request.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
