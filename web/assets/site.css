@@ -121,10 +121,10 @@ input:focus-visible,
 }
 
 .brand-caption {
-  max-width: 190px;
   color: #b9c7e2;
   font-size: 0.75rem;
   line-height: 1.25;
+  white-space: nowrap;
 }
 
 .main-nav {
@@ -397,6 +397,13 @@ tr:last-child td {
   font-size: 0.85rem;
 }
 
+.footer-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 24px;
+}
+
 @media (max-width: 760px) {
   html {
     scroll-padding-top: 220px;
@@ -414,6 +421,7 @@ tr:last-child td {
 
   .brand {
     width: 100%;
+    flex-wrap: wrap;
   }
 
   .main-nav {

@@ -23,6 +23,11 @@ from mdit_py_plugins.anchors import anchors_plugin
 ROOT = Path(__file__).resolve().parents[1]
 WEB_ROOT = Path(__file__).resolve().parent
 DEFAULT_REPOSITORY_URL = "https://github.com/ikarev2ai/worlds"
+HOME_TITLE = "Понимание взаимодействия миров"
+# Начало вопроса в реестре: «Вопрос N.» в заголовке или жирном абзаце.
+QUESTION_LEAD = re.compile(r"Вопрос\s+\d+[.:]")
+QUESTION_START = re.compile(r"^(?:#{1,6}\s+|\*\*)?" + QUESTION_LEAD.pattern, re.MULTILINE)
+RENDERED_QUESTION = re.compile(r"<h[1-6][^>]*>" + QUESTION_LEAD.pattern + r"|<p><strong>" + QUESTION_LEAD.pattern)
 
 
 class BuildError(Exception):
@@ -260,6 +265,43 @@ def presentation_markdown(document: Document) -> str:
     return "\n".join(lines[:start] + simplified + lines[end:]) + "\n"
 
 
+def is_question_start(inline) -> bool:
+    return bool(QUESTION_LEAD.match(inline.content.lstrip().lstrip("*")))
+
+
+def question_list_tokens(tokens) -> List:
+    """Оставляет заголовки разделов и вопросы, убирая вступительные абзацы реестра."""
+    kept: List = []
+    in_heading = False
+    in_question = False
+    for index, token in enumerate(tokens):
+        if token.type == "heading_close":
+            kept.append(token)
+            in_heading = False
+            continue
+        if token.type == "heading_open":
+            in_heading = True
+            in_question = int(token.tag[1]) > 2 or is_question_start(tokens[index + 1])
+        elif token.type == "paragraph_open" and not in_question:
+            in_question = is_question_start(tokens[index + 1])
+        if in_heading or in_question:
+            kept.append(token)
+    return kept
+
+
+def home_tokens(tokens) -> List:
+    """Оставляет первый абзац README с кратким описанием; разделы заменяют карточки разделов."""
+    start = next(index for index, token in enumerate(tokens) if token.type == "paragraph_open")
+    end = next(index for index in range(start, len(tokens)) if tokens[index].type == "paragraph_close")
+    # Название уже выведено заголовком, поэтому вводная фраза «Название: » не повторяется.
+    lead = HOME_TITLE + ":"
+    for child in tokens[start + 1].children:
+        if child.type == "text" and child.content.startswith(lead):
+            child.content = child.content[len(lead):].lstrip()
+            child.content = child.content[0].upper() + child.content[1:]
+    return tokens[start:end + 1]
+
+
 def render_documents(
     documents: List[Document], root: Path, repository_url: str
 ) -> None:
@@ -281,10 +323,16 @@ def render_documents(
                     document.title = inline_text(tokens[index + 1])
         if not document.title:
             raise BuildError(f"{document.rel_source}: отсутствует заголовок первого уровня")
+        if document.kind == "home":
+            document.title = HOME_TITLE
 
     for document in documents:
         markdown = MarkdownIt("commonmark", {"html": False, "linkify": False}).enable("table")
         tokens = tokens_by_source[document.source.resolve()]
+        if document.kind == "questions":
+            tokens = question_list_tokens(tokens)
+        elif document.kind == "home":
+            tokens = home_tokens(tokens)
         for token in walk_tokens(tokens):
             if token.type == "link_open" and token.attrs.get("href"):
                 token.attrs["href"] = rewrite_link(
@@ -304,6 +352,10 @@ def render_documents(
         extractor = TextExtractor()
         extractor.feed(document.content)
         document.plain_text = re.sub(r"\s+", " ", " ".join(extractor.parts)).strip()
+        if document.kind == "questions" and len(QUESTION_START.findall(document.text)) != len(
+            RENDERED_QUESTION.findall(document.content)
+        ):
+            raise BuildError(f"{document.rel_source}: вопрос потерян при сокращении страницы")
 
 
 def navigation(document: Document, documents_by_route: Dict[str, Document]) -> dict:

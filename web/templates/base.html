@@ -48,7 +48,12 @@
     </nav>
     {% endif %}
 
-    {% if document.kind != 'worlds_index' %}
+    {% if document.kind == 'home' %}
+    <article class="document-content">
+      <h1>{{ document.title }}</h1>
+      {{ content | safe }}
+    </article>
+    {% elif document.kind != 'worlds_index' %}
     <article class="document-content">
       {{ content | safe }}
     </article>
@@ -58,7 +63,7 @@
     <section class="card-grid" aria-label="Разделы сайта">
       <a class="card" href="{{ nav.ontology }}"><strong>Онтология</strong><span>Алфавит, ключевые вопросы и аксиомы UWI</span></a>
       <a class="card" href="{{ nav.questions }}"><strong>Вопросы</strong><span>Открытые и закрытые вопросы онтологии</span></a>
-      <a class="card" href="{{ nav.worlds }}"><strong>Все миры</strong><span>Примеры и стресс-тесты из художественных миров</span></a>
+      <a class="card" href="{{ nav.worlds }}"><strong>Все миры</strong><span>Примеры и стресс-тесты из различных миров</span></a>
     </section>
     {% endif %}
 
@@ -87,7 +92,10 @@
   </main>
 
   <footer class="site-footer">
-    <div class="shell">Статическое представление Markdown-источников UWI</div>
+    <div class="shell footer-layout">
+      <span>Статическое представление Markdown-источников UWI</span>
+      <span><a href="mailto:ikarev2ai@gmail.com" title="Написать письмо">Ivan Karev</a></span>
+    </div>
   </footer>
 </body>
 </html>
