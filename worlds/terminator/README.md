@@ -21,7 +21,7 @@
 
 ```
 A[skynet] ∈ D -> !V[W/P[earth]]
-D/O[programma,T,800] <> W/O[body] -> MAY?(!H[sarah])
+D/O[program,T,800] <> W/O[body] -> MAY?(!H[sarah])
 W@t[now] -> W@t[past]
 H[reese] <> H[sarah] -> +H[john]
 +W/O[chip] -> +D/A[skynet]

@@ -217,6 +217,10 @@ input:focus-visible,
   max-width: 86ch;
 }
 
+.home-content {
+  max-width: none;
+}
+
 .document-content h1,
 .document-content h2,
 .document-content h3,
@@ -455,8 +459,9 @@ tr:last-child td {
 }
 
 .agent-prompt pre {
+  max-height: none;
   margin: 8px 20px 20px;
-  max-height: 60vh;
+  overflow-x: auto;
 }
 
 .clipboard-field {

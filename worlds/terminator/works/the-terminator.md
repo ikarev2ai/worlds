@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`D/O[programma,T,800] <> W/O[body] -> MAY?(!H[sarah])`; `W@t[future] -> W@t[past]`; `H[reese] <> H[sarah] -> +H[john]`
+`D/O[program,T,800] <> W/O[body] -> MAY?(!H[sarah])`; `W@t[future] -> W@t[past]`; `H[reese] <> H[sarah] -> +H[john]`
 
 ## Вклад в общий стресс-тест
 
