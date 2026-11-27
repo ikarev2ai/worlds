@@ -6,15 +6,17 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.17
+**Версия онтологии:** UWI v1.18
 
 ## Используемые события
 
+**Естественный язык.**
+
 После падения Reach «Столп осени» прибывает к Installation 04. Мастер Чиф и Кортана встречают силы Ковенанта, освобождённый Потоп и монитора 343 Guilty Spark. Монитор скрывает истинное назначение кольца: оно уничтожает разумную Жизнь, лишая Потоп пищи. Чиф и Кортана предотвращают запуск и разрушают Installation 04.
 
-## Контур
+## Контур UWI
 
-`H_chief + A_cortana <> E_covenant -> бой + ~H.U`; `E_flood -> ~V + !H/E`; `A_spark <> H_chief [неполное сообщение] -> риск C(A_spark) -> !V`; `H_chief + A_cortana -> !W/O [Installation 04]`
+`H[chief] + A[cortana] <> E[covenant] -> ~H.U + !E`; `E[flood] -> ~V + !H/E`; `A[spark] <> H[chief][incomplete_message]`; `C(A[spark]) -> MAY !V`; `H[chief] + A[cortana] -> !W/O[Installation,04]`
 
 ## Вклад в общий стресс-тест
 

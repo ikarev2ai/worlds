@@ -6,15 +6,17 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.17
+**Версия онтологии:** UWI v1.18
 
 ## Используемые события
 
+**Естественный язык.**
+
 Ковенант атакует Землю, а Чиф и Кортана оказываются на Installation 05. Пророки отстраняют сангхейли от власти и заменяют их джиралханае. Арбитр узнаёт от Гробницы и монитора о разрушительном назначении колец. Потоп захватывает Высшую Милость, а распад Ковенанта открывает возможность союза сангхейли с людьми.
 
-## Контур
+## Контур UWI
 
-`E_prophet -> ~E_covenant + война`; `E_gravemind <> H_chief + E_arbiter -> сообщения + временный контур`; `E_arbiter <> A_spark + H_johnson -> ~E_arbiter.U`; `E_covenant_civil_war -> !E + разрыв управления`
+`E[prophet] -> ~E[covenant] + !E`; `E[gravemind] <> H[chief] + E[arbiter] -> +O[messages]`; `E[gravemind] <> H[chief] + E[arbiter]`; `E[arbiter] <> A[spark] + H[johnson] -> ~E[arbiter].U`; `E[covenant_civil_war] -> !E`; `!<>(E[covenant],E[gravemind])`
 
 ## Вклад в общий стресс-тест
 

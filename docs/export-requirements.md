@@ -17,7 +17,7 @@ python3 scripts/export_pdf.py <input.md> <output.pdf>
 Пример (выпуск новой версии манифеста):
 
 ```bash
-python3 scripts/export_pdf.py ontology/manifest.md dist/UWI_v1.17_Manifest.pdf
+python3 scripts/export_pdf.py ontology/manifest.md dist/UWI_v1.18_Manifest.pdf
 ```
 
 Результаты складываются в `dist/` (в `.gitignore`, не коммитится).
