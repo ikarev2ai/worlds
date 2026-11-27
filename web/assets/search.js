@@ -15,6 +15,8 @@
     worlds_index: "Каталог",
     world: "Мир",
     work: "Произведение",
+    prompts_index: "Промпты",
+    prompt: "Промпт",
   };
   let documentsPromise;
 

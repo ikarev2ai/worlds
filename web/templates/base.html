@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="{{ stylesheet }}">
   <link rel="icon" href="data:,">
   <script src="{{ script }}" defer></script>
+  {% if document.kind == 'home' %}
+  <script src="{{ prompt_script }}" defer></script>
+  {% endif %}
 </head>
 <body>
   <a class="skip-link" href="#content">Перейти к содержимому</a>
@@ -55,6 +58,9 @@
     </article>
     {% elif document.kind != 'worlds_index' %}
     <article class="document-content">
+      {% if document.kind == 'prompt' %}
+      <p class="prompt-source-link"><a href="{{ raw_source }}" download>Скачать исходный Markdown</a></p>
+      {% endif %}
       {{ content | safe }}
     </article>
     {% endif %}
@@ -64,6 +70,27 @@
       <a class="card" href="{{ nav.ontology }}"><strong>Онтология</strong><span>Алфавит, ключевые вопросы и аксиомы UWI</span></a>
       <a class="card" href="{{ nav.questions }}"><strong>Вопросы</strong><span>Открытые и закрытые вопросы онтологии</span></a>
       <a class="card" href="{{ nav.worlds }}"><strong>Все миры</strong><span>Примеры и стресс-тесты из различных миров</span></a>
+    </section>
+    {% endif %}
+
+    {% if document.kind == 'home' %}
+    <section class="agent-prompt-section" aria-label="Системный промпт UWI">
+      <details class="agent-prompt">
+        <summary>Промпт для работы с AI-агентами · {{ prompt_version }}</summary>
+        <div class="prompt-toolbar">
+          <button class="copy-button" id="copy-prompt" type="button" aria-label="Скопировать системный промпт" hidden>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+              <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+              <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"></path>
+            </svg>
+            <span>Скопировать промпт</span>
+          </button>
+          <a href="{{ prompt_raw }}" download>Скачать Markdown</a>
+          <a href="{{ nav.prompts }}">История версий</a>
+        </div>
+        <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+        <pre tabindex="0"><code id="agent-prompt-text">{{ prompt_text }}</code></pre>
+      </details>
     </section>
     {% endif %}
 

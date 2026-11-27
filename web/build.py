@@ -107,6 +107,8 @@ def discover_documents(root: Path) -> List[Document]:
         root / "ontology" / "manifest.md",
         root / "ontology" / "questions.md",
         root / "worlds" / "README.md",
+        root / "prompts" / "README.md",
+        root / "ontology" / "system-prompt.md",
     ]
     missing = [str(path.relative_to(root)) for path in required if not path.is_file()]
     if missing:
@@ -117,7 +119,17 @@ def discover_documents(root: Path) -> List[Document]:
         Document(required[1], "ontology/manifest.md", "ontology", "ontology"),
         Document(required[2], "ontology/questions.md", "questions", "ontology/questions"),
         Document(required[3], "worlds/README.md", "worlds_index", "worlds"),
+        Document(required[4], "prompts/README.md", "prompts_index", "prompts"),
     ]
+    for prompt_source in sorted((root / "prompts").glob("v*.md"), key=lambda path: path.name):
+        documents.append(
+            Document(
+                prompt_source,
+                prompt_source.relative_to(root).as_posix(),
+                "prompt",
+                f"prompts/{prompt_source.stem}",
+            )
+        )
     worlds_root = root / "worlds"
     for world_dir in sorted(worlds_root.iterdir(), key=lambda path: path.name):
         if not world_dir.is_dir():
@@ -290,7 +302,7 @@ def question_list_tokens(tokens) -> List:
 
 
 def home_tokens(tokens) -> List:
-    """Оставляет первый абзац README с кратким описанием; разделы заменяют карточки разделов."""
+    """Оставляет краткое описание и вводные примеры; служебные разделы не публикуются."""
     start = next(index for index, token in enumerate(tokens) if token.type == "paragraph_open")
     end = next(index for index in range(start, len(tokens)) if tokens[index].type == "paragraph_close")
     # Название уже выведено заголовком, поэтому вводная фраза «Название: » не повторяется.
@@ -299,7 +311,46 @@ def home_tokens(tokens) -> List:
         if child.type == "text" and child.content.startswith(lead):
             child.content = child.content[len(lead):].lstrip()
             child.content = child.content[0].upper() + child.content[1:]
-    return tokens[start:end + 1]
+    example_start = next(
+        (
+            index
+            for index, token in enumerate(tokens)
+            if token.type == "heading_open"
+            and token.tag == "h2"
+            and inline_text(tokens[index + 1]) == "Примеры на естественном языке и в UWI"
+        ),
+        None,
+    )
+    if example_start is None:
+        raise BuildError("README.md: не найден раздел вводных примеров")
+    example_end = next(
+        (
+            index
+            for index in range(example_start + 1, len(tokens))
+            if tokens[index].type == "heading_open" and tokens[index].tag == "h2"
+        ),
+        len(tokens),
+    )
+    return tokens[start:end + 1] + tokens[example_start:example_end]
+
+
+def current_prompt(root: Path) -> tuple:
+    source = root / "ontology" / "system-prompt.md"
+    text = source.read_text(encoding="utf-8")
+    block = re.search(r"^```\n(.*?)^```", text, re.MULTILINE | re.DOTALL)
+    if block is None:
+        raise BuildError("ontology/system-prompt.md: не найден блок промпта")
+    prompt_text = block.group(1).rstrip("\n")
+    version = re.search(r"^SYSTEM_PROTOCOL: UWI (v\d+\.\d+)\b", prompt_text, re.MULTILINE)
+    if version is None:
+        raise BuildError("ontology/system-prompt.md: не найдена версия SYSTEM_PROTOCOL")
+    prompt_version = version.group(1)
+    snapshot = root / "prompts" / f"{prompt_version}.md"
+    if not snapshot.is_file():
+        raise BuildError(f"Отсутствует текущий снимок промпта: prompts/{prompt_version}.md")
+    if snapshot.read_text(encoding="utf-8") != text:
+        raise BuildError(f"Текущий снимок prompts/{prompt_version}.md не совпадает с системным промптом")
+    return prompt_version, prompt_text
 
 
 def render_documents(
@@ -366,6 +417,7 @@ def navigation(document: Document, documents_by_route: Dict[str, Document]) -> d
         "ontology": route_url(document.route, "ontology"),
         "questions": route_url(document.route, "ontology/questions"),
         "worlds": route_url(document.route, "worlds"),
+        "prompts": route_url(document.route, "prompts"),
         "parent": route_url(document.route, parent.route) if parent else None,
         "siblings": [
             {"title": sibling.title, "url": route_url(document.route, sibling.route), "current": sibling is document}
@@ -383,7 +435,12 @@ def navigation(document: Document, documents_by_route: Dict[str, Document]) -> d
     }
 
 
-def render_site(staging: Path, documents: List[Document]) -> None:
+def render_site(
+    staging: Path,
+    documents: List[Document],
+    prompt_version: str,
+    prompt_text: str,
+) -> None:
     environment = Environment(
         loader=FileSystemLoader(str(WEB_ROOT / "templates")),
         autoescape=select_autoescape(["html"]),
@@ -409,9 +466,18 @@ def render_site(staging: Path, documents: List[Document]) -> None:
             document=document,
             content=document.content,
             nav=nav,
+            prompt_version=prompt_version,
+            prompt_text=prompt_text,
+            prompt_raw=asset_url(document.route, f"prompts/{prompt_version}.md"),
+            raw_source=(
+                asset_url(document.route, f"prompts/{document.source.name}")
+                if document.kind == "prompt"
+                else None
+            ),
             root_prefix=route_url(document.route, ""),
             stylesheet=asset_url(document.route, "assets/site.css"),
             script=asset_url(document.route, "assets/search.js"),
+            prompt_script=asset_url(document.route, "assets/prompt.js"),
         )
         destination = staging / document.route / "index.html"
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -506,13 +572,18 @@ def build(root: Path, output: Path, repository_url: str) -> List[Document]:
     if not root.is_dir():
         raise BuildError(f"Корень исходников не найден: {root}")
     documents = discover_documents(root)
+    prompt_version, prompt_text = current_prompt(root)
     render_documents(documents, root, repository_url)
 
     output.parent.mkdir(parents=True, exist_ok=True)
     staging = Path(tempfile.mkdtemp(prefix=f".{output.name}-", dir=output.parent))
     try:
         shutil.copytree(WEB_ROOT / "assets", staging / "assets")
-        render_site(staging, documents)
+        for source in sorted((root / "prompts").glob("*.md"), key=lambda path: path.name):
+            destination = staging / source.relative_to(root)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, destination)
+        render_site(staging, documents, prompt_version, prompt_text)
         write_manifest(staging, documents)
         check_generated_site(staging)
         publish(staging, output)
