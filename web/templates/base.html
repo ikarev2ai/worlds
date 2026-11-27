@@ -46,7 +46,7 @@
       {% elif document.kind == 'world' %}
       <a href="{{ nav.worlds }}">Миры</a>
       <span aria-hidden="true">/</span>
-      <span aria-current="page">{{ document.title }}</span>
+      <span aria-current="page">{{ document.title.split(' — ', 1)[0] }}</span>
       {% else %}
       <span aria-current="page">{{ document.title }}</span>
       {% endif %}
