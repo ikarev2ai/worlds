@@ -1,12 +1,12 @@
 # DOOM Eternal: The Ancient Gods
 
-**Мир:** [DOOM](../README.md)
+**Мир:** [DOOM (современная трилогия)](../README.md)
 
 **Автор:** id Software
 
 **Тип:** DLC
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[slayer] -> +E[davoth] -> MAY !E[davoth]`; `C(E[davoth]) -> +M[hell_army] + !V`; `H[slayer] -> !E[davoth] -> !<>(M[hell],W)`; `(A[vega] = E[father]) = UNKNOWN`
+`H[slayer] -> +E[davoth] -> MAY?(!E[davoth])`; `C(E[davoth]) -> +M[hell_army] + !V`; `H[slayer] -> !E[davoth] -> !<>(M[hell],W)`; `(A[vega] = E[father]) = UNKNOWN`
 
 ## Вклад в общий стресс-тест
 

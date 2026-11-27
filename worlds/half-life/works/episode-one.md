@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`E[vortigaunt] <> E[gman] -> !<>(E[gman],H[gordon])`; `E[combine] -> +D/O + MAY !H + !W/O[city_17]`; `H[gordon] + H[alyx] -> ~W/O`; `H@W/P[1] -> H@W/P[2]`; `H <> H -> ~H.U`
+`E[vortigaunt] <> E[gman] -> !<>(E[gman],H[gordon])`; `E[combine] -> +D/O + MAY?(!H) + !W/O[city_17]`; `H[gordon] + H[alyx] -> ~W/O`; `H@W/P[1] -> H@W/P[2]`; `H <> H -> ~H.U`
 
 ## Вклад в общий стресс-тест
 

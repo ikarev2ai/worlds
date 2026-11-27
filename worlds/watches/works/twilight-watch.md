@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[anton] <> H[kostya] + H[inquisition] -> +D/O[investigation] + ~H.U`; `H[other] <> W/O[fuaran] -> ~H[human] -> +H[other]`; `C(H[kostya]) -> ~H + MAY !H + ~W`
+`H[anton] <> H[kostya] + H[inquisition] -> +D/O[investigation] + ~H.U`; `H[other] <> W/O[fuaran] -> ~H[human] -> +H[other]`; `C(H[kostya]) -> ~H + MAY?(!H) + ~W`
 
 ## Вклад в общий стресс-тест
 

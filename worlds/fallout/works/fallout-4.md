@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[institute] -> +A[synth] + ~W/O[human_replacement]`; `H[sole_survivor] <> H[shaun] -> ~H.U`; `MATCH?(H[sole_survivor]) = FALSE`; `H[railroad] <> A[synth] -> (!A[synth]) = FALSE`; `C(H[brotherhood]) -> MAY !A[synth]`; `H[sole_survivor] -> (!W/O[institute] OR (!W/O[institute]) = FALSE)`
+`H[institute] -> +A[synth] + ~W/O[human_replacement]`; `H[sole_survivor] <> H[shaun] -> ~H.U`; `MATCH?(H[sole_survivor]) = FALSE`; `H[railroad] <> A[synth] -> (!A[synth]) = FALSE`; `C(H[brotherhood]) -> MAY?(!A[synth])`; `H[sole_survivor] -> (!W/O[institute] OR (!W/O[institute]) = FALSE)`
 
 ## Вклад в общий стресс-тест
 

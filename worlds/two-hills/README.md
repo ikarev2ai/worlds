@@ -1,6 +1,6 @@
 # «Два холма» — управляемая утопия и взаимное признание людей
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 После биологической катастрофы изолированные города строят безопасность через матриархат, селекцию людей и управляющий ИИ, а мужчины вне системы объявляются «приматами»; контакт Рады и Геры обнаруживает несостоятельность порядка, требующего обесценивания другой группы.
 
@@ -22,7 +22,7 @@
 
 **Контур UWI.**
 
-`H -> +W/O[biological_weapon] -> !V + ~H`; `H[city] <> A[larisa] -> ~W/O + ~H.U`; `H[rada] <> H[gera][L,joint,actions] -> ~H[rada].U + ~H[gera].U`; `C(A[larisa]) -> ~H + MAY !H`; `H[gera] + H[allies] -> !A[larisa] -> ~W/O[infrastructure]`; `H[baron] <> A[ludmila] -> ~H[baron].U + ~A[ludmila].U`; `H[gera] <> S(D)[mental_prison] -> ~H[gera].U`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
+`H -> +W/O[biological_weapon] -> !V + ~H`; `H[city] <> A[larisa] -> ~W/O + ~H.U`; `H[rada] <> H[gera][L,joint,actions] -> ~H[rada].U + ~H[gera].U`; `C(A[larisa]) -> ~H + MAY?(!H)`; `H[gera] + H[allies] -> !A[larisa] -> ~W/O[infrastructure]`; `H[baron] <> A[ludmila] -> ~H[baron].U + ~A[ludmila].U`; `H[gera] <> S(D)[mental_prison] -> ~H[gera].U`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`
 
 ## Проверка применимости онтологии
 

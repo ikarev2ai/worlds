@@ -1,12 +1,12 @@
 # Pathfinder: Wrath of the Righteous
 
-**Мир:** [Pathfinder](../README.md)
+**Мир:** [Pathfinder (Owlcat)](../README.md)
 
 **Автор:** Owlcat Games
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 

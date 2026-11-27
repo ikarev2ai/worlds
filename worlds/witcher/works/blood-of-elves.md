@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[geralt] + H[triss] + H[yennefer] <> H[ciri] -> ~H[ciri].U`; `H[rience] + H[states] -> MAY !H[ciri]`; `C(H[ciri]) -> S(W)[1..n][visions]`; `X ∈ {H,A,E}; X ≠ H[ciri]`; `ACCESS?(H[ciri],X.U) = FALSE`
+`H[geralt] + H[triss] + H[yennefer] <> H[ciri] -> ~H[ciri].U`; `H[rience] + H[states] -> MAY?(!H[ciri])`; `C(H[ciri]) -> S(W)[1..n][visions]`; `X ∈ {H,A,E}; X ≠ H[ciri]`; `ACCESS?(H[ciri],X.U) = FALSE`
 
 ## Вклад в общий стресс-тест
 

@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`E[archdemon] -> V/E[darkspawn_blight] -> !V`; `H[warden] <> H/E[allies][N → N]`; `H[loghain] <> H[warden] -> MATCH?(H[loghain]) = FALSE`; `H[warden] -> !E[archdemon] + MAY !H[warden]`
+`E[archdemon] -> V/E[darkspawn_blight] -> !V`; `H[warden] <> H/E[allies][N → N]`; `H[loghain] <> H[warden] -> MATCH?(H[loghain]) = FALSE`; `H[warden] -> !E[archdemon] + MAY?(!H[warden])`
 
 ## Вклад в общий стресс-тест
 

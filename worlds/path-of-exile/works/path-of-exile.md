@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[exile] <> M/O[stones] -> C(H[exile])`; `H[exile] -> !E[dominus] + !E[malachi] + !E[kitava]`; `M/O[atlas] -> H[exile] <> M[1..n]`; `C(E[elder]) + C(E[maven]) -> ~M + MAY !V`
+`H[exile] <> M/O[stones] -> C(H[exile])`; `H[exile] -> !E[dominus] + !E[malachi] + !E[kitava]`; `M/O[atlas] -> H[exile] <> M[1..n]`; `C(E[elder]) + C(E[maven]) -> ~M + MAY?(!V)`
 
 ## Вклад в общий стресс-тест
 

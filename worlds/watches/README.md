@@ -1,6 +1,6 @@
 # «Дозоры» — Договор Света и Тьмы без общего понимания
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Светлые и Тёмные Иные ограничивают взаимное уничтожение Договором, Ночным и Дневным Дозорами и Инквизицией, но используют людей и друг друга в скрытых операциях; предсказания, магия и Сумрак не дают объективного измерителя чужого понимания.
 
@@ -8,12 +8,12 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| «Ночной Дозор» | Сергей Лукьяненко | [`night-watch.md`](works/night-watch.md) | UWI v1.18 | Договор, Антон, Светлана и Егор |
-| «Дневной Дозор» | Сергей Лукьяненко, Владимир Васильев | [`day-watch.md`](works/day-watch.md) | UWI v1.18 | Алиса, Зеркало и Мел Судьбы |
-| «Сумеречный Дозор» | Сергей Лукьяненко | [`twilight-watch.md`](works/twilight-watch.md) | UWI v1.18 | Фуаран и превращение человека в Иного |
-| «Последний Дозор» | Сергей Лукьяненко | [`last-watch.md`](works/last-watch.md) | UWI v1.18 | Мерлин и защита человечества |
-| «Новый Дозор» | Сергей Лукьяненко | [`new-watch.md`](works/new-watch.md) | UWI v1.18 | Пророк Кеша и Тигр |
-| «Шестой Дозор» | Сергей Лукьяненко | [`sixth-watch.md`](works/sixth-watch.md) | UWI v1.18 | Двуединый и союз против общего уничтожения |
+| «Ночной Дозор» | Сергей Лукьяненко | [`night-watch.md`](works/night-watch.md) | UWI v1.19 | Договор, Антон, Светлана и Егор |
+| «Дневной Дозор» | Сергей Лукьяненко, Владимир Васильев | [`day-watch.md`](works/day-watch.md) | UWI v1.19 | Алиса, Зеркало и Мел Судьбы |
+| «Сумеречный Дозор» | Сергей Лукьяненко | [`twilight-watch.md`](works/twilight-watch.md) | UWI v1.19 | Фуаран и превращение человека в Иного |
+| «Последний Дозор» | Сергей Лукьяненко | [`last-watch.md`](works/last-watch.md) | UWI v1.19 | Мерлин и защита человечества |
+| «Новый Дозор» | Сергей Лукьяненко | [`new-watch.md`](works/new-watch.md) | UWI v1.19 | Пророк Кеша и Тигр |
+| «Шестой Дозор» | Сергей Лукьяненко | [`sixth-watch.md`](works/sixth-watch.md) | UWI v1.19 | Двуединый и союз против общего уничтожения |
 
 Описание ограничено шестью завершёнными романами основного цикла. Незавершённый «Вечный Дозор», рассказы, произведения других авторов и кинематографическая адаптация не используются.
 
@@ -35,7 +35,7 @@
 
 **Контур UWI.**
 
-`H[other] <> M[twilight] -> C(H[other]) + ~W`; `H[light] <> H[dark][treaty,watches,inquisition] -> (!H) = FALSE`; `H[light] <> H[dark] -> +D/O[covert_operations]`; `H[other] <> H[human] -> ~H.U + ~W/V`; `W/O[fuaran] -> ~H[human] -> +H[other]`; `TRANSMIT?(H[human].U,H[other].U) = FALSE`; `H[kesha]@t[0] <> W@t[1] -> ~H[kesha].U@t[0]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `E[tiger] -> MAY !H`; `G[dual] -> ~H[other] + MAY !H + MAY !V`; `H[light] + H[dark] + H[inquisition] <> G[dual]`
+`H[other] <> M[twilight] -> C(H[other]) + ~W`; `H[light] <> H[dark][treaty,watches,inquisition] -> (!H) = FALSE`; `H[light] <> H[dark] -> +D/O[covert_operations]`; `H[other] <> H[human] -> ~H.U + ~W/V`; `W/O[fuaran] -> ~H[human] -> +H[other]`; `TRANSMIT?(H[human].U,H[other].U) = FALSE`; `H[kesha]@t[0] <> W@t[1] -> ~H[kesha].U@t[0]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `E[tiger] -> MAY?(!H)`; `G[dual] -> ~H[other] + MAY?(!H) + MAY?(!V)`; `H[light] + H[dark] + H[inquisition] <> G[dual]`
 
 ## Проверка применимости онтологии
 

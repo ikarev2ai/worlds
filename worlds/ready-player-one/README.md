@@ -1,6 +1,6 @@
 # Ready Player One и Ready Player Two — симуляция, нейроконтакт и цифровые носители
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Человечество замыкает сенсорный контур на OASIS, а наследие Халлидея сначала передаёт управление миром через пасхалку, затем создаёт нейроинтерфейс и самостоятельные цифровые носители; записанный опыт и нейроданные не делают чужое понимание непосредственно доступным или копируемым.
 
@@ -8,8 +8,8 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Ready Player One | Эрнест Клайн | [`ready-player-one.md`](works/ready-player-one.md) | UWI v1.18 | Пасхалка Халлидея и контроль над OASIS |
-| Ready Player Two | Эрнест Клайн | [`ready-player-two.md`](works/ready-player-two.md) | UWI v1.18 | ONI, Анорнак, Левкозия и цифровые копии |
+| Ready Player One | Эрнест Клайн | [`ready-player-one.md`](works/ready-player-one.md) | UWI v1.19 | Пасхалка Халлидея и контроль над OASIS |
+| Ready Player Two | Эрнест Клайн | [`ready-player-two.md`](works/ready-player-two.md) | UWI v1.19 | ONI, Анорнак, Левкозия и цифровые копии |
 
 Описание относится к книжной непрерывности Эрнеста Клайна; фильм не используется.
 
@@ -31,7 +31,7 @@
 
 **Контур UWI.**
 
-`H <> S(D)[oasis] -> ~H.U + ~W@t`; `H[halliday] -> +D/O[easter_egg] -> H <> O -> ~H.U`; `H[wade] -> C(H[wade])[OASIS]`; `H <> W/D/O[ONI] -> +D/O[experience_recording]`; `(H[i] = H[j]) = UNKNOWN`; `H[halliday] -> +A[anorak]`; `C(A[anorak]) -> ~H + MAY !H`; `D/O[kira_traces] -> +A[leucosia]`; `A[leucosia] + D/O[neurodata] -> +A[copy][1..n]`; `H[original] <> A[copy]`; `TRANSMIT?(H[original].U,A[copy].U) = FALSE`
+`H <> S(D)[oasis] -> ~H.U + ~W@t`; `H[halliday] -> +D/O[easter_egg] -> H <> O -> ~H.U`; `H[wade] -> C(H[wade])[OASIS]`; `H <> W/D/O[ONI] -> +D/O[experience_recording]`; `(H[i] = H[j]) = UNKNOWN`; `H[halliday] -> +A[anorak]`; `C(A[anorak]) -> ~H + MAY?(!H)`; `D/O[kira_traces] -> +A[leucosia]`; `A[leucosia] + D/O[neurodata] -> +A[copy][1..n]`; `H[original] <> A[copy]`; `TRANSMIT?(H[original].U,A[copy].U) = FALSE`
 
 ## Проверка применимости онтологии
 

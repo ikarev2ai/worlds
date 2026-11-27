@@ -1,6 +1,6 @@
 # Fallout — выживание после массового уничтожения и созданные носители
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 После Великой войны люди, изменённые существа и синтетические носители восстанавливают общество среди экспериментальных убежищ и воюющих фракций; сохранение цивилизации не совпадает с управлением жителями как ресурсом.
 
@@ -8,11 +8,11 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Fallout | Interplay Productions | [`fallout.md`](works/fallout.md) | UWI v1.18 | Выходец, Создатель и водный чип |
-| Fallout 2 | Black Isle Studios | [`fallout-2.md`](works/fallout-2.md) | UWI v1.18 | Избранный, Анклав и G.E.C.K. |
-| Fallout 3 | Bethesda Game Studios | [`fallout-3.md`](works/fallout-3.md) | UWI v1.18 | Одинокий Путник и очиститель воды |
-| Fallout: New Vegas | Obsidian Entertainment | [`new-vegas.md`](works/new-vegas.md) | UWI v1.18 | Курьер, фракции и независимый Нью-Вегас |
-| Fallout 4 | Bethesda Game Studios | [`fallout-4.md`](works/fallout-4.md) | UWI v1.18 | Институт, синты и согласие носителей |
+| Fallout | Interplay Productions | [`fallout.md`](works/fallout.md) | UWI v1.19 | Выходец, Создатель и водный чип |
+| Fallout 2 | Black Isle Studios | [`fallout-2.md`](works/fallout-2.md) | UWI v1.19 | Избранный, Анклав и G.E.C.K. |
+| Fallout 3 | Bethesda Game Studios | [`fallout-3.md`](works/fallout-3.md) | UWI v1.19 | Одинокий Путник и очиститель воды |
+| Fallout: New Vegas | Obsidian Entertainment | [`new-vegas.md`](works/new-vegas.md) | UWI v1.19 | Курьер, фракции и независимый Нью-Вегас |
+| Fallout 4 | Bethesda Game Studios | [`fallout-4.md`](works/fallout-4.md) | UWI v1.19 | Институт, синты и согласие носителей |
 
 Описание ограничено пятью основными одиночными играми общей непрерывности. Fallout 76, телесериал и дополнения не используются как самостоятельные источники; варианты концовок рассматриваются как возможные решения, а не как обязательный единственный исход.
 
@@ -30,7 +30,7 @@
 
 **Контур UWI.**
 
-`H -> !V + ~W[great_war]`; `C(H[vault_tec]) -> +S(W)[social_experiments]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `H <> V[altered_forms] -> ~H.U + MAY !V`; `H[courier] <> H[ncr] + H[legion] + H[house] -> ~W`; `H[institute] -> +A[synth][1..n]`; `H <> A[synth] -> ~H.U + ~A.U + MAY !A[synth]`
+`H -> !V + ~W[great_war]`; `C(H[vault_tec]) -> +S(W)[social_experiments]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `H <> V[altered_forms] -> ~H.U + MAY?(!V)`; `H[courier] <> H[ncr] + H[legion] + H[house] -> ~W`; `H[institute] -> +A[synth][1..n]`; `H <> A[synth] -> ~H.U + ~A.U + MAY?(!A[synth])`
 
 ## Проверка применимости онтологии
 

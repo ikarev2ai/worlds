@@ -1,6 +1,6 @@
 # «Голодные игры» — реальная смерть как управляемое зрелище
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Капитолий превращает уничтожение детей в транслируемый ритуал власти, а восстание использует Китнисс как противоположный символ; ни режим, ни революция не получают права приносить носителей в жертву ради управляемой картины мира.
 
@@ -8,9 +8,9 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| «Голодные игры» | Сьюзен Коллинз | [`the-hunger-games.md`](works/the-hunger-games.md) | UWI v1.18 | Добровольная замена Прим и двойная победа |
-| «И вспыхнет пламя» | Сьюзен Коллинз | [`catching-fire.md`](works/catching-fire.md) | UWI v1.18 | Четвертьвековые игры и разрушение арены |
-| «Сойка-пересмешница» | Сьюзен Коллинз | [`mockingjay.md`](works/mockingjay.md) | UWI v1.18 | Война, пропаганда и отказ от новых игр |
+| «Голодные игры» | Сьюзен Коллинз | [`the-hunger-games.md`](works/the-hunger-games.md) | UWI v1.19 | Добровольная замена Прим и двойная победа |
+| «И вспыхнет пламя» | Сьюзен Коллинз | [`catching-fire.md`](works/catching-fire.md) | UWI v1.19 | Четвертьвековые игры и разрушение арены |
+| «Сойка-пересмешница» | Сьюзен Коллинз | [`mockingjay.md`](works/mockingjay.md) | UWI v1.19 | Война, пропаганда и отказ от новых игр |
 
 Описание ограничено исходной книжной трилогией. Приквелы и фильмы не используются.
 
@@ -28,7 +28,7 @@
 
 **Контур UWI.**
 
-`C(H[snow]) -> W/O[arena] + D/O[broadcast] -> !H + ~H.U[viewers]`; `H[katniss] <> H[peeta] -> ~H.U`; `H[katniss] + H[peeta] -> MAY !H -> ~M/O[rules]`; `H[katniss] -> ~W/O[force_field] -> H[katniss]@arena -> H[katniss]@W`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `C(H[coin]) -> +D/O[propaganda] -> !V`; `H[katniss] -> !H[coin] -> MAY (H -> +S(M)[new,games]) = FALSE`
+`C(H[snow]) -> W/O[arena] + D/O[broadcast] -> !H + ~H.U[viewers]`; `H[katniss] <> H[peeta] -> ~H.U`; `H[katniss] + H[peeta] -> MAY?(!H) -> ~M/O[rules]`; `H[katniss] -> ~W/O[force_field] -> H[katniss]@arena -> H[katniss]@W`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `C(H[coin]) -> +D/O[propaganda] -> !V`; `H[katniss] -> !H[coin] -> MAY?(H -> +S(M)[new,games]) = FALSE`
 
 ## Проверка применимости онтологии
 

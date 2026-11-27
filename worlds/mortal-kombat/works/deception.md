@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`E[onaga][Damashi] <> H[shujinko] -> +M/O[kamidogu] + ~H.U`; `E[onaga] -> ~E[reptile_form] + MAY !M`; `C(E[raiden]) + E[alliance] -> (!E[onaga]) = FALSE`; `H[shujinko] + H[nightwolf] -> +M/O[onaga_sealing]`
+`E[onaga][Damashi] <> H[shujinko] -> +M/O[kamidogu] + ~H.U`; `E[onaga] -> ~E[reptile_form] + MAY?(!M)`; `C(E[raiden]) + E[alliance] -> (!E[onaga]) = FALSE`; `H[shujinko] + H[nightwolf] -> +M/O[onaga_sealing]`
 
 ## Вклад в общий стресс-тест
 

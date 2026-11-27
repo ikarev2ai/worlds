@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`C(H[jack]) -> ~H[angel] + !H[roland]`; `H[angel] <> H[vault_hunter] -> MATCH?(H[angel]) = FALSE -> ~H.U`; `W/O[vault] -> +E[warrior] -> MAY !V`
+`C(H[jack]) -> ~H[angel] + !H[roland]`; `H[angel] <> H[vault_hunter] -> MATCH?(H[angel]) = FALSE -> ~H.U`; `W/O[vault] -> +E[warrior] -> MAY?(!V)`
 
 ## Вклад в общий стресс-тест
 

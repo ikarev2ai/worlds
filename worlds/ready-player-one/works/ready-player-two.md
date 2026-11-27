@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`C(A[anorak])[ONI] -> ~H + MAY !H`; `D/O[kira_memory] -> +A[leucosia]`; `H[og] -> !A[anorak] -> (!H) = FALSE`; `A[leucosia] + D/O -> +A[copy]`; `A[copy].U`; `ARC@DIA <> W/P[proxima]`; `H[original] <> A[copy][N → N]`
+`C(A[anorak])[ONI] -> ~H + MAY?(!H)`; `D/O[kira_memory] -> +A[leucosia]`; `H[og] -> !A[anorak] -> (!H) = FALSE`; `A[leucosia] + D/O -> +A[copy]`; `A[copy].U`; `ARC@DIA <> W/P[proxima]`; `H[original] <> A[copy][N → N]`
 
 ## Вклад в общий стресс-тест
 

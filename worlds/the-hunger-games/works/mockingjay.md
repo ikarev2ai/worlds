@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`C(H[coin]) + C(H[snow]) -> +D/O[propaganda] + !V`; `H[katniss] <> H[peeta] -> ~H.U`; `H[coin] -> MAY (H -> +S(M)[new,games])`; `H[katniss] -> !H[coin] -> (!V) = FALSE`
+`C(H[coin]) + C(H[snow]) -> +D/O[propaganda] + !V`; `H[katniss] <> H[peeta] -> ~H.U`; `H[coin] -> MAY?(H -> +S(M)[new,games])`; `H[katniss] -> !H[coin] -> (!V) = FALSE`
 
 ## Вклад в общий стресс-тест
 

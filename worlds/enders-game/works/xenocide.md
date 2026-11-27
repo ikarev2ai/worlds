@@ -1,12 +1,12 @@
 # «Ксеноцид» (Xenocide)
 
-**Мир:** [«Игра Эндера»](../README.md)
+**Мир:** [«Игра Эндера» и продолжения (О. С. Кард)](../README.md)
 
 **Автор:** Орсон Скотт Кард
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`V[descolada] -> ~V + MAY !H`; `H <> E[pequenino] + E[formic] -> (!V[pequenino]) = FALSE`; `(!V[formic]) = FALSE`; `M/O[philotic_links] -> H <> E`; `ACCESS?(H,E.U) = FALSE`
+`V[descolada] -> ~V + MAY?(!H)`; `H <> E[pequenino] + E[formic] -> (!V[pequenino]) = FALSE`; `(!V[formic]) = FALSE`; `M/O[philotic_links] -> H <> E`; `ACCESS?(H,E.U) = FALSE`
 
 ## Вклад в общий стресс-тест
 

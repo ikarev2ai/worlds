@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[kesha]@t[0] <> W@t[1] -> ~H[kesha].U@t[0] + +L[prophecy]`; `E[tiger] -> MAY !H[kesha]`; `H[anton] + H[watches] + H[inquisition] <> E[tiger] -> (!H[kesha]) = FALSE`; `H[kesha] -> +W/O/L[prophecy_trace] -> ~H.U`
+`H[kesha]@t[0] <> W@t[1] -> ~H[kesha].U@t[0] + +L[prophecy]`; `E[tiger] -> MAY?(!H[kesha])`; `H[anton] + H[watches] + H[inquisition] <> E[tiger] -> (!H[kesha]) = FALSE`; `H[kesha] -> +W/O/L[prophecy_trace] -> ~H.U`
 
 ## Вклад в общий стресс-тест
 

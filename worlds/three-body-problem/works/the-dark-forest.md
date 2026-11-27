@@ -1,12 +1,12 @@
 # «Тёмный лес»
 
-**Мир:** [«Задача трёх тел»](../README.md)
+**Мир:** [«Задача трёх тел» (Лю Цысинь)](../README.md)
 
 **Автор:** Лю Цысинь
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[luo] <> E[tri][coordinate_reveal_threat] -> (!W/P[x]) = FALSE`; `(H <> E[tri]) = FALSE -> MAY !V`; `W/O[coordinate_signal] -> MAY !W/P[x]`
+`H[luo] <> E[tri][coordinate_reveal_threat] -> (!W/P[x]) = FALSE`; `(H <> E[tri]) = FALSE -> MAY?(!V)`; `W/O[coordinate_signal] -> MAY?(!W/P[x])`
 
 ## Вклад в общий стресс-тест
 

@@ -1,6 +1,6 @@
 # «Интерстеллар» — спасение Жизни через следы в замкнутом времени
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Земля теряет пригодную для человечества биосферу, а экспедиция через червоточину должна выбрать между спасением живущих людей и продолжением вида на другой планете; решающие знания приходят через гравитационные следы, источник которых принадлежит будущему.
 
@@ -22,7 +22,7 @@ TARS и CASE — синтетические `A[tars]` и `A[case]`, а не пр
 
 **Контур UWI.**
 
-`~W/P[earth]/V -> MAY !H`; `H[nasa] <> W/O[wormhole_ship] -> W/P[1..n]`; `H[nasa] -> +A[tars] + A[case]`; `H[cooper] <> A[tars] -> ~H.U + ~A.U + D/O[quantum_data]`; `C(E[future]) -> +W/O[wormhole_tesseract]`; `H[cooper] <> W/O[tesseract] -> +W/O[gravitational_traces]@t[0] -> ~H[murph].U@t[1]`; `H[murph] -> (!W/P[earth]/H) = FALSE`; `H[brand] -> +V[W/P[edmunds]]`
+`~W/P[earth]/V -> MAY?(!H)`; `H[nasa] <> W/O[wormhole_ship] -> W/P[1..n]`; `H[nasa] -> +A[tars] + A[case]`; `H[cooper] <> A[tars] -> ~H.U + ~A.U + D/O[quantum_data]`; `C(E[future]) -> +W/O[wormhole_tesseract]`; `H[cooper] <> W/O[tesseract] -> +W/O[gravitational_traces]@t[0] -> ~H[murph].U@t[1]`; `H[murph] -> (!W/P[earth]/H) = FALSE`; `H[brand] -> +V[W/P[edmunds]]`
 
 ## Проверка применимости онтологии
 

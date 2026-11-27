@@ -1,6 +1,6 @@
 # «Задача трёх тел» (Лю Цысинь) — закрытое H.U
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Цивилизация с открытой передачей мыслей сталкивается с закрытым пониманием людей — и космос становится «тёмным лесом».
 
@@ -8,9 +8,9 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| «Задача трёх тел» | Лю Цысинь | [`three-body-problem.md`](works/three-body-problem.md) | UWI v1.18 | Первый контакт и открытые мысли трисоляриан |
-| «Тёмный лес» | Лю Цысинь | [`the-dark-forest.md`](works/the-dark-forest.md) | UWI v1.18 | Превентивное уничтожение и сдерживание |
-| «Вечная жизнь смерти» | Лю Цысинь | [`deaths-end.md`](works/deaths-end.md) | UWI v1.18 | Двумерный удар, мини-вселенные и цена выживания |
+| «Задача трёх тел» | Лю Цысинь | [`three-body-problem.md`](works/three-body-problem.md) | UWI v1.19 | Первый контакт и открытые мысли трисоляриан |
+| «Тёмный лес» | Лю Цысинь | [`the-dark-forest.md`](works/the-dark-forest.md) | UWI v1.19 | Превентивное уничтожение и сдерживание |
+| «Вечная жизнь смерти» | Лю Цысинь | [`deaths-end.md`](works/deaths-end.md) | UWI v1.19 | Двумерный удар, мини-вселенные и цена выживания |
 
 ## Основная часть
 
@@ -24,7 +24,7 @@
 
 **Контур UWI.**
 
-`E[tri] ∈ W/P[trisolaris]`; `E[tri] <> E[tri][open,traces]`; `H <> E[tri][dT]`; `ACCESS?(E[tri],H.U) = FALSE`; `(H <> E[tri]) = FALSE -> MAY !V`; `E[x] <> W/O[dimensional_strike] -> ~W/P[solar] + !V`; `H <> M[i][mini_universe] -> ((!H) = FALSE OR ~M[j])`
+`E[tri] ∈ W/P[trisolaris]`; `E[tri] <> E[tri][open,traces]`; `H <> E[tri][dT]`; `ACCESS?(E[tri],H.U) = FALSE`; `(H <> E[tri]) = FALSE -> MAY?(!V)`; `E[x] <> W/O[dimensional_strike] -> ~W/P[solar] + !V`; `H <> M[i][mini_universe] -> ((!H) = FALSE OR ~M[j])`
 
 ## Проверка применимости онтологии
 

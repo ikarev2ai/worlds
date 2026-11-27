@@ -1,6 +1,6 @@
 # «Солярис» (С. Лем) — контакт без доступного понимания
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Океан планеты создаёт людей из человеческих воспоминаний, но масштаб воздействия не открывает его понимание и не доказывает тождество созданных носителей умершим людям.
 
@@ -18,7 +18,7 @@
 
 **Контур UWI.**
 
-`H[kelvin] <> W/P[solaris]/V[ocean] -> +E[hari][memory_traces]`; `H[kelvin] <> E[hari] -> ~H[kelvin].U + ~E[hari].U`; `(E[hari].U) = UNKNOWN`; `H[scientist] <> W/P[solaris]/V[experiments]`; `MAY (H[scientist] <> W/P[solaris]/V) = FALSE`
+`H[kelvin] <> W/P[solaris]/V[ocean] -> +E[hari][memory_traces]`; `H[kelvin] <> E[hari] -> ~H[kelvin].U + ~E[hari].U`; `(E[hari].U) = UNKNOWN`; `H[scientist] <> W/P[solaris]/V[experiments]`; `MAY?(H[scientist] <> W/P[solaris]/V[dialogue]) = FALSE`
 
 ## Проверка применимости онтологии
 

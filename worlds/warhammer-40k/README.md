@@ -1,6 +1,6 @@
 # Warhammer 40,000 — галактическая война носителей и варп
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Империум человечества, инопланетные цивилизации и силы Хаоса связаны технологиями, психическим воздействием и варпом; почти каждая сторона объявляет чужое существование угрозой, а религиозная атрибуция событий не даёт объективного доступа к богам или их пониманию.
 
@@ -24,7 +24,7 @@
 
 **Контур UWI.**
 
-`H[imperium] <> E[xenos][L,trade,war] -> ~H.U + ~E.U + !V`; `H[psyker] <> M[warp] -> C(H[psyker]) + MAY (~H[psyker] OR !H[psyker])`; `G[chaos] <> H/E[cults,demons,traces] -> ~H.U + ~E.U + !V`; `E[necrontyr] + E[ctan] -> +E[necron]`; `E[necron].U`; `H -> +A[men_of_iron]`; `N → 1[E[tyranid],E[hive_mind]]`; `C(H[emperor]) -> +W/O[astronomicon] -> W/P[1] <> W/P[n]`
+`H[imperium] <> E[xenos][L,trade,war] -> ~H.U + ~E.U + !V`; `H[psyker] <> M[warp] -> C(H[psyker]) + MAY?(~H[psyker] OR !H[psyker])`; `G[chaos] <> H/E[cults,demons,traces] -> ~H.U + ~E.U + !V`; `E[necrontyr] + E[ctan] -> +E[necron]`; `E[necron].U`; `H -> +A[men_of_iron]`; `N → 1[E[tyranid],E[hive_mind]]`; `C(H[emperor]) -> +W/O[astronomicon] -> W/P[1] <> W/P[n]`
 
 ## Проверка применимости онтологии
 

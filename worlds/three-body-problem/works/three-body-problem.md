@@ -1,12 +1,12 @@
 # «Задача трёх тел»
 
-**Мир:** [«Задача трёх тел»](../README.md)
+**Мир:** [«Задача трёх тел» (Лю Цысинь)](../README.md)
 
 **Автор:** Лю Цысинь
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[ye] <> E[tri][radio_signal] -> ~H.U + ~E.U`; `E[tri] <> E[tri][open,traces]`; `W/O[sophons] -> ~W`; `MAY (H -> +D/O[science]) = FALSE`
+`H[ye] <> E[tri][radio_signal] -> ~H.U + ~E.U`; `E[tri] <> E[tri][open,traces]`; `W/O[sophons] -> ~W`; `MAY?(H -> +D/O[science]) = FALSE`
 
 ## Вклад в общий стресс-тест
 

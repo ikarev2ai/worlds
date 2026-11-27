@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`E[adria] + M/O[black_stone] -> ~H[leah] + C(E[diablo])`; `H[nephalem] -> !V[diablo_form]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `C(E[malthael]) -> MAY !H`; `H[nephalem] -> !E[malthael]`
+`E[adria] + M/O[black_stone] -> ~H[leah] + C(E[diablo])`; `H[nephalem] -> !V[diablo_form]`; `REVERSIBLE?(W@t[1],W@t[0]) = FALSE`; `C(E[malthael]) -> MAY?(!H)`; `H[nephalem] -> !E[malthael]`
 
 ## Вклад в общий стресс-тест
 

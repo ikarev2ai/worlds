@@ -1,6 +1,6 @@
 # Dragon Age — Завеса, духи и ложные описания богов
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Тедас связан с Тенью через сны, магию и Завесу; религиозные описания Создателя, Древних Богов и эльфийского пантеона сталкиваются с действиями конкретных носителей, а уничтожение Завесы ставит под угрозу оба мира.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Dragon Age: Origins | BioWare | [`origins.md`](works/origins.md) | UWI v1.18 | Мор, Серые Стражи и Архидемон |
-| Dragon Age II | BioWare | [`dragon-age-2.md`](works/dragon-age-2.md) | UWI v1.18 | Хоук, Киркволл и война магов с храмовниками |
-| Dragon Age: Inquisition | BioWare | [`inquisition.md`](works/inquisition.md) | UWI v1.18 | Корифей, Якорь и Солас |
-| Dragon Age: The Veilguard | BioWare | [`the-veilguard.md`](works/the-veilguard.md) | UWI v1.18 | Эванурис, Рук и разрушение Завесы |
+| Dragon Age: Origins | BioWare | [`origins.md`](works/origins.md) | UWI v1.19 | Мор, Серые Стражи и Архидемон |
+| Dragon Age II | BioWare | [`dragon-age-2.md`](works/dragon-age-2.md) | UWI v1.19 | Хоук, Киркволл и война магов с храмовниками |
+| Dragon Age: Inquisition | BioWare | [`inquisition.md`](works/inquisition.md) | UWI v1.19 | Корифей, Якорь и Солас |
+| Dragon Age: The Veilguard | BioWare | [`the-veilguard.md`](works/the-veilguard.md) | UWI v1.19 | Эванурис, Рук и разрушение Завесы |
 
 Описание ограничено четырьмя основными играми. Выборы игрока сохраняются как возможные исходы одного мира, а не как обязательная фиксированная история.
 
@@ -31,7 +31,7 @@
 
 **Контур UWI.**
 
-`H[mage] <> M[fade] + E[spirit] -> C(H[mage]) + MAY ~H[mage]`; `E[archdemon] -> E/V[darkspawn_swarm] -> !V + ~M`; `H[templar] <> H[mage] -> ~H[mage] + !H`; `C(E[corypheus]) -> M/O[sfera] -> M[fade] <> M[thedas]`; `C(E[solas]) -> !M/O[veil] -> MAY !V`; `H[rook] + companions <> E[evanuris] -> (!M[thedas]) = FALSE`
+`H[mage] <> M[fade] + E[spirit] -> C(H[mage]) + MAY?(~H[mage])`; `E[archdemon] -> E/V[darkspawn_swarm] -> !V + ~M`; `H[templar] <> H[mage] -> ~H[mage] + !H`; `C(E[corypheus]) -> M/O[sfera] -> M[fade] <> M[thedas]`; `C(E[solas]) -> !M/O[veil] -> MAY?(!V)`; `H[rook] + companions <> E[evanuris] -> (!M[thedas]) = FALSE`
 
 ## Проверка применимости онтологии
 

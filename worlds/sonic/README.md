@@ -1,6 +1,6 @@
 # Sonic — сила изумрудов и пробуждение машины
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Соник и его союзники защищают миры от робототехники Эггмана и силы Хаоса, а E-102 Гамма изменяет собственную цель через контакт и жертвует формой ради освобождения Жизни.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Sonic the Hedgehog | Sonic Team / Sega | [`sonic-the-hedgehog.md`](works/sonic-the-hedgehog.md) | UWI v1.18 | Эггман, роботизация и Изумруды Хаоса |
-| Sonic the Hedgehog 2 | Sonic Team / Sega | [`sonic-the-hedgehog-2.md`](works/sonic-the-hedgehog-2.md) | UWI v1.18 | Тейлз и Крыло Смерти |
-| Sonic 3 & Knuckles | Sonic Team / Sega | [`sonic-3-and-knuckles.md`](works/sonic-3-and-knuckles.md) | UWI v1.18 | Наклз, Мастер Изумруд и доверие |
-| Sonic Adventure | Sonic Team / Sega | [`sonic-adventure.md`](works/sonic-adventure.md) | UWI v1.18 | Хаос и самопожертвование Гаммы |
+| Sonic the Hedgehog | Sonic Team / Sega | [`sonic-the-hedgehog.md`](works/sonic-the-hedgehog.md) | UWI v1.19 | Эггман, роботизация и Изумруды Хаоса |
+| Sonic the Hedgehog 2 | Sonic Team / Sega | [`sonic-the-hedgehog-2.md`](works/sonic-the-hedgehog-2.md) | UWI v1.19 | Тейлз и Крыло Смерти |
+| Sonic 3 & Knuckles | Sonic Team / Sega | [`sonic-3-and-knuckles.md`](works/sonic-3-and-knuckles.md) | UWI v1.19 | Наклз, Мастер Изумруд и доверие |
+| Sonic Adventure | Sonic Team / Sega | [`sonic-adventure.md`](works/sonic-adventure.md) | UWI v1.19 | Хаос и самопожертвование Гаммы |
 
 ## Основная часть
 

@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[geralt] <> H[preston_holt][joint_path] -> ~H[geralt].U`; `H[geralt] <> V/E + H -> ~H[geralt].U + MAY !V/H`; `H[authorities] <> H[witcher] -> ~H[geralt]`
+`H[geralt] <> H[preston_holt][joint_path] -> ~H[geralt].U`; `H[geralt] <> V/E + H -> ~H[geralt].U + MAY?(!V/H)`; `H[authorities] <> H[witcher] -> ~H[geralt]`
 
 ## Вклад в общий стресс-тест
 

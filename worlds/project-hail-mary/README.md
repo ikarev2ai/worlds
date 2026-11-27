@@ -1,6 +1,6 @@
 # «Проект Аве Мария» (Э. Вейр) — сотрудничество ради сохранения чужой Жизни
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Райленд Грейс и эридианин Рокки не имеют общей биологии, чувственности и языка, но через совместную науку спасают свои цивилизации и выбирают риск ради друг друга.
 
@@ -20,7 +20,7 @@
 
 **Контур UWI.**
 
-`W/V[astrophage] -> ~W/P[earth]/V + ~W/P[erid]/V + MAY !V`; `H[grace] ∈ W/P[earth] <> E[rocky] ∈ W/P[erid][L[math],diagrams,samples] -> ~H[grace].U + ~E[rocky].U`; `H[grace] <> E[rocky] <> W/V[taumoeba] -> +W/O[stellar_cleaning]`; `(!W/P[earth]/V) = FALSE`; `(!W/P[erid]/V) = FALSE`; `H[grace] -> (!E[rocky]) = FALSE`; `MAY !H[grace]`
+`W/V[astrophage] -> ~W/P[earth]/V + ~W/P[erid]/V + MAY?(!V)`; `H[grace] ∈ W/P[earth] <> E[rocky] ∈ W/P[erid][L[math],diagrams,samples] -> ~H[grace].U + ~E[rocky].U`; `H[grace] <> E[rocky] <> W/V[taumoeba] -> +W/O[stellar_cleaning]`; `(!W/P[earth]/V) = FALSE`; `(!W/P[erid]/V) = FALSE`; `H[grace] -> (!E[rocky]) = FALSE`; `MAY?(!H[grace])`
 
 ## Проверка применимости онтологии
 

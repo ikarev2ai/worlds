@@ -1,12 +1,12 @@
 # StarCraft II: Heart of the Swarm
 
-**Мир:** [StarCraft](../README.md)
+**Мир:** [StarCraft и StarCraft II](../README.md)
 
 **Автор:** Blizzard Entertainment
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 

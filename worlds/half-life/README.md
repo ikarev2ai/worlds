@@ -1,6 +1,6 @@
 # Half-Life — межмировое вторжение и управление ставкой носителей
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Инцидент в Чёрной Мезе связывает Землю с Зеном и открывает путь Альянсу; сопротивление людей и вортигонтов строится через совместные действия, тогда как G-Man способен изымать носителей из привычного времени и изменять уже показанные исходы.
 
@@ -8,11 +8,11 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Half-Life | Valve | [`half-life.md`](works/half-life.md) | UWI v1.18 | Каскадный резонанс, Зен и Нихилант |
-| Half-Life 2 | Valve | [`half-life-2.md`](works/half-life-2.md) | UWI v1.18 | Оккупация Земли и восстание в Сити 17 |
-| Half-Life 2: Episode One | Valve | [`episode-one.md`](works/episode-one.md) | UWI v1.18 | Эвакуация и разрушение Цитадели |
-| Half-Life 2: Episode Two | Valve | [`episode-two.md`](works/episode-two.md) | UWI v1.18 | Белая Роща, ракета и гибель Илая |
-| Half-Life: Alyx | Valve | [`alyx.md`](works/alyx.md) | UWI v1.18 | Освобождение G-Man и изменение исхода |
+| Half-Life | Valve | [`half-life.md`](works/half-life.md) | UWI v1.19 | Каскадный резонанс, Зен и Нихилант |
+| Half-Life 2 | Valve | [`half-life-2.md`](works/half-life-2.md) | UWI v1.19 | Оккупация Земли и восстание в Сити 17 |
+| Half-Life 2: Episode One | Valve | [`episode-one.md`](works/episode-one.md) | UWI v1.19 | Эвакуация и разрушение Цитадели |
+| Half-Life 2: Episode Two | Valve | [`episode-two.md`](works/episode-two.md) | UWI v1.19 | Белая Роща, ракета и гибель Илая |
+| Half-Life: Alyx | Valve | [`alyx.md`](works/alyx.md) | UWI v1.19 | Освобождение G-Man и изменение исхода |
 
 Описание ограничено пятью основными играми Valve; самостоятельные дополнения и Portal не используются.
 

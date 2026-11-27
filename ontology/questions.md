@@ -43,7 +43,7 @@ REVERSIBLE?(W@t[1],W@t[0]) = FALSE
 
 ```
 REVERSIBLE?(S(M)@t[1],S(M)@t[0])
-MAY (H[player] -> (S(M)@t[1] -> S(M)@t[0])) = FALSE
+MAY?(H[player] -> (S(M)@t[1] -> S(M)@t[0])) = FALSE
 REVERSIBLE?(~H[player].U@t[1],H[player].U@t[0]) = FALSE
 ```
 
@@ -100,8 +100,8 @@ V[1] ∈ W; V[2] ∈ W
 H ∈ W/V[1]
 V[2] -> !H
 (H -> !V[2]) -> ~W/V[1]
-MAY (H -> ~V[2])
-MAY (H -> !V[2])
+MAY?(H -> ~V[2])
+MAY?(H -> !V[2])
 ```
 
 **Естественный язык.**

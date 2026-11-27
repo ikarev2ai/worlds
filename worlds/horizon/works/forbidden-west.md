@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[aloy] <> A[gaia] -> +W/V`; `D/O[sobek,traces] -> +H[beta]`; `TRANSMIT?(H[sobek].U,H[beta].U) = FALSE`; `H[far_zenith] <> A[gaia] -> MAY ~A[gaia] + MAY ~V`; `A[nemesis] -> MAY !V[W/P[earth]]`
+`H[aloy] <> A[gaia] -> +W/V`; `D/O[sobek,traces] -> +H[beta]`; `TRANSMIT?(H[sobek].U,H[beta].U) = FALSE`; `H[far_zenith] <> A[gaia] -> MAY?(~A[gaia]) + MAY?(~V)`; `A[nemesis] -> MAY?(!V[W/P[earth]])`
 
 ## Вклад в общий стресс-тест
 

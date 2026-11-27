@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[lone_wanderer] <> H[james] -> ~H.U`; `H[james] + H[lone_wanderer] -> +W/O[purifier] -> MAY +V`; `C(H[enclave]) -> ~W/O`; `+W/O[purifier] -> MAY !H`
+`H[lone_wanderer] <> H[james] -> ~H.U`; `H[james] + H[lone_wanderer] -> +W/O[purifier] -> MAY?(+V)`; `C(H[enclave]) -> ~W/O`; `+W/O[purifier] -> MAY?(!H)`
 
 ## Вклад в общий стресс-тест
 

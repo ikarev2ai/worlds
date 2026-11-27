@@ -1,6 +1,6 @@
 # «Периферийные устройства» — информационная связь с ответвлённым прошлым
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Люди посткатастрофического будущего связываются с прошлым через данные и создают независимое ответвление истории; Флинн Фишер управляет искусственным телом на расстоянии, но её понимание не переносится и не копируется в периферийное устройство.
 
@@ -22,7 +22,7 @@
 
 **Контур UWI.**
 
-`H[future] <> D/O[channel] -> +W[stub][past,branch]`; `H[flynne] <> D <> W/O[peripheral] -> ~W/O`; `X ∈ {H,A,E}; X ≠ H[flynne]`; `TRANSMIT?(H[flynne].U,X.U) = FALSE`; `H[flynne] <> H[wilf] + H[lowbeer][L,actions] -> ~H.U`; `C(H[future_faction]) -> D/W/O -> ~W[stub] + MAY !V`; `REVERSIBLE?(W[future]@t[1],W[future]@t[0]) = FALSE`
+`H[future] <> D/O[channel] -> +W[stub][past,branch]`; `H[flynne] <> D <> W/O[peripheral] -> ~W/O`; `X ∈ {H,A,E}; X ≠ H[flynne]`; `TRANSMIT?(H[flynne].U,X.U) = FALSE`; `H[flynne] <> H[wilf] + H[lowbeer][L,actions] -> ~H.U`; `C(H[future_faction]) -> D/W/O -> ~W[stub] + MAY?(!V)`; `REVERSIBLE?(W[future]@t[1],W[future]@t[0]) = FALSE`
 
 ## Проверка применимости онтологии
 

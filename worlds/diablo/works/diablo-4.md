@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`C(E[lilith])[blood,cults] -> ~H.U + !V`; `E[inarius] <> E[lilith] -> MATCH?(E[inarius]) = FALSE`; `H[wanderer] + H[allies] -> !E[lilith]`; `H[neyrelle] <> M/O[mephisto_stone] -> MAY !V`
+`C(E[lilith])[blood,cults] -> ~H.U + !V`; `E[inarius] <> E[lilith] -> MATCH?(E[inarius]) = FALSE`; `H[wanderer] + H[allies] -> !E[lilith]`; `H[neyrelle] <> M/O[mephisto_stone] -> MAY?(!V)`
 
 ## Вклад в общий стресс-тест
 

@@ -1,6 +1,6 @@
 # «1984» — управление следами и уничтожение самостоятельного контакта
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Партия переписывает записи, контролирует язык и наблюдает за телами людей, но не получает прямого доступа к их пониманию; именно поэтому она использует насилие, чтобы заставить Уинстона заменить собственное несоответствие навязанным описанием мира.
 
@@ -22,7 +22,7 @@
 
 **Контур UWI.**
 
-`H[party] -> ~W/O[archives] + !W/O[previous,records] -> ~H.U`; `H[party] -> ~L[newspeak] -> MAY (H[1] <> H[2]) = FALSE`; `H[winston] <> H[julia] -> ~H.U`; `C(H[party]) -> D/W/O[surveillance] <> H -> ~H.U + MAY !H`; `H[party] -> +W/O[big_brother] -> G[big_brother]`
+`H[party] -> ~W/O[archives] + !W/O[previous,records] -> ~H.U`; `H[party] -> ~L[newspeak] -> MAY?(H[1] <> H[2][mismatch_report]) = FALSE`; `H[winston] <> H[julia] -> ~H.U`; `C(H[party]) -> D/W/O[surveillance] <> H -> ~H.U + MAY?(!H)`; `H[party] -> +W/O[big_brother] -> G[big_brother]`
 
 ## Проверка применимости онтологии
 

@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[hawke] <> H[mage] + H[templar] -> MAY (H[mage] <> H[templar])`; `H[anders] -> !W/O[church] + !H`; `H[templar] <> H[mage] -> !H + ~H.U`; `E[spirit] <> H[mage] -> ((!H[mage]) = FALSE OR ~H[mage])`
+`H[hawke] <> H[mage] + H[templar] -> MAY?(H[mage] <> H[templar])`; `H[anders] -> !W/O[church] + !H`; `H[templar] <> H[mage] -> !H + ~H.U`; `E[spirit] <> H[mage] -> ((!H[mage]) = FALSE OR ~H[mage])`
 
 ## Вклад в общий стресс-тест
 

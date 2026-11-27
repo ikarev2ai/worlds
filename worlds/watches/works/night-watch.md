@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[anton] <> H[egor] + H[vampire] -> (!H[egor]) = FALSE + ~H.U`; `H[svetlana] <> M[twilight] -> MAY !V`; `C(H[gesar]) + C(H[zabulon]) -> +D/O[covert_operations]`
+`H[anton] <> H[egor] + H[vampire] -> (!H[egor]) = FALSE + ~H.U`; `H[svetlana] <> M[twilight] -> MAY?(!V)`; `C(H[gesar]) + C(H[zabulon]) -> +D/O[covert_operations]`
 
 ## Вклад в общий стресс-тест
 

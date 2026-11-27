@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[chosen] <> W/O[G.E.C.K.] -> MAY +V`; `C(H[enclave])[FEV] -> MAY !V`; `H[chosen] -> !W/O[platform]`
+`H[chosen] <> W/O[G.E.C.K.] -> MAY?(+V)`; `C(H[enclave])[FEV] -> MAY?(!V)`; `H[chosen] -> !W/O[platform]`
 
 ## Вклад в общий стресс-тест
 

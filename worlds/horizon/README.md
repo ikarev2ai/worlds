@@ -1,6 +1,6 @@
 # Horizon — гибель и возрождение Жизни
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Машины поглотили биосферу как топливо; агент по поручению погибших людей выращивает Жизнь заново, а последующий конфликт определяет, кто будет управлять её восстановлением.
 
@@ -8,8 +8,8 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Horizon Zero Dawn | Guerrilla Games | [`zero-dawn.md`](works/zero-dawn.md) | UWI v1.18 | Чума Фаро, GAIA, HADES, APOLLO |
-| Horizon Forbidden West | Guerrilla Games | [`forbidden-west.md`](works/forbidden-west.md) | UWI v1.18 | Восстановление GAIA, Бета, Far Zenith и Nemesis |
+| Horizon Zero Dawn | Guerrilla Games | [`zero-dawn.md`](works/zero-dawn.md) | UWI v1.19 | Чума Фаро, GAIA, HADES, APOLLO |
+| Horizon Forbidden West | Guerrilla Games | [`forbidden-west.md`](works/forbidden-west.md) | UWI v1.19 | Восстановление GAIA, Бета, Far Zenith и Nemesis |
 
 ## Основная часть
 
@@ -21,7 +21,7 @@
 
 **Контур UWI.**
 
-`D/O[faro_plague] <> W/O[machines] -> !V[W/P[earth]]`; `A[gaia] -> S(W) + O -> +V + H[aloy]`; `!D/O[APOLLO] -> H <> W/O[ruins] -> ~H.U[mythology]`; `D/O[HADES] -> !V`; `D/O[sobek,traces] -> +H[beta]`; `TRANSMIT?(H[sobek].U,H[beta].U) = FALSE`; `H[far_zenith] <> A[gaia] -> ~A[gaia] + ~V`; `A[nemesis] -> MAY !V`
+`D/O[faro_plague] <> W/O[machines] -> !V[W/P[earth]]`; `A[gaia] -> S(W) + O -> +V + H[aloy]`; `!D/O[APOLLO] -> H <> W/O[ruins] -> ~H.U[mythology]`; `D/O[HADES] -> !V`; `D/O[sobek,traces] -> +H[beta]`; `TRANSMIT?(H[sobek].U,H[beta].U) = FALSE`; `H[far_zenith] <> A[gaia] -> ~A[gaia] + ~V`; `A[nemesis] -> MAY?(!V)`
 
 ## Проверка применимости онтологии
 

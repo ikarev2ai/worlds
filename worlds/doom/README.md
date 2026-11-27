@@ -1,6 +1,6 @@
 # DOOM (современная трилогия) — эксплуатация Ада и самостоятельность Палача
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Люди и майкры используют энергию Ада и Палача как средство спасения и власти; война миров требует различать демонические формы, носителей `U`, искусственный разум VEGA и возможность прекратить контур поглощения без нового господства.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| DOOM (2016) | id Software | [`doom-2016.md`](works/doom-2016.md) | UWI v1.18 | UAC, аргент-энергия и VEGA |
-| DOOM Eternal | id Software | [`doom-eternal.md`](works/doom-eternal.md) | UWI v1.18 | Хан Майкр, Урдак и Икона Греха |
-| DOOM Eternal: The Ancient Gods | id Software | [`the-ancient-gods.md`](works/the-ancient-gods.md) | UWI v1.18 | Давот и завершение контура Урдака |
-| DOOM: The Dark Ages | id Software | [`the-dark-ages.md`](works/the-dark-ages.md) | UWI v1.18 | Аргент Д'Нур, Тетер и освобождение Палача |
+| DOOM (2016) | id Software | [`doom-2016.md`](works/doom-2016.md) | UWI v1.19 | UAC, аргент-энергия и VEGA |
+| DOOM Eternal | id Software | [`doom-eternal.md`](works/doom-eternal.md) | UWI v1.19 | Хан Майкр, Урдак и Икона Греха |
+| DOOM Eternal: The Ancient Gods | id Software | [`the-ancient-gods.md`](works/the-ancient-gods.md) | UWI v1.19 | Давот и завершение контура Урдака |
+| DOOM: The Dark Ages | id Software | [`the-dark-ages.md`](works/the-dark-ages.md) | UWI v1.19 | Аргент Д'Нур, Тетер и освобождение Палача |
 
 Описание ограничено современной связанной трилогией и The Ancient Gods как необходимым продолжением Eternal. The Dark Ages используется как приквел к DOOM (2016); классические игры, DOOM 3 и остальные дополнения не включаются.
 

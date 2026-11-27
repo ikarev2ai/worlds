@@ -1,6 +1,6 @@
 # Pathfinder (Owlcat) — носитель между властью, мифом и богами
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Правитель Украденных земель и Командир крестового похода получают возможность изменять целые народы, но их решения остаются локальными выборами носителей, а не прямым исполнением доступной воли богов.
 
@@ -8,8 +8,8 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Pathfinder: Kingmaker | Owlcat Games | [`kingmaker.md`](works/kingmaker.md) | UWI v1.18 | Баронство, Нирисса и Фонарный король |
-| Pathfinder: Wrath of the Righteous | Owlcat Games | [`wrath-of-the-righteous.md`](works/wrath-of-the-righteous.md) | UWI v1.18 | Мировая Язва, мифические пути и Ареелу |
+| Pathfinder: Kingmaker | Owlcat Games | [`kingmaker.md`](works/kingmaker.md) | UWI v1.19 | Баронство, Нирисса и Фонарный король |
+| Pathfinder: Wrath of the Righteous | Owlcat Games | [`wrath-of-the-righteous.md`](works/wrath-of-the-righteous.md) | UWI v1.19 | Мировая Язва, мифические пути и Ареелу |
 
 ## Основная часть
 

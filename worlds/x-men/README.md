@@ -1,6 +1,6 @@
 # «Люди Икс» (исходная трилогия) — контакт при угрозе взаимного истребления
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Люди и мутанты остаются носителями `H.U`, но страх перед способностями другой группы порождает регистрацию, оружие массового изменения и проекты уничтожения; телепатия не заменяет доверие.
 
@@ -8,9 +8,9 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| «Люди Икс» | Marvel / 20th Century Fox | [`x-men.md`](works/x-men.md) | UWI v1.18 | Магнето, регистрация и машина мутации |
-| «Люди Икс 2» | Marvel / 20th Century Fox | [`x2.md`](works/x2.md) | UWI v1.18 | Страйкер и Церебро как оружие |
-| «Люди Икс: Последняя битва» | Marvel / 20th Century Fox | [`the-last-stand.md`](works/the-last-stand.md) | UWI v1.18 | Лекарство, Феникс и цена выбора |
+| «Люди Икс» | Marvel / 20th Century Fox | [`x-men.md`](works/x-men.md) | UWI v1.19 | Магнето, регистрация и машина мутации |
+| «Люди Икс 2» | Marvel / 20th Century Fox | [`x2.md`](works/x2.md) | UWI v1.19 | Страйкер и Церебро как оружие |
+| «Люди Икс: Последняя битва» | Marvel / 20th Century Fox | [`the-last-stand.md`](works/the-last-stand.md) | UWI v1.19 | Лекарство, Феникс и цена выбора |
 
 ## Основная часть
 
@@ -24,7 +24,7 @@
 
 **Контур UWI.**
 
-`H[mutant] <> H[human][L,laws,joint_actions] -> ~H.U`; `C(H[xavier]) -> D/O[cerebro] <> H[1..n]`; `ACCESS?(H[xavier],H.U) = FALSE`; `C(H[magneto]) + W/O[machine] -> ~H`; `C(H[stryker]) -> MAY !H`; `C(H[phoenix]) -> !V + ~W`; `W/O[cure] -> ~H[mutant]`
+`H[mutant] <> H[human][L,laws,joint_actions] -> ~H.U`; `C(H[xavier]) -> D/O[cerebro] <> H[1..n]`; `ACCESS?(H[xavier],H.U) = FALSE`; `C(H[magneto]) + W/O[machine] -> ~H`; `C(H[stryker]) -> MAY?(!H)`; `C(H[phoenix]) -> !V + ~W`; `W/O[cure] -> ~H[mutant]`
 
 ## Проверка применимости онтологии
 

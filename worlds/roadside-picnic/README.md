@@ -1,6 +1,6 @@
 # «Пикник на обочине» — контакт с непостижимым через Зону
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 После непроявленного посещения Земли остаются Зоны с предметами и процессами, нарушающими привычные законы; люди исследуют, продают и используют чужие следы, не получая ни прямого контакта с пришельцами, ни доказательства их намерений.
 
@@ -20,7 +20,7 @@
 
 **Контур UWI.**
 
-`E[visitors][hypothesis] -> +W/O[artifacts] + ~W[zone]`; `H[stalker] <> W/O + ~W -> ~H.U + ~V + MAY !H`; `H[scientist] <> W/O -> +D/O[models]`; `ACCESS?(H[scientist],E[visitors].U) = FALSE`; `H[state] + H[market] <> W/O -> ~W/O + +W/O[traces]`; `H[redrick] <> W/O[golden_sphere] -> ~H[redrick].U`
+`E[visitors][hypothesis] -> +W/O[artifacts] + ~W[zone]`; `H[stalker] <> W/O + ~W -> ~H.U + ~V + MAY?(!H)`; `H[scientist] <> W/O -> +D/O[models]`; `ACCESS?(H[scientist],E[visitors].U) = FALSE`; `H[state] + H[market] <> W/O -> ~W/O + +W/O[traces]`; `H[redrick] <> W/O[golden_sphere] -> ~H[redrick].U`
 
 ## Проверка применимости онтологии
 

@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`E[shang_tsung] + E[goro] -> @t[1]..@t[9] -> MAY (W/P[earth] <> M[outworld])`; `E[raiden] + H[liu_kang] <> E[shang_tsung] -> (!W/P[earth]) = FALSE`; `E[scorpion] <> H[sub_zero] -> MATCH?(E[scorpion]) = FALSE + !H`
+`E[shang_tsung] + E[goro] -> @t[1]..@t[9] -> MAY?(W/P[earth] <> M[outworld])`; `E[raiden] + H[liu_kang] <> E[shang_tsung] -> (!W/P[earth]) = FALSE`; `E[scorpion] <> H[sub_zero] -> MATCH?(E[scorpion]) = FALSE + !H`
 
 ## Вклад в общий стресс-тест
 

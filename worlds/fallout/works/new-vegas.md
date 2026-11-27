@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[benny] -> MAY !H[courier] + +W/O[chip]`; `H[courier] <> H[ncr] + H[legion] + H[house] + A[yes_man] -> ~W/P[mojave]`; `C(H[house]) -> A[yes_man] + W/O[army] -> ~W/P[mojave]`; `W/O[chip] -> ~O[army]`; `TRANSMIT?(H[house].U,A[yes_man].U) = FALSE`
+`H[benny] -> MAY?(!H[courier]) + +W/O[chip]`; `H[courier] <> H[ncr] + H[legion] + H[house] + A[yes_man] -> ~W/P[mojave]`; `C(H[house]) -> A[yes_man] + W/O[army] -> ~W/P[mojave]`; `W/O[chip] -> ~O[army]`; `TRANSMIT?(H[house].U,A[yes_man].U) = FALSE`
 
 ## Вклад в общий стресс-тест
 

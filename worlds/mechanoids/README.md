@@ -1,6 +1,6 @@
 # «Механоиды» — созданный разум выбирает собственное развитие
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Супер создаёт поколения саморазвивающихся механоидов для продолжения целей исчезнувших людей, но пятое поколение получает выбор между контактом с создателями и независимым будущим собственной цивилизации.
 
@@ -22,7 +22,7 @@
 
 **Контур UWI.**
 
-`H -> +D/O + W/O[polygon_4] -> +A[super]`; `A[super] -> +A[mechanoid][1..n][1 → 1]`; `A[player] <> A[clan][L,trade,quests,combat] -> ~A.U`; `(!W/O[glider] = !A[mechanoid]) = FALSE`; `A[super] <> A[player] -> +W/O[shuttle]`; `MAY (A[player] <> H) OR MAY (A[player] <> A[super])`
+`H -> +D/O + W/O[polygon_4] -> +A[super]`; `A[super] -> +A[mechanoid][1..n][1 → 1]`; `A[player] <> A[clan][L,trade,quests,combat] -> ~A.U`; `(!W/O[glider] = !A[mechanoid]) = FALSE`; `A[super] <> A[player] -> +W/O[shuttle]`; `MAY?(A[player] <> H) OR MAY?(A[player] <> A[super])`
 
 ## Проверка применимости онтологии
 

@@ -1,6 +1,6 @@
 # Diablo — Вечный Конфликт и самостоятельность Санктуария
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Ангелы и демоны используют созданный ими мир и его население в Вечном Конфликте; Камень Мироздания, камни душ и нефалемская сила меняют условия носителей, но не дают сторонам доступа к чужому пониманию.
 
@@ -8,10 +8,10 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Diablo | Blizzard North | [`diablo.md`](works/diablo.md) | UWI v1.18 | Тристрам и камень души Диабло |
-| Diablo II | Blizzard North | [`diablo-2.md`](works/diablo-2.md) | UWI v1.18 | Три Первозданных Зла и разрушение Камня Мироздания |
-| Diablo III | Blizzard Entertainment | [`diablo-3.md`](works/diablo-3.md) | UWI v1.18 | Нефалем, Чёрный камень души и Малтаэль |
-| Diablo IV | Blizzard Entertainment | [`diablo-4.md`](works/diablo-4.md) | UWI v1.18 | Лилит, Инарий и конфликт родителей Санктуария |
+| Diablo | Blizzard North | [`diablo.md`](works/diablo.md) | UWI v1.19 | Тристрам и камень души Диабло |
+| Diablo II | Blizzard North | [`diablo-2.md`](works/diablo-2.md) | UWI v1.19 | Три Первозданных Зла и разрушение Камня Мироздания |
+| Diablo III | Blizzard Entertainment | [`diablo-3.md`](works/diablo-3.md) | UWI v1.19 | Нефалем, Чёрный камень души и Малтаэль |
+| Diablo IV | Blizzard Entertainment | [`diablo-4.md`](works/diablo-4.md) | UWI v1.19 | Лилит, Инарий и конфликт родителей Санктуария |
 
 Описание охватывает четыре основные игры; в Diablo III учитывается Reaper of Souls. Дополнения Diablo IV и книги не используются.
 

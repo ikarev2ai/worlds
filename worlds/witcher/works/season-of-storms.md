@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[geralt] <> H[mages] + H[agents] -> ~H[geralt].U`; `H[mages] -> +V/O[experiments] -> MAY !H/V`; `H[geralt] <> W/O[swords] -> ~H[geralt]`
+`H[geralt] <> H[mages] + H[agents] -> ~H[geralt].U`; `H[mages] -> +V/O[experiments] -> MAY?(!H/V)`; `H[geralt] <> W/O[swords] -> ~H[geralt]`
 
 ## Вклад в общий стресс-тест
 

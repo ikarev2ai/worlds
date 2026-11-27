@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`A[blazer] + A[keller] + A[terron] -> !V`; `A[blazer] <> A[keller] + A[terron]`; `H[ranger] <> A[dominator] -> ~H.U + MAY !A`; `C(A[dominator]) -> ~W/P[x]`
+`A[blazer] + A[keller] + A[terron] -> !V`; `A[blazer] <> A[keller] + A[terron]`; `H[ranger] <> A[dominator] -> ~H.U + MAY?(!A)`; `C(A[dominator]) -> ~W/P[x]`
 
 ## Вклад в общий стресс-тест
 

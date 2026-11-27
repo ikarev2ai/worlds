@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`G[dual] -> ~H[other] + MAY !H[other] + MAY !H[humanity]`; `H[anton] + H[nadya] <> G[dual] -> +O[messages]`; `MATCH?(G[dual]) = FALSE`; `H[light] + H[dark] + H[vampire] + H[witch][N → N]`; `C(H[nadya]) + W/O -> ((!H) = FALSE AND (!V) = FALSE)`
+`G[dual] -> ~H[other] + MAY?(!H[other]) + MAY?(!H[humanity])`; `H[anton] + H[nadya] <> G[dual] -> +O[messages]`; `MATCH?(G[dual]) = FALSE`; `H[light] + H[dark] + H[vampire] + H[witch][N → N]`; `C(H[nadya]) + W/O -> ((!H) = FALSE AND (!V) = FALSE)`
 
 ## Вклад в общий стресс-тест
 

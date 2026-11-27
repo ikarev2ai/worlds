@@ -6,7 +6,7 @@
 
 **Тип:** Книга
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[anton] <> H[rustam] + H[gesar] -> +W/O[traces] + ~H.U`; `H[merlin] -> +W/O[artifact]`; `!H[merlin]`; `H <> O -> ~H.U`; `H[last_watch] <> H[other] -> MAY (!H[humanity]) = FALSE`; `H[anton] <> M[twilight] -> C(H[anton])`
+`H[anton] <> H[rustam] + H[gesar] -> +W/O[traces] + ~H.U`; `H[merlin] -> +W/O[artifact]`; `!H[merlin]`; `H <> O -> ~H.U`; `H[last_watch] <> H[other] -> MAY?(!H[humanity]) = FALSE`; `H[anton] <> M[twilight] -> C(H[anton])`
 
 ## Вклад в общий стресс-тест
 

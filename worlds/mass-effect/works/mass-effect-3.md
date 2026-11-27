@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`A[catalyst] -> @t[0] -> !V -> @t[1] -> !V`; `H[shepard] <> A[catalyst] -> MAY !A[reapers,geth,edi]`; `(!A = !V) = UNKNOWN`
+`A[catalyst] -> @t[0] -> !V -> @t[1] -> !V`; `H[shepard] <> A[catalyst] -> MAY?(!A[reapers,geth,edi])`; `(!A = !V) = UNKNOWN`
 
 ## Вклад в общий стресс-тест
 

@@ -1,6 +1,6 @@
 # Mass Effect — циклы уничтожения и статус синтетиков
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Агент древней цивилизации «сохраняет» Жизнь через периодическую жатву цивилизаций; синтетики спрашивают о своём статусе.
 
@@ -8,9 +8,9 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Mass Effect | BioWare | [`mass-effect-1.md`](works/mass-effect-1.md) | UWI v1.18 | Реле, Цитадель и первый контур гетов |
-| Mass Effect 2 | BioWare | [`mass-effect-2.md`](works/mass-effect-2.md) | UWI v1.18 | Легион и консенсус гетов |
-| Mass Effect 3 | BioWare | [`mass-effect-3.md`](works/mass-effect-3.md) | UWI v1.18 | Катализатор, жатва и финал «Уничтожение» |
+| Mass Effect | BioWare | [`mass-effect-1.md`](works/mass-effect-1.md) | UWI v1.19 | Реле, Цитадель и первый контур гетов |
+| Mass Effect 2 | BioWare | [`mass-effect-2.md`](works/mass-effect-2.md) | UWI v1.19 | Легион и консенсус гетов |
+| Mass Effect 3 | BioWare | [`mass-effect-3.md`](works/mass-effect-3.md) | UWI v1.19 | Катализатор, жатва и финал «Уничтожение» |
 
 ## Основная часть
 

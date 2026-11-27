@@ -6,7 +6,7 @@
 
 **Тип:** Сборник рассказов
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[geralt] <> H[ciri] -> ~H[geralt].U`; `(!H[ciri]) = FALSE`; `E[dryad] <> H[ciri] -> MAY ~H[ciri] + ~E[dryad]`; `H[geralt] + H[yennefer] <> H[ciri][N → N]`
+`H[geralt] <> H[ciri] -> ~H[geralt].U`; `(!H[ciri]) = FALSE`; `E[dryad] <> H[ciri] -> MAY?(~H[ciri]) + ~E[dryad]`; `H[geralt] + H[yennefer] <> H[ciri][N → N]`
 
 ## Вклад в общий стресс-тест
 

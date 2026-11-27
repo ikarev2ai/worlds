@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`C(E[blaze]) -> ~E + MAY !W/M`; `E[taven] <> E[daegon] -> !E[daegon]`; `E[shao_kahn] -> !E[blaze] -> C(E[shao_kahn])`; `E[raiden]@t[1] -> +O[message]@t[0]`
+`C(E[blaze]) -> ~E + MAY?(!W/M)`; `E[taven] <> E[daegon] -> !E[daegon]`; `E[shao_kahn] -> !E[blaze] -> C(E[shao_kahn])`; `E[raiden]@t[1] -> +O[message]@t[0]`
 
 ## Вклад в общий стресс-тест
 

@@ -1,6 +1,6 @@
 # Mortal Kombat (исходная непрерывность) — турнир миров и Армагеддон
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Турнир должен ограничивать захват одних миров другими, но Шан Цзун, Шао Кан, Шиннок, Онага и другие носители используют его правила, души и артефакты для подчинения; нарастание силы приводит к Армагеддону и следу Рейдена в прошлое.
 
@@ -8,13 +8,13 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Mortal Kombat | Midway Games | [`mortal-kombat.md`](works/mortal-kombat.md) | UWI v1.18 | Десятый турнир и победа Лю Канга |
-| Mortal Kombat II | Midway Games | [`mortal-kombat-2.md`](works/mortal-kombat-2.md) | UWI v1.18 | Турнир Внешнего Мира и Шао Кан |
-| Mortal Kombat 3 | Midway Games | [`mortal-kombat-3.md`](works/mortal-kombat-3.md) | UWI v1.18 | Синдел, слияние миров и вторжение |
-| Mortal Kombat 4 | Midway Games | [`mortal-kombat-4.md`](works/mortal-kombat-4.md) | UWI v1.18 | Шиннок, Куан Чи и Эдения |
-| Mortal Kombat: Deadly Alliance | Midway Games | [`deadly-alliance.md`](works/deadly-alliance.md) | UWI v1.18 | Гибель Лю Канга и армия Онаги |
-| Mortal Kombat: Deception | Midway Games | [`deception.md`](works/deception.md) | UWI v1.18 | Шуджинко, Камидогу и возвращение Онаги |
-| Mortal Kombat: Armageddon | Midway Games | [`armageddon.md`](works/armageddon.md) | UWI v1.18 | Блейз, Тэйвен и сообщение Рейдена |
+| Mortal Kombat | Midway Games | [`mortal-kombat.md`](works/mortal-kombat.md) | UWI v1.19 | Десятый турнир и победа Лю Канга |
+| Mortal Kombat II | Midway Games | [`mortal-kombat-2.md`](works/mortal-kombat-2.md) | UWI v1.19 | Турнир Внешнего Мира и Шао Кан |
+| Mortal Kombat 3 | Midway Games | [`mortal-kombat-3.md`](works/mortal-kombat-3.md) | UWI v1.19 | Синдел, слияние миров и вторжение |
+| Mortal Kombat 4 | Midway Games | [`mortal-kombat-4.md`](works/mortal-kombat-4.md) | UWI v1.19 | Шиннок, Куан Чи и Эдения |
+| Mortal Kombat: Deadly Alliance | Midway Games | [`deadly-alliance.md`](works/deadly-alliance.md) | UWI v1.19 | Гибель Лю Канга и армия Онаги |
+| Mortal Kombat: Deception | Midway Games | [`deception.md`](works/deception.md) | UWI v1.19 | Шуджинко, Камидогу и возвращение Онаги |
+| Mortal Kombat: Armageddon | Midway Games | [`armageddon.md`](works/armageddon.md) | UWI v1.19 | Блейз, Тэйвен и сообщение Рейдена |
 
 Описание охватывает исходную игровую непрерывность от первого турнира до Armageddon. Последующие перезапуски, фильмы и самостоятельные ответвления не включаются; возникающая после сообщения Рейдена история является другой непрерывностью.
 
@@ -36,7 +36,7 @@
 
 **Контур UWI.**
 
-`W/P[earth] <> M[outworld] + M[netherrealm] + M[edenia][portals,tournament]`; `C(E[shao_kahn]) -> ~M + !V`; `H[liu_kang] <> E[shang_tsung] + E[shao_kahn] + E[shinnok] -> (!W/P[earth]) = FALSE`; `E[shang_tsung] + E[quan_chi] -> !H[liu_kang] + ~V[army]`; `E[onaga][false_damashi] <> H[shujinko] -> ~H.U + +W/M/O[kamidogu]`; `C(E[blaze]) -> ~E + MAY !M/W`; `E[raiden]@t[1] -> +O[message]@t[0]`
+`W/P[earth] <> M[outworld] + M[netherrealm] + M[edenia][portals,tournament]`; `C(E[shao_kahn]) -> ~M + !V`; `H[liu_kang] <> E[shang_tsung] + E[shao_kahn] + E[shinnok] -> (!W/P[earth]) = FALSE`; `E[shang_tsung] + E[quan_chi] -> !H[liu_kang] + ~V[army]`; `E[onaga][false_damashi] <> H[shujinko] -> ~H.U + +W/M/O[kamidogu]`; `C(E[blaze]) -> ~E + MAY?(!M/W)`; `E[raiden]@t[1] -> +O[message]@t[0]`
 
 ## Проверка применимости онтологии
 

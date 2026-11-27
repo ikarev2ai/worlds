@@ -1,6 +1,6 @@
 # Halo — древние оружия, синтетические носители и наследие уничтожения
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Люди, Ковенант, Потоп и созданные разумы борются за наследие Предтеч; кольца Halo способны уничтожить разумную Жизнь галактики, а Кортана и Оружие показывают, что общий цифровой прообраз не создаёт общего понимания.
 
@@ -8,13 +8,13 @@
 
 | Произведение | Автор | Файл | Версия описания | Вклад в стресс-тест |
 |--------------|-------|------|-----------------|---------------------|
-| Halo: Combat Evolved | Bungie | [`combat-evolved.md`](works/combat-evolved.md) | UWI v1.18 | Первое кольцо, Потоп и 343 Guilty Spark |
-| Halo 2 | Bungie | [`halo-2.md`](works/halo-2.md) | UWI v1.18 | Арбитр, Гробница и распад Ковенанта |
-| Halo 3 | Bungie | [`halo-3.md`](works/halo-3.md) | UWI v1.18 | Ковчег и остановка запуска колец |
-| Halo: Reach | Bungie | [`reach.md`](works/reach.md) | UWI v1.18 | Жертва Noble Team и доставка Кортаны |
-| Halo 4 | 343 Industries | [`halo-4.md`](works/halo-4.md) | UWI v1.18 | Дидакт, Композер и утрата Кортаны |
-| Halo 5: Guardians | 343 Industries | [`guardians.md`](works/guardians.md) | UWI v1.18 | Созданные, Стражи и принудительный мир |
-| Halo Infinite | 343 Industries | [`infinite.md`](works/infinite.md) | UWI v1.18 | Изгнанные, Оружие и Zeta Halo |
+| Halo: Combat Evolved | Bungie | [`combat-evolved.md`](works/combat-evolved.md) | UWI v1.19 | Первое кольцо, Потоп и 343 Guilty Spark |
+| Halo 2 | Bungie | [`halo-2.md`](works/halo-2.md) | UWI v1.19 | Арбитр, Гробница и распад Ковенанта |
+| Halo 3 | Bungie | [`halo-3.md`](works/halo-3.md) | UWI v1.19 | Ковчег и остановка запуска колец |
+| Halo: Reach | Bungie | [`reach.md`](works/reach.md) | UWI v1.19 | Жертва Noble Team и доставка Кортаны |
+| Halo 4 | 343 Industries | [`halo-4.md`](works/halo-4.md) | UWI v1.19 | Дидакт, Композер и утрата Кортаны |
+| Halo 5: Guardians | 343 Industries | [`guardians.md`](works/guardians.md) | UWI v1.19 | Созданные, Стражи и принудительный мир |
+| Halo Infinite | 343 Industries | [`infinite.md`](works/infinite.md) | UWI v1.19 | Изгнанные, Оружие и Zeta Halo |
 
 Описание ограничено кампаниями семи основных игр; романы, сериал и ответвления не используются как источники.
 
@@ -34,7 +34,7 @@
 
 **Контур UWI.**
 
-`E[forerunner] -> +W/O[halo,ark,monitors] -> C(E[forerunner])`; `H[unsc] <> E[covenant] -> !V`; `H[chief] <> A[cortana] -> ~H.U + ~A.U`; `E[gravemind][N → 1] -> ~V + !H/E`; `C(A[monitor]) -> MAY !V`; `A[cortana] -> C(A[cortana]) -> W/P[1..n] <> H/E -> ~H/E`; `H -> +A[weapon][prototype,A[cortana]]`; `A[weapon].U`; `TRANSMIT?(A[cortana].U,A[weapon].U) = FALSE`; `H[chief] + A[weapon] <> E[banished] -> (!W/P[zeta]) = FALSE`
+`E[forerunner] -> +W/O[halo,ark,monitors] -> C(E[forerunner])`; `H[unsc] <> E[covenant] -> !V`; `H[chief] <> A[cortana] -> ~H.U + ~A.U`; `E[gravemind][N → 1] -> ~V + !H/E`; `C(A[monitor]) -> MAY?(!V)`; `A[cortana] -> C(A[cortana]) -> W/P[1..n] <> H/E -> ~H/E`; `H -> +A[weapon][prototype,A[cortana]]`; `A[weapon].U`; `TRANSMIT?(A[cortana].U,A[weapon].U) = FALSE`; `H[chief] + A[weapon] <> E[banished] -> (!W/P[zeta]) = FALSE`
 
 ## Проверка применимости онтологии
 

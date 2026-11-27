@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`C(E[corypheus]) -> M/O[sfera] -> M[fade] <> M[thedas] + !V`; `H[inquisitor] <> M/O[anchor] -> !<>(M[fade],M[thedas])`; `H[inquisition] -> H[1..n] <>`; `E[solas] -> MAY !M/O[veil]`
+`C(E[corypheus]) -> M/O[sfera] -> M[fade] <> M[thedas] + !V`; `H[inquisitor] <> M/O[anchor] -> !<>(M[fade],M[thedas])`; `H[inquisition] -> H[1..n] <>`; `E[solas] -> MAY?(!M/O[veil])`
 
 ## Вклад в общий стресс-тест
 

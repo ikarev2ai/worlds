@@ -1,6 +1,6 @@
 # «Легенды и мифы Древней Греции» (Н. А. Кун) — взаимодействие людей и множества богов
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 Люди, герои, титаны и олимпийцы связываются через знамения, пророчества, артефакты и метаморфозы; божественное могущество не открывает понимание другой стороны и не делает последствия действий обратимыми.
 
@@ -28,7 +28,7 @@
 
 **Контур UWI.**
 
-`G[chaos] -> +M`; `G[gaia] + G[uranus] -> G[titans] -> G[olympians]`; `G[prometheus] -> +M/O[fire] + L -> H <> O -> ~H.U`; `H <> G[oracles,dreams,sacrifices,omens] -> ~H.U`; `ACCESS?(H,G.U) = FALSE`; `G -> ~H[daphne] + ~H[arachne] -> +M/V`; `(H[daphne].U) = UNKNOWN`; `(H[arachne].U) = UNKNOWN`; `H[orpheus] <> G[hades] + G[persephone] -> MAY (H[eurydice]@M -> H[eurydice]@W)`; `MATCH?(H[orpheus]) = FALSE -> !H[eurydice]`
+`G[chaos] -> +M`; `G[gaia] + G[uranus] -> G[titans] -> G[olympians]`; `G[prometheus] -> +M/O[fire] + L -> H <> O -> ~H.U`; `H <> G[oracles,dreams,sacrifices,omens] -> ~H.U`; `ACCESS?(H,G.U) = FALSE`; `G -> ~H[daphne] + ~H[arachne] -> +M/V`; `(H[daphne].U) = UNKNOWN`; `(H[arachne].U) = UNKNOWN`; `H[orpheus] <> G[hades] + G[persephone] -> MAY?(H[eurydice]@M -> H[eurydice]@W)`; `MATCH?(H[orpheus]) = FALSE -> !H[eurydice]`
 
 ## Проверка применимости онтологии
 

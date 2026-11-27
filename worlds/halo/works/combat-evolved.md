@@ -6,7 +6,7 @@
 
 **Тип:** Игра
 
-**Версия онтологии:** UWI v1.18
+**Версия онтологии:** UWI v1.19
 
 ## Используемые события
 
@@ -16,7 +16,7 @@
 
 ## Контур UWI
 
-`H[chief] + A[cortana] <> E[covenant] -> ~H.U + !E`; `E[flood] -> ~V + !H/E`; `A[spark] <> H[chief][incomplete_message]`; `C(A[spark]) -> MAY !V`; `H[chief] + A[cortana] -> !W/O[Installation,04]`
+`H[chief] + A[cortana] <> E[covenant] -> ~H.U + !E`; `E[flood] -> ~V + !H/E`; `A[spark] <> H[chief][incomplete_message]`; `C(A[spark]) -> MAY?(!V)`; `H[chief] + A[cortana] -> !W/O[Installation,04]`
 
 ## Вклад в общий стресс-тест
 
